@@ -1,0 +1,17386 @@
+# callgrind format
+version: 1
+creator: callgrind-3.13.0
+pid: 18801
+cmd:  /home/pleroy/DEV/processing/PoSAR-MC/backprojection/ccpp/backprojection/backprojection
+part: 1
+
+
+desc: I1 cache: 
+desc: D1 cache: 
+desc: LL cache: 
+
+desc: Timerange: Basic block 0 - 305498850
+desc: Trigger: Program termination
+
+positions: line
+events: Ir
+summary: 4099117315
+
+
+ob=(8) /usr/lib64/libgomp.so.1.0.0
+fl=(8) ???
+fn=(334) 0x0000000000007cc0
+0 13
+cob=(1) /usr/lib64/ld-2.25.so
+cfi=(1) ???
+cfn=(342) _dl_runtime_resolve_avx_slow
+calls=1 0 
+0 1982
+0 5
+0 5
+cfn=(356) 0x00000000000072c0
+calls=1 0 
+0 385
+0 3
+cfn=(356)
+calls=1 0 
+0 385
+0 3
+cfn=(356)
+calls=1 0 
+0 403
+0 3
+cfn=(368) 0x0000000000007c50
+calls=1 0 
+0 436
+0 3
+cfn=(368)
+calls=1 0 
+0 436
+0 4
+cfn=(370) 0x0000000000007390
+calls=1 0 
+0 416
+0 4
+cfn=(370)
+calls=1 0 
+0 416
+0 5
+cfn=(368)
+calls=1 0 
+0 418
+0 1
+cfn=(396) 0x0000000000018e40
+calls=1 0 
+0 74049
+0 4
+cob=(3) /usr/lib64/libc-2.25.so
+cfi=(3) ???
+cfn=(348) getenv
+calls=1 0 
+0 368
+0 1
+0 7
+cob=(3)
+cfi=(3)
+cfn=(348)
+calls=1 0 
+0 368
+0 1
+0 6
+cob=(3)
+cfi=(3)
+cfn=(348)
+calls=1 0 
+0 368
+0 1
+0 6
+cob=(3)
+cfi=(3)
+cfn=(348)
+calls=1 0 
+0 386
+0 1
+0 7
+cob=(3)
+cfi=(3)
+cfn=(348)
+calls=1 0 
+0 368
+0 1
+0 12
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 1576
+0 5
+0 3
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 1650
+0 5
+0 3
+cfn=(578) 0x0000000000007ac0
+calls=1 0 
+0 397
+0 5
+cfn=(578)
+calls=1 0 
+0 397
+0 5
+cob=(3)
+cfi=(3)
+cfn=(348)
+calls=1 0 
+0 368
+0 1
+0 6
+cfn=(368)
+calls=1 0 
+0 418
+0 5
+cob=(3)
+cfi=(3)
+cfn=(348)
+calls=1 0 
+0 368
+0 1
+0 4
+cfn=(606) 0x00000000000231c0
+calls=1 0 
+0 1625
+0 15
+cob=(3)
+cfi=(3)
+cfn=(348)
+calls=1 0 
+0 368
+0 1
+0 3
+
+fn=(368)
+0 44
+cfn=(370)
+calls=4 0 
+0 1628
+0 36
+
+fn=(396)
+0 4
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 66707
+0 5
+0 5
+cfn=(466) 0x00000000000097a0
+calls=1 0 
+0 1813
+0 3
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 1470
+0 5
+0 5
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 1626
+0 5
+0 5
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 1738
+0 5
+0 653
+
+fn=(466)
+0 3
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 1801
+0 5
+0 4
+
+fn=(328) 0x0000000000009790
+0 17
+
+fn=(956) omp_get_max_threads
+0 8
+
+fn=(356)
+0 24
+cob=(3)
+cfi=(3)
+cfn=(348)
+calls=3 0 
+0 1122
+0 3
+0 24
+
+fn=(370)
+0 84
+cob=(3)
+cfi=(3)
+cfn=(348)
+calls=6 0 
+0 2280
+0 6
+0 90
+
+fn=(578)
+0 26
+cob=(3)
+cfi=(3)
+cfn=(348)
+calls=2 0 
+0 736
+0 2
+0 30
+
+fn=(636) 0x0000000000009690
+0 4
+cob=(5) /usr/lib64/libpthread-2.25.so
+cfi=(5) ???
+cfn=(612) pthread_key_create
+calls=1 0 
+0 25
+0 1
+0 4
+
+fn=(606)
+0 32
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 1583
+0 5
+0 5
+
+ob=(10) /usr/lib64/libfftw3.so.3.5.5
+fl=(10) ???
+fn=(1058) fftw_malloc_plain
+0 1006435
+cfn=(996) fftw_kernel_malloc
+calls=201287 0 
+0 90287138
+0 201287
+0 805148
+
+fn=(1064) fftw_mktensor_rowmajor
+0 14
+cfn=(1052) fftw_mktensor
+calls=1 0 
+0 370
+0 1
+0 22
+
+fn=(1114) fftw_tensor_sz
+0 590318
+
+fn=(1122) fftw_tensor_destroy2
+0 125763
+cfn=(1128) fftw_tensor_destroy
+calls=41920 0 
+0 4946684
+cob=(1)
+cfi=(1)
+cfn=(343) _dl_runtime_resolve_avx_slow'2
+calls=1 0 
+0 4022
+0 41925
+0 125763
+cfn=(1128)
+calls=41921 0 
+0 4946875
+0 41921
+
+fn=(1208) fftw_configure_planner
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 670721
+0 5
+0 2
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 404310
+0 5
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 4870
+0 5
+
+fn=(1268) fftw_dft_indirect_transpose_register
+0 5
+cfn=(1228) fftw_mksolver
+calls=1 0 
+0 396
+0 1
+0 4
+cfn=(1234) fftw_solver_register
+calls=1 0 
+0 862
+0 1
+
+fn=(1282) fftw_dft_bluestein_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 508
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 274
+0 1
+
+fn=(1306) fftw_codelet_n1_2
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 3020
+0 5
+
+fn=(1312) fftw_kdft_register
+0 1377
+cfn=(1318) fftw_mksolver_dft_direct
+calls=152 0 
+0 60231
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 979
+0 157
+0 459
+cfn=(1234)
+calls=153 0 
+0 64976
+0 153
+0 459
+cfn=(1324) fftw_mksolver_dft_directbuf
+calls=152 0 
+0 60830
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1003
+0 157
+0 918
+cfn=(1234)
+calls=153 0 
+0 45472
+0 153
+
+fn=(1450) fftw_codelet_q1_3
+0 3
+cfn=(1438) fftw_kdft_difsq_register
+calls=1 0 
+0 719
+0 1
+
+fn=(2152) fftw_rdft_conf_standard
+0 5
+cfn=(1220) fftw_solvtab_exec
+calls=1 0 
+0 27074
+0 1
+0 3
+cfn=(1220)
+calls=1 0 
+0 162395
+0 1
+0 3
+cfn=(1220)
+calls=1 0 
+0 160261
+0 1
+0 3
+cfn=(1220)
+calls=1 0 
+0 2592
+0 1
+0 1
+cfn=(1460) fftw_have_simd_sse2
+calls=1 0 
+0 2
+0 1
+0 3
+cfn=(1806) fftw_have_simd_avx
+calls=1 0 
+0 5
+0 1
+0 6
+cfn=(1220)
+calls=1 0 
+0 25500
+0 1
+0 3
+cfn=(1220)
+calls=1 0 
+0 25788
+0 1
+0 1
+
+fn=(2178) fftw_rdft2_vrank_geq1_register
+0 8
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 6
+cfn=(1234)
+calls=1 0 
+0 298
+0 1
+0 3
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 9
+cfn=(1234)
+calls=1 0 
+0 298
+0 1
+
+fn=(2186) fftw_rdft2_rank_geq2_register
+0 14
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 8
+cfn=(1228)
+calls=2 0 
+0 710
+0 2
+0 18
+cfn=(1234)
+calls=3 0 
+0 870
+0 3
+0 16
+
+fn=(2226) fftw_codelet_r2cf_4
+0 3
+cfn=(2204) fftw_kr2c_register
+calls=1 0 
+0 1862
+0 1
+
+fn=(2232) fftw_codelet_r2cf_7
+0 3
+cfn=(2204)
+calls=1 0 
+0 1856
+0 1
+
+fn=(2238) fftw_codelet_r2cf_10
+0 3
+cfn=(2204)
+calls=1 0 
+0 1922
+0 1
+
+fn=(2244) fftw_codelet_r2cf_13
+0 3
+cfn=(2204)
+calls=1 0 
+0 1922
+0 1
+
+fn=(2250) fftw_codelet_r2cf_16
+0 3
+cfn=(2204)
+calls=1 0 
+0 1604
+0 1
+
+fn=(2256) fftw_codelet_r2cf_128
+0 3
+cfn=(2204)
+calls=1 0 
+0 1910
+0 1
+
+fn=(2262) fftw_codelet_hf_2
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2557
+0 5
+
+fn=(2372) fftw_regsolver_hc2c_direct
+0 1288
+cfn=(2378) fftw_mksolver_hc2c
+calls=91 0 
+0 35854
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1019
+0 96
+0 552
+cfn=(1234)
+calls=92 0 
+0 23752
+0 92
+0 460
+cfn=(2378)
+calls=92 0 
+0 36248
+0 92
+0 1012
+cfn=(1234)
+calls=92 0 
+0 23752
+0 92
+
+fn=(2392) fftw_codelet_hc2cf_32
+0 4
+cfn=(2366) fftw_khc2c_register
+calls=1 0 
+0 1282
+0 1
+
+fn=(2410) fftw_codelet_hc2cfdft_6
+0 4
+cfn=(2366)
+calls=1 0 
+0 1314
+0 1
+
+fn=(2428) fftw_codelet_hc2cfdft2_16
+0 4
+cfn=(2366)
+calls=1 0 
+0 1346
+0 1
+
+fn=(2434) fftw_codelet_r2cb_2
+0 3
+cfn=(2204)
+calls=1 0 
+0 1862
+0 1
+
+fn=(2440) fftw_codelet_r2cb_5
+0 3
+cfn=(2204)
+calls=1 0 
+0 1862
+0 1
+
+fn=(2446) fftw_codelet_r2cb_8
+0 3
+cfn=(2204)
+calls=1 0 
+0 1862
+0 1
+
+fn=(2452) fftw_codelet_r2cb_11
+0 3
+cfn=(2204)
+calls=1 0 
+0 1886
+0 1
+
+fn=(2458) fftw_codelet_r2cb_14
+0 3
+cfn=(2204)
+calls=1 0 
+0 1880
+0 1
+
+fn=(2464) fftw_codelet_r2cb_32
+0 3
+cfn=(2204)
+calls=1 0 
+0 1922
+0 1
+
+fn=(2470) fftw_codelet_r2cb_20
+0 3
+cfn=(2204)
+calls=1 0 
+0 1604
+0 1
+
+fn=(2476) fftw_codelet_hb_3
+0 3
+cfn=(2268) fftw_khc2hc_register
+calls=1 0 
+0 1223
+0 1
+
+fn=(2482) fftw_codelet_hb_6
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2488) fftw_codelet_hb_9
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2494) fftw_codelet_hb_15
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2500) fftw_codelet_hb_64
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2506) fftw_codelet_hb2_4
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2512) fftw_codelet_hb2_32
+0 3
+cfn=(2268)
+calls=1 0 
+0 1255
+0 1
+
+fn=(2518) fftw_codelet_hb2_25
+0 3
+cfn=(2268)
+calls=1 0 
+0 1255
+0 1
+
+fn=(2524) fftw_codelet_r2cbIII_4
+0 3
+cfn=(2204)
+calls=1 0 
+0 1652
+0 1
+
+fn=(2530) fftw_codelet_r2cbIII_7
+0 3
+cfn=(2204)
+calls=1 0 
+0 1934
+0 1
+
+fn=(2536) fftw_codelet_r2cbIII_10
+0 3
+cfn=(2204)
+calls=1 0 
+0 1958
+0 1
+
+fn=(2542) fftw_codelet_r2cbIII_16
+0 3
+cfn=(2204)
+calls=1 0 
+0 1958
+0 1
+
+fn=(2548) fftw_codelet_r2cbIII_20
+0 3
+cfn=(2204)
+calls=1 0 
+0 1958
+0 1
+
+fn=(2556) fftw_codelet_hc2cb_6
+0 4
+cfn=(2366)
+calls=1 0 
+0 1266
+0 1
+
+fn=(2574) fftw_codelet_hc2cb2_16
+0 4
+cfn=(2366)
+calls=1 0 
+0 1298
+0 1
+
+fn=(2592) fftw_codelet_hc2cbdft_16
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2620) fftw_mksolver_rdft_r2r_direct
+0 16
+cfn=(1228)
+calls=2 0 
+0 768
+0 2
+0 12
+
+fn=(2622) fftw_codelet_e10_8
+0 3
+cfn=(2614) fftw_kr2r_register
+calls=1 0 
+0 612
+0 1
+
+fn=(2630) fftw_codelet_hc2cfdftv_8_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2648) fftw_codelet_hc2cbdftv_8_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2660) fftw_codelet_hc2cfdftv_2_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1394
+0 1
+
+fn=(2678) fftw_codelet_hc2cbdftv_2_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1394
+0 1
+
+fn=(2700) fftw_reodft_conf_standard
+0 3
+cfn=(1220)
+calls=1 0 
+0 4193
+0 1
+
+fn=(2718) fftw_get_crude_time
+0 46326
+cob=(3)
+cfi=(3)
+cfn=(2724) __gettimeofday_syscall
+calls=6617 0 
+0 33085
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2188
+0 6622
+0 46326
+
+fn=(2870) 0x0000000000025b00
+0 125892
+
+fn=(2994) 0x00000000001b7150
+0 214717
+
+fn=(3032) fftw_ct_uglyp
+0 79030
+
+fn=(3084) fftw_ops_madd
+0 409716
+
+fn=(3098) fftw_mktensor_2d
+0 119100
+cfn=(1052)
+calls=7940 0 
+0 3117861
+0 7940
+0 111160
+
+fn=(3164) 0x000000000002b810
+0 56160
+cfn=(1202) fftw_ifree0
+calls=3120 0 
+0 9360
+0 3120
+0 6240
+cfn=(2968) fftw_plan_destroy_internal
+calls=3120 0 
+0 9360
+0 3120
+0 6240
+cfn=(2968)
+calls=3120 0 
+0 9360
+0 3120
+0 6240
+cfn=(2968)
+calls=3120 0 
+0 9360
+0 3120
+0 47370
+cfn=(2934) fftw_tensor_tornk1
+calls=462 0 
+0 4392
+0 462
+0 1386
+cfn=(3178) fftw_toobig
+calls=461 0 
+0 1844
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 565
+0 466
+0 3696
+cfn=(3188) fftw_nbuf_redundant
+calls=461 0 
+0 43408
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2468
+0 466
+0 2504
+
+fn=(3194) fftw_nbuf
+0 6468
+cfn=(3200) fftw_imax
+calls=461 0 
+0 1844
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 549
+0 466
+0 1386
+cfn=(3206) fftw_imin
+calls=461 0 
+0 1844
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 549
+0 466
+0 1386
+cfn=(3206)
+calls=462 0 
+0 1848
+0 462
+0 3234
+cfn=(3200)
+calls=462 0 
+0 1848
+0 462
+0 8229
+
+fn=(3294) fftw_tensor_copy_except
+0 29392
+cfn=(1052)
+calls=3674 0 
+0 1123183
+0 3674
+0 79528
+
+fn=(3534) 0x000000000016e880
+0 3794952
+
+fn=(3664) 0x000000000002def0
+0 3908960
+cfn=(3670) 0x000000000002ddd0
+calls=71072 0 
+0 122599544
+0 213216
+
+fn=(3784) 0x000000000015a3b0
+0 5376
+
+fn=(3818) 0x000000000015a420
+0 60270
+
+fn=(3838) 0x000000000015a250
+0 119232
+
+fn=(4120) 0x0000000000063ac0
+0 1101492
+cfn=(4130) fftw_hc2hc_applicable
+calls=52451 0 
+0 681863
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 742
+0 52456
+0 734328
+
+fn=(4216) 0x00000000000691d0
+0 41576
+cfn=(4218) 0x0000000000069150
+calls=5197 0 
+0 616806
+0 14298
+cfn=(4286) fftw_mkplan_rdft
+calls=975 0 
+0 502070
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 983
+0 980
+0 3904
+cfn=(4224) 0x0000000000068de0
+calls=976 0 
+0 66838
+0 3904
+cfn=(1114)
+calls=976 0 
+0 23336
+0 976
+0 2928
+cfn=(4298) fftw_ops_other
+calls=975 0 
+0 20475
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 630
+0 980
+0 25985
+
+fn=(4312) 0x00000000000680c0
+0 10152
+
+fn=(4434) fftw_tensor_inplace_locations
+0 60776
+cfn=(3490) fftw_tensor_append
+calls=7597 0 
+0 3422170
+0 7597
+0 30388
+cfn=(4418) fftw_tensor_copy_inplace
+calls=7597 0 
+0 3623390
+0 7597
+0 30388
+cfn=(4418)
+calls=7597 0 
+0 3629518
+0 7597
+0 22791
+cfn=(1108) fftw_tensor_compress_contiguous
+calls=7597 0 
+0 9892925
+0 7597
+0 22791
+cfn=(1108)
+calls=7597 0 
+0 9901194
+0 7597
+0 30388
+cfn=(4440) fftw_tensor_equal
+calls=7596 0 
+0 193858
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 634
+0 7601
+0 22791
+cfn=(1128)
+calls=7597 0 
+0 896539
+0 7597
+0 37985
+cfn=(4446) fftw_tensor_destroy4
+calls=7596 0 
+0 3813389
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1143
+0 7601
+0 68373
+
+fn=(4786) fftw_twiddle_awake
+0 806350
+cfn=(1134) fftw_ifree
+calls=71 0 
+0 12000
+0 71
+0 27232
+cfn=(1134)
+calls=6808 0 
+0 1597071
+0 6808
+0 13758
+cfn=(1134)
+calls=6879 0 
+0 797964
+0 6879
+0 34401
+cfn=(1058)
+calls=6882 0 
+0 2689419
+0 6882
+0 96348
+cfn=(4792) fftw_mktriggen
+calls=6881 0 
+0 3065604
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 981
+0 6886
+0 34410
+cfn=(4794) 0x000000000002a900
+calls=6882 0 
+0 2372007
+0 55056
+cfn=(1058)
+calls=6882 0 
+0 19888992
+0 6882
+0 62173936
+cfn=(4808) 0x000000000002a710
+calls=132759 0 
+0 531036
+0 2894456
+cfn=(4808)
+calls=361807 0 
+0 1447228
+0 2204606
+cfn=(4814) fftw_triggen_destroy
+calls=6880 0 
+0 921920
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 767
+0 6885
+0 18769256
+cfn=(4808)
+calls=2339276 0 
+0 9357104
+0 67946338
+cfn=(4808)
+calls=3354840 0 
+0 13419360
+0 36903240
+cfn=(4808)
+calls=3354840 0 
+0 13419360
+0 10078136
+
+fn=(4850) 0x000000000002c860
+0 27204
+cfn=(3584) fftw_stride_destroy
+calls=6801 0 
+0 904299
+0 6801
+0 20403
+cfn=(3584)
+calls=6801 0 
+0 903705
+0 6801
+
+fn=(5074) 0x0000000000116ea0
+0 270240
+
+fn=(5204) 0x000000000019a170
+0 2403360
+
+fn=(5432) 0x000000000004d690
+0 5554240
+
+fn=(6060) 0x00000000000310c0
+0 50671184
+
+fn=(6122) 0x0000000000034ed0
+0 2862152
+
+fn=(6186) 0x000000000014a500
+0 12484656
+
+fn=(6216) 0x0000000000145de0
+0 190084320
+
+fn=(6228) 0x000000000013aa30
+0 4620688
+
+fn=(6428) 0x000000000003f9b0
+0 18092464
+
+fn=(6600) 0x00000000001a5d30
+0 49973320
+
+fn=(6664) 0x000000000011a920
+0 925232
+
+fn=(7504) 0x000000000002a000
+0 12400
+cfn=(4634) fftw_tile2d
+calls=496 0 
+0 324552
+0 496
+0 9152
+cfn=(4634)
+calls=704 0 
+0 252592
+0 704
+0 8400
+cfn=(7505) 0x000000000002a000'2
+calls=1200 0 
+0 385056
+0 10176
+
+fn=(7505)
+0 18032
+cfn=(4634)
+calls=592 0 
+0 217408
+0 592
+0 5408
+cfn=(4634)
+calls=416 0 
+0 124928
+0 416
+0 7056
+cfn=(7505)
+calls=1008 0 
+0 134992
+0 11216
+
+fn=(8090) fftw_ops_cpy
+0 72
+
+fn=(8564) 0x0000000000194580
+0 1665392
+
+fn=(8756) 0x000000000018ae80
+0 1329704
+
+fn=(8806) 0x0000000000189c70
+0 4875472
+
+fn=(9114) 0x0000000000130d50
+0 8965664
+
+fn=(9282) 0x000000000012a630
+0 10424320
+
+fn=(9358) 0x0000000000129b00
+0 4632192
+
+fn=(8430) 0x00000000001980e0
+0 2338960
+
+fn=(982) fftw_alloc_complex
+0 4
+cfn=(990) fftw_malloc
+calls=1 0 
+0 366
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 3573
+0 6
+
+fn=(1022) fftw_plan_many_dft
+0 19
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 631
+0 5
+0 9
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 623
+0 5
+0 5
+cfn=(1034) fftw_extract_reim
+calls=1 0 
+0 6
+0 1
+0 6
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 575
+0 5
+0 4
+cfn=(1040) fftw_taint
+calls=1 0 
+0 6
+0 1
+0 4
+cfn=(1040)
+calls=1 0 
+0 6
+0 1
+0 4
+cfn=(1040)
+calls=1 0 
+0 6
+0 1
+0 9
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2196
+0 5
+0 15
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1056
+0 5
+0 7
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 9958
+0 5
+0 4
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 4096097421
+0 5
+
+fn=(1076) fftw_mkproblem_dft
+0 308820
+cfn=(1082) fftw_mkproblem
+calls=12674 0 
+0 5199686
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 953
+0 12679
+0 38025
+cfn=(1088) fftw_tensor_compress
+calls=12674 0 
+0 4505706
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1083
+0 12679
+0 38025
+cfn=(1108)
+calls=12674 0 
+0 7326714
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1788
+0 12679
+0 232983
+cfn=(4434)
+calls=7142 0 
+0 33097083
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 4957
+0 7147
+0 57144
+cfn=(4428) fftw_join_taint
+calls=7143 0 
+0 21429
+0 7143
+0 50001
+cfn=(4428)
+calls=7142 0 
+0 21426
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 596
+0 7147
+0 42858
+
+fn=(1172) fftw_next_prime
+0 543
+cfn=(1178) fftw_is_prime
+calls=138 0 
+0 7411
+0 138
+0 86
+cfn=(1178)
+calls=42 0 
+0 1374
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1224
+0 47
+0 491
+
+fn=(1332) fftw_codelet_n1_6
+0 3
+cfn=(1312)
+calls=1 0 
+0 3231
+0 1
+
+fn=(1384) fftw_codelet_t1_3
+0 3
+cfn=(1368) fftw_kdft_dit_register
+calls=1 0 
+0 1305
+0 1
+
+fn=(1386) fftw_codelet_t1_4
+0 3
+cfn=(1368)
+calls=1 0 
+0 4394
+0 1
+
+fn=(1392) fftw_codelet_t1_7
+0 3
+cfn=(1368)
+calls=1 0 
+0 1281
+0 1
+
+fn=(1398) fftw_codelet_t1_10
+0 3
+cfn=(1368)
+calls=1 0 
+0 1297
+0 1
+
+fn=(1404) fftw_codelet_t1_16
+0 3
+cfn=(1368)
+calls=1 0 
+0 1293
+0 1
+
+fn=(1410) fftw_codelet_t1_20
+0 3
+cfn=(1368)
+calls=1 0 
+0 5085
+0 1
+
+fn=(1416) fftw_codelet_t2_8
+0 3
+cfn=(1368)
+calls=1 0 
+0 1281
+0 1
+
+fn=(1422) fftw_codelet_t2_64
+0 3
+cfn=(1368)
+calls=1 0 
+0 1297
+0 1
+
+fn=(1428) fftw_codelet_t2_20
+0 3
+cfn=(1368)
+calls=1 0 
+0 1293
+0 1
+
+fn=(1460)
+0 4
+
+fn=(1464) fftw_codelet_n1fv_3_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 5849
+0 1
+
+fn=(1470) fftw_codelet_n1fv_6_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1476) fftw_codelet_n1fv_9_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1482) fftw_codelet_n1fv_12_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1488) fftw_codelet_n1fv_15_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1494) fftw_codelet_n1fv_64_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1337
+0 1
+
+fn=(1500) fftw_codelet_n1fv_25_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 6604
+0 1
+
+fn=(1506) fftw_codelet_n1bv_4_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1512) fftw_codelet_n1bv_7_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1518) fftw_codelet_n1bv_10_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1524) fftw_codelet_n1bv_13_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1530) fftw_codelet_n1bv_16_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1536) fftw_codelet_n1bv_128_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1357
+0 1
+
+fn=(1542) fftw_codelet_n2fv_2_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1321
+0 1
+
+fn=(1548) fftw_codelet_n2fv_8_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 7866
+0 1
+
+fn=(1554) fftw_codelet_n2fv_14_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1560) fftw_codelet_n2fv_64_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1566) fftw_codelet_n2bv_4_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1572) fftw_codelet_n2bv_10_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1578) fftw_codelet_n2bv_16_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1584) fftw_codelet_n2bv_20_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1590) fftw_codelet_n2sv_16_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1596) fftw_codelet_t1fuv_2_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1602) fftw_codelet_t1fuv_5_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1405
+0 1
+
+fn=(1608) fftw_codelet_t1fuv_8_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1614) fftw_codelet_t1fv_2_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1620) fftw_codelet_t1fv_5_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1626) fftw_codelet_t1fv_8_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1632) fftw_codelet_t1fv_12_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1638) fftw_codelet_t1fv_32_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1644) fftw_codelet_t1fv_25_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1650) fftw_codelet_t2fv_8_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1656) fftw_codelet_t2fv_64_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1662) fftw_codelet_t2fv_20_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1405
+0 1
+
+fn=(1668) fftw_codelet_t3fv_8_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(1674) fftw_codelet_t3fv_5_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(1680) fftw_codelet_t3fv_25_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1613
+0 1
+
+fn=(1686) fftw_codelet_t1buv_4_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1692) fftw_codelet_t1buv_7_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1698) fftw_codelet_t1buv_10_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1425
+0 1
+
+fn=(1704) fftw_codelet_t1bv_4_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1710) fftw_codelet_t1bv_7_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1716) fftw_codelet_t1bv_10_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1722) fftw_codelet_t1bv_16_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1728) fftw_codelet_t1bv_20_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1734) fftw_codelet_t2bv_4_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1740) fftw_codelet_t2bv_32_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1746) fftw_codelet_t2bv_10_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1405
+0 1
+
+fn=(1752) fftw_codelet_t3bv_4_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1551
+0 1
+
+fn=(1758) fftw_codelet_t3bv_32_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1433
+0 1
+
+fn=(1764) fftw_codelet_t3bv_20_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1433
+0 1
+
+fn=(1770) fftw_codelet_t1sv_4_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 13382
+0 1
+
+fn=(1776) fftw_codelet_t1sv_32_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1782) fftw_codelet_t2sv_16_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1788) fftw_codelet_q1fv_4_sse2
+0 3
+cfn=(1438)
+calls=1 0 
+0 685
+0 1
+
+fn=(1794) fftw_codelet_q1bv_2_sse2
+0 3
+cfn=(1438)
+calls=1 0 
+0 685
+0 1
+
+fn=(1800) fftw_codelet_q1bv_8_sse2
+0 3
+cfn=(1438)
+calls=1 0 
+0 685
+0 1
+
+fn=(2222) fftw_mksolver_rdft2_direct
+0 576
+cfn=(1228)
+calls=72 0 
+0 26969
+0 72
+0 432
+
+fn=(2384) fftw_codelet_hc2cf_8
+0 4
+cfn=(2366)
+calls=1 0 
+0 1266
+0 1
+
+fn=(2402) fftw_codelet_hc2cf2_32
+0 4
+cfn=(2366)
+calls=1 0 
+0 1298
+0 1
+
+fn=(2420) fftw_codelet_hc2cfdft_32
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2566) fftw_codelet_hc2cb_32
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2584) fftw_codelet_hc2cbdft_6
+0 4
+cfn=(2366)
+calls=1 0 
+0 1314
+0 1
+
+fn=(2602) fftw_codelet_hc2cbdft2_16
+0 4
+cfn=(2366)
+calls=1 0 
+0 1346
+0 1
+
+fn=(2608) fftw_codelet_e01_8
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1938
+0 5
+
+fn=(2640) fftw_codelet_hc2cfdftv_20_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1426
+0 1
+
+fn=(2658) fftw_codelet_hc2cbdftv_20_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1426
+0 1
+
+fn=(2670) fftw_codelet_hc2cfdftv_12_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2688) fftw_codelet_hc2cbdftv_12_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2726) 0x00000000000f6b90
+0 11
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1065
+0 5
+0 11
+cfn=(2736) 0x0000000000026d00
+calls=1 0 
+0 4095007201
+
+fn=(2764) fftw_md5putb
+0 2885116
+cfn=(2770) fftw_md5putc
+calls=221931 0 
+0 6435999
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 614
+0 221936
+0 4312176
+cfn=(2770)
+calls=1078044 0 
+0 56924028
+0 1078044
+0 3487680
+
+fn=(2778) fftw_md5int
+0 527550
+cfn=(2764)
+calls=105510 0 
+0 16565070
+0 105510
+0 211020
+
+fn=(2830) fftw_tensor_md5
+0 240480
+cfn=(2778)
+calls=26720 0 
+0 4408800
+0 26720
+0 289048
+cfn=(2798) fftw_md5INT
+calls=22771 0 
+0 8247319
+0 22771
+0 15665
+cfn=(2798)
+calls=3133 0 
+0 2179177
+0 3133
+0 77712
+cfn=(2798)
+calls=25904 0 
+0 29202656
+0 25904
+0 77712
+cfn=(2798)
+calls=25904 0 
+0 10044608
+0 25904
+0 212128
+
+fn=(2902) 0x000000000002bfc0
+0 3717
+cfn=(2912) fftw_ct_applicable
+calls=176 0 
+0 8558
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 652
+0 181
+0 939
+cfn=(2924) fftw_choose_radix
+calls=117 0 
+0 1053
+0 117
+0 1170
+cfn=(2934)
+calls=116 0 
+0 812
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 624
+0 121
+0 2340
+cfn=(2940) 0x000000000002c970
+calls=117 0 
+0 107953
+0 1188
+cfn=(3098)
+calls=47 0 
+0 22025
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 986
+0 52
+0 288
+cfn=(1046) fftw_mktensor_1d
+calls=48 0 
+0 14544
+0 48
+0 336
+cfn=(1070) fftw_mkproblem_dft_d
+calls=48 0 
+0 71556
+0 48
+0 144
+cfn=(3114) fftw_mkplan_d
+calls=47 0 
+0 3483630803
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 285605050
+0 52
+0 336
+cfn=(3398) fftw_mkplan_dft
+calls=48 0 
+0 23397
+0 48
+0 384
+cfn=(4498) fftw_ops_add
+calls=48 0 
+0 1152
+0 48
+0 399
+cfn=(2968)
+calls=68 0 
+0 204
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 700
+0 73
+0 138
+cfn=(2968)
+calls=69 0 
+0 207
+0 69
+0 2145
+
+fn=(2903) 0x000000000002bfc0'2
+0 16088037
+cfn=(2912)
+calls=766097 0 
+0 25966105
+0 766097
+0 1662389
+cfn=(2924)
+calls=26039 0 
+0 249128
+0 26039
+0 260390
+cfn=(2934)
+calls=26039 0 
+0 200618
+0 26039
+0 414560
+cfn=(5038) 0x000000000002d6c0
+calls=220 0 
+0 6166
+cfn=(3888) 0x000000000002d3b0
+calls=115 0 
+0 3220
+cfn=(2940)
+calls=18612 0 
+0 12886288
+0 177173
+cfn=(3098)
+calls=6759 0 
+0 2849490
+0 6759
+0 40554
+cfn=(1046)
+calls=6759 0 
+0 2165798
+0 6759
+0 47313
+cfn=(1070)
+calls=6759 0 
+0 25837789
+0 6759
+0 20277
+cfn=(3115) fftw_mkplan_d'2
+calls=6759 0 
+0 1938737949
+0 6759
+0 41573
+cfn=(3398)
+calls=5324 0 
+0 2293794
+0 5324
+0 42592
+cfn=(4498)
+calls=5324 0 
+0 127776
+0 5324
+0 7931
+cfn=(4498)
+calls=1133 0 
+0 27192
+0 1133
+0 94293
+cfn=(2968)
+calls=18147 0 
+0 54441
+0 18147
+0 2870
+cfn=(2968)
+calls=1435 0 
+0 625945
+0 1435
+0 39164
+cfn=(2968)
+calls=19582 0 
+0 58746
+0 19582
+0 9208129
+cfn=(3888)
+calls=80 0 
+0 2240
+0 19275
+cfn=(5740) 0x000000000002ce80
+calls=1285 0 
+0 1507205
+0 23588
+cfn=(3098)
+calls=1133 0 
+0 484161
+0 1133
+0 6798
+cfn=(1046)
+calls=1133 0 
+0 399679
+0 1133
+0 7931
+cfn=(1070)
+calls=1133 0 
+0 9195644
+0 1133
+0 3399
+cfn=(3115)
+calls=1133 0 
+0 274591292
+0 1133
+0 7931
+cfn=(3398)
+calls=1133 0 
+0 483887
+0 1133
+0 37831
+
+fn=(2934)
+0 336881
+
+fn=(3046) fftw_mkplan_dftw
+0 23820
+cfn=(3052) fftw_mkplan
+calls=7939 0 
+0 4247127
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1516
+0 7944
+0 23820
+
+fn=(3058) fftw_ops_zero
+0 245754
+
+fn=(3152) 0x000000000002fe40
+0 13083
+cfn=(1178)
+calls=71 0 
+0 1553
+0 71
+0 781
+
+fn=(3358) 0x00000000001b6ea0
+0 3690
+
+fn=(3498) fftw_dft_zerotens
+0 102790
+cfn=(3500) 0x0000000000030ba0
+calls=1475 0 
+0 1104900
+0 95504
+cfn=(3500)
+calls=11938 0 
+0 5042344
+0 30036576
+
+fn=(3626) 0x0000000000107030
+0 14552192
+
+fn=(3708) 0x00000000001b72c0
+0 52346
+cfn=(2994)
+calls=3739 0 
+0 82117
+0 59564
+
+fn=(3752) 0x00000000001b71b0
+0 35915
+cfn=(2994)
+calls=3265 0 
+0 57556
+0 29004
+
+fn=(3872) 0x000000000002dcd0
+0 1704576
+cfn=(5066) 0x000000000016ed70
+calls=64 0 
+0 79552
+cfn=(5004) 0x000000000016e520
+calls=64 0 
+0 36544
+cfn=(6648) 0x0000000000178490
+calls=8296 0 
+0 33782352
+cfn=(4856) 0x000000000016fc60
+calls=18808 0 
+0 38311896
+cfn=(5140) 0x000000000016e3d0
+calls=40 0 
+0 19080
+cfn=(7282) 0x0000000000178c50
+calls=10184 0 
+0 33041928
+cfn=(6084) 0x0000000000170ba0
+calls=15256 0 
+0 30597176
+cfn=(4938) 0x000000000016e2f0
+calls=64 0 
+0 18048
+cfn=(5960) 0x000000000016f3a0
+calls=18248 0 
+0 32336304
+0 1136384
+cfn=(5066)
+calls=64 0 
+0 8448
+cfn=(5004)
+calls=64 0 
+0 4864
+cfn=(6648)
+calls=8296 0 
+0 3069520
+cfn=(4856)
+calls=18808 0 
+0 3761600
+cfn=(5140)
+calls=40 0 
+0 2800
+cfn=(7282)
+calls=10184 0 
+0 7475056
+cfn=(6084)
+calls=15256 0 
+0 4454752
+cfn=(4938)
+calls=64 0 
+0 3264
+cfn=(5960)
+calls=18248 0 
+0 3248144
+0 568192
+
+fn=(3936) fftw_tensor_inplace_strides
+0 114744
+
+fn=(4096) 0x00000000000f5670
+0 8460
+cfn=(1202)
+calls=564 0 
+0 1692
+0 564
+0 6768
+
+fn=(4188) 0x0000000000069ce0
+0 34968
+cfn=(3236) fftw_pickdim
+calls=1128 0 
+0 99958
+0 1128
+0 27824
+
+fn=(4510) 0x0000000000063df0
+0 116480
+cfn=(7550) 0x0000000000069040
+calls=6984 0 
+0 9503760
+cfn=(4676) 0x0000000000068f40
+calls=1272 0 
+0 29551128
+cfn=(4512) 0x00000000000692e0
+calls=704 0 
+0 2428269
+0 62720
+
+fn=(4662) fftw_cpy2d_tiled
+0 29336
+cfn=(4576) fftw_compute_tilesz
+calls=1544 0 
+0 103448
+0 1544
+0 32424
+cfn=(4634)
+calls=1544 0 
+0 41659056
+0 1544
+0 20072
+
+fn=(4898) 0x0000000000033400
+0 17551464
+
+fn=(5004)
+0 289456
+
+fn=(5276) 0x0000000000141dd0
+0 2261280
+
+fn=(5284) 0x0000000000141d30
+0 10069664
+
+fn=(5358) 0x0000000000138c70
+0 2707864
+
+fn=(5800) fftw_cpy2d_pair_co
+0 14978952
+cfn=(3682) fftw_cpy2d_pair
+calls=483192 0 
+0 198250112
+0 483192
+
+fn=(5872) 0x000000000015a1e0
+0 256
+
+fn=(5920) 0x00000000001a5b70
+0 104299872
+
+fn=(6376) 0x0000000000040b40
+0 14917184
+
+fn=(6648)
+0 58910912
+
+fn=(6914) 0x0000000000058660
+0 19314448
+
+fn=(6994) 0x0000000000049e30
+0 16745824
+
+fn=(7464) 0x000000000006a160
+0 374
+
+fn=(7550)
+0 95896
+cfn=(7498) 0x0000000000068fa0
+calls=112 0 
+0 13120
+0 3136
+cfn=(7498)
+calls=448 0 
+0 52480
+0 103152
+cfn=(7552) fftw_transpose
+calls=7144 0 
+0 9267744
+0 43536
+
+fn=(7904) 0x000000000004b2f0
+0 30351528
+
+fn=(8348) 0x000000000002c5e0
+0 19315840
+cfn=(3676) fftw_cpy2d_pair_ci
+calls=482896 0 
+0 213569320
+0 482896
+0 5311856
+cfn=(5568) 0x000000000003db40
+calls=32008 0 
+0 7352912
+cfn=(5556) 0x000000000003dc30
+calls=8464 0 
+0 3660680
+cfn=(5544) 0x000000000003dde0
+calls=7056 0 
+0 4037632
+cfn=(6460) 0x000000000003dff0
+calls=10136 0 
+0 15239432
+cfn=(5528) 0x000000000003e330
+calls=2288 0 
+0 3983376
+cfn=(5506) 0x000000000003ece0
+calls=976 0 
+0 2308384
+cfn=(6428)
+calls=1568 0 
+0 8453560
+cfn=(5470) 0x00000000000401f0
+calls=608 0 
+0 3792272
+cfn=(6376)
+calls=584 0 
+0 7012776
+cfn=(6994)
+calls=416 0 
+0 8032144
+cfn=(7904)
+calls=352 0 
+0 14669184
+cfn=(5456) 0x000000000004d470
+calls=7056 0 
+0 4333032
+cfn=(5432)
+calls=976 0 
+0 2639504
+cfn=(6360) 0x0000000000057990
+calls=10136 0 
+0 16240496
+cfn=(6324) 0x0000000000057d00
+calls=1568 0 
+0 9568952
+cfn=(6914)
+calls=416 0 
+0 9262720
+cfn=(7780) 0x0000000000059df0
+calls=352 0 
+0 17058432
+cfn=(9634) 0x0000000000121500
+calls=32008 0 
+0 5243112
+cfn=(9626) 0x00000000001215d0
+calls=8464 0 
+0 2716024
+cfn=(9614) 0x0000000000121720
+calls=7056 0 
+0 2883984
+cfn=(9602) 0x00000000001218a0
+calls=10136 0 
+0 10496688
+cfn=(9588) 0x0000000000121b10
+calls=2288 0 
+0 2727008
+cfn=(9572) 0x0000000000122150
+calls=976 0 
+0 1522816
+cfn=(9550) 0x0000000000122960
+calls=1568 0 
+0 5094368
+cfn=(9542) 0x0000000000122e20
+calls=32008 0 
+0 5243112
+cfn=(9534) 0x0000000000122ef0
+calls=8464 0 
+0 2716024
+cfn=(9522) 0x0000000000123040
+calls=7056 0 
+0 2883984
+cfn=(9510) 0x00000000001231c0
+calls=10136 0 
+0 10496688
+cfn=(9496) 0x0000000000123430
+calls=2288 0 
+0 2727008
+cfn=(9480) 0x0000000000123a70
+calls=976 0 
+0 1522816
+cfn=(9458) 0x0000000000124280
+calls=1568 0 
+0 5094368
+cfn=(9434) 0x0000000000124740
+calls=608 0 
+0 2286736
+cfn=(9402) 0x0000000000124cb0
+calls=584 0 
+0 4066880
+cfn=(9358)
+calls=416 0 
+0 4632192
+cfn=(9282)
+calls=352 0 
+0 10424320
+cfn=(9274) 0x000000000012bd30
+calls=32008 0 
+0 4220096
+cfn=(9266) 0x000000000012bdd0
+calls=7056 0 
+0 2208784
+cfn=(9250) 0x000000000012bf10
+calls=976 0 
+0 1196416
+cfn=(9238) 0x000000000012fdd0
+calls=10136 0 
+0 8373168
+cfn=(9218) 0x000000000012ffd0
+calls=1568 0 
+0 4127768
+cfn=(9182) 0x00000000001303e0
+calls=416 0 
+0 3729944
+cfn=(9114)
+calls=352 0 
+0 8965664
+cfn=(9102) 0x00000000001321f0
+calls=7056 0 
+0 3137184
+cfn=(9084) 0x0000000000132380
+calls=976 0 
+0 1694640
+cfn=(9072) 0x0000000000134590
+calls=10136 0 
+0 11103408
+cfn=(9048) 0x0000000000134820
+calls=1568 0 
+0 5520832
+cfn=(9000) 0x0000000000134d60
+calls=416 0 
+0 5256336
+cfn=(8918) 0x00000000001359f0
+calls=352 0 
+0 11109760
+cfn=(8910) 0x0000000000187fb0
+calls=28160 0 
+0 2701280
+cfn=(8900) 0x0000000000188090
+calls=7624 0 
+0 1338080
+cfn=(8888) 0x0000000000188200
+calls=3208 0 
+0 694552
+cfn=(8876) 0x00000000001883a0
+calls=8912 0 
+0 4652064
+cfn=(8862) 0x0000000000188600
+calls=1680 0 
+0 1006320
+cfn=(8842) 0x0000000000189480
+calls=1232 0 
+0 1849096
+cfn=(8834) 0x0000000000189920
+calls=28160 0 
+0 2335520
+cfn=(8826) 0x00000000001899e0
+calls=7624 0 
+0 1102456
+cfn=(8818) 0x0000000000189b10
+calls=8208 0 
+0 1467936
+cfn=(8806)
+calls=11312 0 
+0 4875472
+cfn=(8794) 0x0000000000189e70
+calls=3680 0 
+0 1799520
+cfn=(8776) 0x000000000018aaa0
+calls=2096 0 
+0 2635064
+cfn=(8756)
+calls=896 0 
+0 1329704
+cfn=(8728) 0x000000000018b310
+calls=976 0 
+0 2721776
+cfn=(8696) 0x000000000018f070
+calls=472 0 
+0 2044232
+cfn=(8636) 0x000000000018f970
+calls=464 0 
+0 5301440
+cfn=(8628) 0x0000000000190b60
+calls=38160 0 
+0 2669760
+cfn=(8620) 0x0000000000190c00
+calls=8208 0 
+0 1172736
+cfn=(8608) 0x0000000000194050
+calls=11312 0 
+0 3970512
+cfn=(8592) 0x0000000000194220
+calls=2096 0 
+0 2146200
+cfn=(8564)
+calls=472 0 
+0 1665392
+cfn=(8512) 0x0000000000194d50
+calls=464 0 
+0 4617984
+cfn=(8502) 0x0000000000195e00
+calls=8208 0 
+0 1566336
+cfn=(8490) 0x0000000000197aa0
+calls=11312 0 
+0 5214832
+cfn=(8468) 0x0000000000197cc0
+calls=2096 0 
+0 2849568
+cfn=(8430)
+calls=472 0 
+0 2338960
+cfn=(8352) 0x0000000000198b20
+calls=464 0 
+0 5803176
+0 7243440
+cfn=(5800)
+calls=482896 0 
+0 213569320
+0 482896
+0 3863168
+
+fn=(8352)
+0 5803176
+
+fn=(8696)
+0 2044232
+
+fn=(8888)
+0 694552
+
+fn=(9000)
+0 5256336
+
+fn=(9218)
+0 4127768
+
+fn=(9458)
+0 5094368
+
+fn=(9480)
+0 1522816
+
+fn=(9534)
+0 2716024
+
+fn=(9550)
+0 5094368
+
+fn=(9572)
+0 1522816
+
+fn=(9626)
+0 2716024
+
+fn=(4568) 0x0000000000030b00
+0 4868
+cfn=(2969) fftw_plan_destroy_internal'2
+calls=2434 0 
+0 3332980
+0 2434
+
+fn=(4569) 0x0000000000030b00'2
+0 2472
+cfn=(2969)
+calls=1236 0 
+0 1609634
+0 1236
+
+fn=(4588) fftw_rdft_zerotens
+0 24510
+cfn=(4590) 0x00000000000684c0
+calls=817 0 
+0 8874235
+0 729528
+cfn=(4590)
+calls=121588 0 
+0 75988492
+0 255431
+
+fn=(1010) fftw_plan_dft_1d
+0 10
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 4096113829
+0 5
+
+fn=(1070)
+0 76050
+cfn=(1076)
+calls=12674 0 
+0 51004861
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 4515
+0 12679
+0 50700
+cfn=(1122)
+calls=12674 0 
+0 3092456
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 4785
+0 12679
+0 63375
+
+fn=(1088)
+0 25350
+cfn=(1090) 0x0000000000029550
+calls=12675 0 
+0 4417431
+0 63375
+
+fn=(1150) fftw_mkapiplan
+0 15
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1085553
+0 5
+0 19
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2920
+0 5
+0 12
+cfn=(2726)
+calls=1 0 
+0 4095008293
+0 14
+
+fn=(1164) 0x00000000000260f0
+0 38268
+cfn=(1172)
+calls=42 0 
+0 10075
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1840
+0 47
+0 215
+cfn=(1058)
+calls=43 0 
+0 475597
+0 43
+0 282122
+cfn=(4350) 0x0000000000025fc0
+calls=17880 0 
+0 1646362
+0 36061
+cfn=(1202)
+calls=42 0 
+0 8339
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 564
+0 47
+
+fn=(1276) fftw_dft_buffered_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 280
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 924
+0 1
+0 3
+cfn=(1228)
+calls=1 0 
+0 280
+0 1
+0 5
+cfn=(1234)
+calls=1 0 
+0 266
+0 1
+
+fn=(1278) fftw_dft_generic_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 478
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 258
+0 1
+
+fn=(1294) fftw_mksolver_ct
+0 5379
+cfn=(1228)
+calls=489 0 
+0 189036
+0 489
+0 4890
+
+fn=(1336) fftw_codelet_n1_8
+0 3
+cfn=(1312)
+calls=1 0 
+0 1025
+0 1
+
+fn=(1342) fftw_codelet_n1_11
+0 3
+cfn=(1312)
+calls=1 0 
+0 1041
+0 1
+
+fn=(1352) fftw_codelet_n1_16
+0 3
+cfn=(1312)
+calls=1 0 
+0 1253
+0 1
+
+fn=(1358) fftw_codelet_n1_20
+0 3
+cfn=(1312)
+calls=1 0 
+0 1253
+0 1
+
+fn=(1812) fftw_codelet_n1fv_4_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1818) fftw_codelet_n1fv_7_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1824) fftw_codelet_n1fv_10_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1830) fftw_codelet_n1fv_13_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1836) fftw_codelet_n1fv_16_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1842) fftw_codelet_n1fv_128_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1848) fftw_codelet_n1bv_2_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1854) fftw_codelet_n1bv_5_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1860) fftw_codelet_n1bv_8_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1866) fftw_codelet_n1bv_11_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1872) fftw_codelet_n1bv_14_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1878) fftw_codelet_n1bv_32_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1884) fftw_codelet_n1bv_20_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1323
+0 1
+
+fn=(1890) fftw_codelet_n2fv_4_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1305
+0 1
+
+fn=(1896) fftw_codelet_n2fv_10_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1349
+0 1
+
+fn=(1902) fftw_codelet_n2fv_16_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1908) fftw_codelet_n2fv_20_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1914) fftw_codelet_n2bv_6_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1920) fftw_codelet_n2bv_12_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1926) fftw_codelet_n2bv_32_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1932) fftw_codelet_n2sv_4_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1938) fftw_codelet_n2sv_32_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1944) fftw_codelet_t1fuv_3_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1950) fftw_codelet_t1fuv_6_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1956) fftw_codelet_t1fuv_9_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1962) fftw_codelet_t1fv_3_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(1968) fftw_codelet_t1fv_6_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(1974) fftw_codelet_t1fv_9_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(1980) fftw_codelet_t1fv_15_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1986) fftw_codelet_t1fv_64_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1992) fftw_codelet_t2fv_2_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(1998) fftw_codelet_t2fv_16_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2004) fftw_codelet_t2fv_5_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2010) fftw_codelet_t2fv_25_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2016) fftw_codelet_t3fv_16_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1389
+0 1
+
+fn=(2022) fftw_codelet_t3fv_10_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(2028) fftw_codelet_t1buv_2_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(2034) fftw_codelet_t1buv_5_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(2040) fftw_codelet_t1buv_8_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 19760
+0 1
+
+fn=(2046) fftw_codelet_t1bv_2_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2052) fftw_codelet_t1bv_5_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2058) fftw_codelet_t1bv_8_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2064) fftw_codelet_t1bv_12_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2070) fftw_codelet_t1bv_32_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2076) fftw_codelet_t1bv_25_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2082) fftw_codelet_t2bv_8_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2088) fftw_codelet_t2bv_64_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2094) fftw_codelet_t2bv_20_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2100) fftw_codelet_t3bv_8_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2106) fftw_codelet_t3bv_5_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2112) fftw_codelet_t3bv_25_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2118) fftw_codelet_t1sv_8_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2124) fftw_codelet_t2sv_4_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2130) fftw_codelet_t2sv_32_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2136) fftw_codelet_q1fv_5_avx
+0 3
+cfn=(1438)
+calls=1 0 
+0 677
+0 1
+
+fn=(2142) fftw_codelet_q1bv_4_avx
+0 3
+cfn=(1438)
+calls=1 0 
+0 677
+0 1
+
+fn=(2274) fftw_regsolver_hc2hc_direct
+0 598
+cfn=(2196) fftw_mksolver_hc2hc
+calls=46 0 
+0 16698
+0 46
+0 276
+cfn=(1234)
+calls=46 0 
+0 9228
+0 46
+0 828
+cfn=(2276) 0x0000000000066b00
+calls=46 0 
+0 28920
+0 368
+
+fn=(2290) fftw_codelet_hf_6
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2296) fftw_codelet_hf_9
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2302) fftw_codelet_hf_15
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2308) fftw_codelet_hf_64
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2314) fftw_codelet_hf2_4
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2320) fftw_codelet_hf2_32
+0 3
+cfn=(2268)
+calls=1 0 
+0 1255
+0 1
+
+fn=(2326) fftw_codelet_hf2_25
+0 3
+cfn=(2268)
+calls=1 0 
+0 1255
+0 1
+
+fn=(2332) fftw_codelet_r2cfII_4
+0 3
+cfn=(2204)
+calls=1 0 
+0 1910
+0 1
+
+fn=(2338) fftw_codelet_r2cfII_7
+0 3
+cfn=(2204)
+calls=1 0 
+0 1910
+0 1
+
+fn=(2344) fftw_codelet_r2cfII_10
+0 3
+cfn=(2204)
+calls=1 0 
+0 1934
+0 1
+
+fn=(2350) fftw_codelet_r2cfII_16
+0 3
+cfn=(2204)
+calls=1 0 
+0 1934
+0 1
+
+fn=(2356) fftw_codelet_r2cfII_20
+0 3
+cfn=(2204)
+calls=1 0 
+0 1934
+0 1
+
+fn=(2394) fftw_codelet_hc2cf_20
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2412) fftw_codelet_hc2cfdft_8
+0 4
+cfn=(2366)
+calls=1 0 
+0 1314
+0 1
+
+fn=(2430) fftw_codelet_hc2cfdft2_32
+0 4
+cfn=(2366)
+calls=1 0 
+0 1346
+0 1
+
+fn=(2558) fftw_codelet_hc2cb_8
+0 4
+cfn=(2366)
+calls=1 0 
+0 1266
+0 1
+
+fn=(2576) fftw_codelet_hc2cb2_32
+0 4
+cfn=(2366)
+calls=1 0 
+0 1298
+0 1
+
+fn=(2594) fftw_codelet_hc2cbdft_32
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2632) fftw_codelet_hc2cfdftv_10_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1426
+0 1
+
+fn=(2650) fftw_codelet_hc2cbdftv_10_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1426
+0 1
+
+fn=(2662) fftw_codelet_hc2cfdftv_4_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1394
+0 1
+
+fn=(2680) fftw_codelet_hc2cbdftv_4_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1394
+0 1
+
+fn=(2704) fftw_rodft00e_r2hc_pad_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 306
+0 1
+
+fn=(2940)
+0 681568
+cfn=(3882) 0x0000000000030d00
+calls=962 0 
+0 13468
+cfn=(3862) 0x000000000015a480
+calls=410 0 
+0 14350
+cfn=(3838)
+calls=888 0 
+0 19536
+cfn=(3836) 0x000000000015a330
+calls=408 0 
+0 13872
+cfn=(3816) 0x000000000015a4c0
+calls=410 0 
+0 15580
+cfn=(3792) 0x000000000015a2c0
+calls=888 0 
+0 21312
+cfn=(3790) 0x000000000015a370
+calls=1379 0 
+0 53781
+cfn=(3784)
+calls=224 0 
+0 1792
+cfn=(3768) 0x00000000001b7390
+calls=410 0 
+0 15782
+cfn=(3752)
+calls=903 0 
+0 32445
+cfn=(3746) 0x00000000001b7250
+calls=415 0 
+0 16943
+cfn=(3714) 0x00000000001b73e0
+calls=417 0 
+0 16847
+cfn=(3708)
+calls=1662 0 
+0 87891
+cfn=(2992) 0x00000000001b7200
+calls=905 0 
+0 33774
+cfn=(2950) 0x00000000001b70e0
+calls=229 0 
+0 1832
+0 112637
+cfn=(3862)
+calls=410 0 
+0 14350
+cfn=(3838)
+calls=888 0 
+0 19536
+cfn=(3836)
+calls=408 0 
+0 13872
+cfn=(3784)
+calls=224 0 
+0 1792
+cfn=(3768)
+calls=410 0 
+0 14148
+cfn=(3752)
+calls=903 0 
+0 26280
+cfn=(3746)
+calls=415 0 
+0 14153
+cfn=(3714)
+calls=163 0 
+0 7987
+cfn=(3708)
+calls=229 0 
+0 7643
+cfn=(2992)
+calls=492 0 
+0 13950
+cfn=(2950)
+calls=229 0 
+0 1832
+0 16432
+cfn=(3714)
+calls=163 0 
+0 7987
+0 3586
+cfn=(3714)
+calls=163 0 
+0 7987
+0 97563
+cfn=(3708)
+calls=1433 0 
+0 80248
+cfn=(3882)
+calls=962 0 
+0 13468
+cfn=(3816)
+calls=410 0 
+0 15580
+cfn=(3792)
+calls=888 0 
+0 21312
+cfn=(3790)
+calls=1379 0 
+0 53781
+cfn=(3714)
+calls=254 0 
+0 12446
+cfn=(2992)
+calls=413 0 
+0 19824
+0 132270
+cfn=(3032)
+calls=9546 0 
+0 79020
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 587
+0 9551
+0 105628
+cfn=(3046)
+calls=5554 0 
+0 3020670
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2128
+0 5559
+0 33330
+cfn=(3066) fftw_mkstride
+calls=5554 0 
+0 2387935
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1062
+0 5559
+0 6260
+cfn=(3066)
+calls=1252 0 
+0 547467
+0 1252
+0 136140
+cfn=(3066)
+calls=6807 0 
+0 2982336
+0 6807
+0 34035
+cfn=(3058)
+calls=6807 0 
+0 40842
+0 6807
+0 61263
+cfn=(3078) fftw_ops_madd2
+calls=6806 0 
+0 142926
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1187
+0 6811
+0 279325
+cfn=(3882)
+calls=888 0 
+0 12432
+cfn=(3862)
+calls=410 0 
+0 15580
+cfn=(3838)
+calls=888 0 
+0 21312
+cfn=(3836)
+calls=408 0 
+0 15912
+cfn=(3816)
+calls=410 0 
+0 14350
+cfn=(3792)
+calls=888 0 
+0 19536
+cfn=(3790)
+calls=408 0 
+0 13872
+cfn=(3784)
+calls=224 0 
+0 1792
+cfn=(3768)
+calls=410 0 
+0 20090
+cfn=(3752)
+calls=904 0 
+0 37110
+cfn=(3746)
+calls=415 0 
+0 19733
+cfn=(3714)
+calls=417 0 
+0 19182
+cfn=(3708)
+calls=415 0 
+0 18245
+cfn=(2992)
+calls=905 0 
+0 35490
+cfn=(2950)
+calls=229 0 
+0 1832
+0 70341
+cfn=(3746)
+calls=248 0 
+0 13888
+cfn=(3882)
+calls=888 0 
+0 12432
+cfn=(3862)
+calls=410 0 
+0 15580
+cfn=(3838)
+calls=888 0 
+0 21312
+cfn=(3836)
+calls=408 0 
+0 15912
+cfn=(3768)
+calls=410 0 
+0 16526
+cfn=(3752)
+calls=555 0 
+0 26640
+0 68159
+cfn=(3046)
+calls=1252 0 
+0 775825
+0 1252
+0 13982
+
+fn=(2992)
+0 29865
+cfn=(2994)
+calls=2715 0 
+0 48877
+0 24296
+
+fn=(3078)
+0 31796
+cfn=(3084)
+calls=15897 0 
+0 286146
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 595
+0 15902
+
+fn=(3158) 0x000000000002e890
+0 13197
+cfn=(1178)
+calls=13 0 
+0 475
+0 13
+0 65
+
+fn=(3226) 0x0000000000030880
+0 2951
+cfn=(3236)
+calls=80 0 
+0 5373
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 660
+0 85
+0 2895
+cfn=(1040)
+calls=59 0 
+0 354
+0 59
+0 236
+cfn=(1040)
+calls=59 0 
+0 354
+0 59
+0 236
+cfn=(1040)
+calls=59 0 
+0 354
+0 59
+0 236
+cfn=(1040)
+calls=59 0 
+0 354
+0 59
+0 236
+cfn=(3294)
+calls=58 0 
+0 18442
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1057
+0 63
+0 177
+cfn=(3302) fftw_tensor_copy
+calls=58 0 
+0 18452
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1025
+0 63
+0 413
+cfn=(1070)
+calls=59 0 
+0 115641
+0 59
+0 177
+cfn=(3115)
+calls=59 0 
+0 3531021058
+0 59
+0 413
+cfn=(3398)
+calls=59 0 
+0 27204
+0 59
+0 708
+cfn=(3058)
+calls=59 0 
+0 354
+0 59
+0 354
+cfn=(3078)
+calls=59 0 
+0 1239
+0 59
+0 708
+
+fn=(3227) 0x0000000000030880'2
+0 174476
+cfn=(3236)
+calls=4786 0 
+0 297327
+0 4786
+0 175534
+cfn=(1040)
+calls=3615 0 
+0 21690
+0 3615
+0 14460
+cfn=(1040)
+calls=3615 0 
+0 21690
+0 3615
+0 14460
+cfn=(1040)
+calls=3615 0 
+0 21690
+0 3615
+0 14460
+cfn=(1040)
+calls=3615 0 
+0 21690
+0 3615
+0 14460
+cfn=(3294)
+calls=3615 0 
+0 1216951
+0 3615
+0 10845
+cfn=(3302)
+calls=3615 0 
+0 1219232
+0 3615
+0 25305
+cfn=(1070)
+calls=3615 0 
+0 12772731
+0 3615
+0 10845
+cfn=(3115)
+calls=3615 0 
+0 1434183921
+0 3615
+0 25305
+cfn=(3398)
+calls=3615 0 
+0 1545915
+0 3615
+0 43380
+cfn=(3058)
+calls=3615 0 
+0 21690
+0 3615
+0 21690
+cfn=(3078)
+calls=3615 0 
+0 75915
+0 3615
+0 35630
+
+fn=(3236)
+0 119900
+cfn=(3238) 0x00000000000258b0
+calls=5995 0 
+0 123958
+0 48341
+cfn=(3238)
+calls=1097 0 
+0 26590
+0 83960
+
+fn=(3238)
+0 150548
+
+fn=(3324) fftw_iabs
+0 438696
+
+fn=(3426) 0x00000000001b6d50
+0 6768
+
+fn=(3458) 0x0000000000026a70
+0 106407
+cfn=(3474) fftw_measure_execution_time
+calls=5582 0 
+0 3731342232
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 18609
+0 5587
+0 106239
+
+fn=(3484) 0x000000000002f780
+0 33355
+cfn=(3490)
+calls=4764 0 
+0 1821260
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1086
+0 4769
+0 33355
+cfn=(3498)
+calls=4764 0 
+0 36381762
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 961
+0 4769
+0 23825
+cfn=(1128)
+calls=4765 0 
+0 562270
+0 4765
+
+fn=(3532) 0x000000000002dca0
+0 4849152
+cfn=(6690) 0x0000000000110e70
+calls=2240 0 
+0 3581920
+cfn=(5086) 0x0000000000107460
+calls=29960 0 
+0 12856240
+cfn=(4882) 0x0000000000108240
+calls=28720 0 
+0 22381360
+cfn=(5148) 0x0000000000106ca0
+calls=116056 0 
+0 18689656
+cfn=(7282)
+calls=552 0 
+0 1072520
+cfn=(7310) 0x0000000000111540
+calls=2072 0 
+0 1674176
+cfn=(6648)
+calls=12696 0 
+0 21709280
+cfn=(6664)
+calls=1208 0 
+0 501328
+cfn=(5960)
+calls=22688 0 
+0 9047344
+cfn=(6084)
+calls=53360 0 
+0 60305240
+cfn=(6098) 0x00000000001090a0
+calls=9584 0 
+0 10930048
+cfn=(6038) 0x000000000016e680
+calls=560 0 
+0 127240
+cfn=(6050) 0x0000000000106e90
+calls=7792 0 
+0 2048080
+cfn=(5986) 0x00000000001079d0
+calls=10896 0 
+0 7155696
+cfn=(5970) 0x0000000000117070
+calls=11640 0 
+0 6395936
+cfn=(4946) 0x0000000000116ba0
+calls=24 0 
+0 4968
+cfn=(5140)
+calls=208 0 
+0 44160
+cfn=(5156) 0x0000000000030e10
+calls=1456 0 
+0 100512
+cfn=(5074)
+calls=1024 0 
+0 149760
+cfn=(5004)
+calls=216 0 
+0 45936
+cfn=(5020) 0x0000000000106d90
+calls=1760 0 
+0 215040
+cfn=(5012) 0x0000000000116c30
+calls=704 0 
+0 64096
+cfn=(4938)
+calls=296 0 
+0 42480
+cfn=(4954) 0x0000000000106c10
+calls=2160 0 
+0 89520
+cfn=(4856)
+calls=18472 0 
+0 13367040
+cfn=(4866) 0x0000000000117330
+calls=816 0 
+0 173232
+cfn=(3534)
+calls=15936 0 
+0 3605728
+cfn=(3564) 0x0000000000116d10
+calls=8592 0 
+0 2626800
+cfn=(3626)
+calls=42408 0 
+0 14271848
+0 808192
+
+fn=(3584)
+0 28666
+cfn=(1202)
+calls=28666 0 
+0 3897633
+0 28666
+
+fn=(3638) 0x0000000000159f20
+0 6768
+
+fn=(3642) 0x0000000000030ca0
+0 44371
+
+fn=(3670)
+0 1885104
+cfn=(3676)
+calls=72503 0 
+0 41349172
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1562
+0 72508
+0 1090816
+cfn=(6718) 0x000000000003b550
+calls=8 0 
+0 25080
+cfn=(5098) 0x0000000000031a40
+calls=16 0 
+0 11904
+cfn=(4898)
+calls=16 0 
+0 22096
+cfn=(7370) 0x000000000003c320
+calls=32 0 
+0 124784
+cfn=(5028) 0x0000000000030f60
+calls=16 0 
+0 4608
+cfn=(5156)
+calls=40 0 
+0 8896
+cfn=(4964) 0x0000000000030d40
+calls=32 0 
+0 4416
+cfn=(6002) 0x00000000000322f0
+calls=32 0 
+0 30720
+cfn=(6122)
+calls=32 0 
+0 56048
+cfn=(6060)
+calls=32 0 
+0 12032
+cfn=(3688) 0x0000000000031330
+calls=40 0 
+0 17336
+0 4144
+cfn=(5800)
+calls=295 0 
+0 142704
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 865
+0 300
+0 724744
+cfn=(7370)
+calls=944 0 
+0 7515776
+cfn=(6718)
+calls=416 0 
+0 2030656
+cfn=(6122)
+calls=656 0 
+0 2036384
+cfn=(6060)
+calls=61096 0 
+0 50029296
+cfn=(6002)
+calls=800 0 
+0 1159552
+cfn=(5156)
+calls=104 0 
+0 25264
+cfn=(5098)
+calls=264 0 
+0 190616
+cfn=(5028)
+calls=304 0 
+0 91872
+cfn=(4964)
+calls=128 0 
+0 18048
+cfn=(4898)
+calls=6376 0 
+0 17239432
+cfn=(3688)
+calls=1120 0 
+0 710048
+0 649872
+
+fn=(3746)
+0 20902
+cfn=(2994)
+calls=1493 0 
+0 26167
+0 17648
+
+fn=(3836)
+0 9792
+cfn=(3838)
+calls=1632 0 
+0 37536
+0 12240
+
+fn=(3986) fftw_mktensor_0d
+0 1370
+cfn=(1052)
+calls=685 0 
+0 221797
+0 685
+
+fn=(4022) fftw_mkproblem_rdft
+0 16448
+cfn=(1082)
+calls=685 0 
+0 267354
+0 685
+0 2055
+cfn=(1052)
+calls=685 0 
+0 202234
+0 685
+0 4110
+cfn=(1108)
+calls=685 0 
+0 1540451
+0 685
+0 10952
+cfn=(4428)
+calls=454 0 
+0 1362
+0 454
+0 1816
+cfn=(4434)
+calls=454 0 
+0 2660880
+0 454
+0 1816
+
+fn=(4104) 0x00000000000658f0
+0 23688
+
+fn=(4142) 0x00000000000642d0
+0 2820
+
+fn=(4160) 0x0000000000066850
+0 5640
+
+fn=(4224)
+0 418485
+
+fn=(4278) 0x0000000000068b30
+0 2820
+
+fn=(4306) 0x0000000000068b40
+0 3513
+
+fn=(4508) 0x000000000002e9a0
+0 65952
+cfn=(5960)
+calls=5272 0 
+0 3996176
+cfn=(6050)
+calls=224 0 
+0 70112
+0 43248
+cfn=(7282)
+calls=1344 0 
+0 11350080
+0 21504
+cfn=(7282)
+calls=1344 0 
+0 986496
+0 72312
+cfn=(4510)
+calls=6840 0 
+0 9524840
+0 68400
+
+fn=(4628) fftw_cpy2d_tiledbuf
+0 29336
+cfn=(4576)
+calls=1544 0 
+0 103448
+0 1544
+0 33968
+cfn=(4634)
+calls=1543 0 
+0 81382268
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1874
+0 1548
+0 20072
+
+fn=(4780) 0x000000000002c930
+0 134964
+cfn=(4786)
+calls=11246 0 
+0 260276740
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 3558
+0 11251
+
+fn=(4808)
+0 38174088
+
+fn=(5028)
+0 360288
+
+fn=(5086)
+0 13002640
+
+fn=(5124) 0x000000000019b8b0
+0 1759856
+
+fn=(5156)
+0 477600
+
+fn=(5224) 0x0000000000199f30
+0 3383800
+
+fn=(5416) 0x0000000000137370
+0 2707864
+
+fn=(5556)
+0 7473248
+
+fn=(5860) 0x0000000000156f20
+0 28944848
+
+fn=(6026) 0x000000000019b380
+0 3798000
+
+fn=(6198) 0x0000000000145fd0
+0 168700224
+
+fn=(6870) 0x000000000013fa70
+0 5126952
+
+fn=(7226) 0x00000000001a1500
+0 5371456
+
+fn=(8210) 0x0000000000060970
+0 11466560
+
+fn=(8608)
+0 3970512
+
+fn=(9084)
+0 1694640
+
+fn=(9182)
+0 3729944
+
+fn=(9274)
+0 4220096
+
+fn=(996)
+0 603867
+cob=(3)
+cfi=(3)
+cfn=(1002) memalign
+calls=201288 0 
+0 89482350
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2373
+0 201293
+
+fn=(1028) fftw_many_kosherp
+0 22
+
+fn=(1082)
+0 40080
+cfn=(1058)
+calls=13360 0 
+0 5373880
+0 13360
+0 40080
+
+fn=(1134)
+0 199888
+cfn=(1140) fftw_kernel_free
+calls=199887 0 
+0 25013437
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2808
+0 199892
+
+fn=(1162) fftw_mkplanner
+0 3
+cfn=(1058)
+calls=1 0 
+0 382
+0 1
+0 42
+cfn=(1164)
+calls=1 0 
+0 2848
+0 12
+cfn=(1164)
+calls=1 0 
+0 439
+0 38
+
+fn=(1178)
+0 1985
+cfn=(1184) fftw_first_divisor
+calls=396 0 
+0 9316
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 624
+0 401
+0 1985
+
+fn=(1202)
+0 124484
+cfn=(1134)
+calls=28734 0 
+0 3795584
+0 28734
+0 19141
+
+fn=(1214) fftw_dft_conf_standard
+0 5
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 54827
+0 5
+0 3
+cfn=(1220)
+calls=1 0 
+0 75117
+0 1
+0 1
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 627
+0 5
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 647
+0 5
+0 6
+cfn=(1220)
+calls=1 0 
+0 261388
+0 1
+0 3
+cfn=(1220)
+calls=1 0 
+0 277418
+0 1
+0 1
+
+fn=(1262) fftw_hash
+0 263151
+
+fn=(1274) fftw_dft_vrank_geq1_register
+0 8
+cfn=(1228)
+calls=1 0 
+0 383
+0 1
+0 6
+cfn=(1234)
+calls=1 0 
+0 873
+0 1
+0 3
+cfn=(1228)
+calls=1 0 
+0 442
+0 1
+0 9
+cfn=(1234)
+calls=1 0 
+0 282
+0 1
+
+fn=(1438)
+0 44
+cfn=(1444) fftw_regsolver_ct_directwsq
+calls=21 0 
+0 14088
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1313
+0 26
+
+fn=(1444)
+0 330
+cfn=(1294)
+calls=22 0 
+0 8908
+0 22
+0 110
+cfn=(1234)
+calls=22 0 
+0 5100
+0 22
+0 220
+
+fn=(1452) fftw_codelet_q1_5
+0 3
+cfn=(1438)
+calls=1 0 
+0 641
+0 1
+
+fn=(2168) fftw_rdft_rank_geq2_register
+0 14
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 8
+cfn=(1228)
+calls=2 0 
+0 768
+0 2
+0 18
+cfn=(1234)
+calls=3 0 
+0 846
+0 3
+0 16
+
+fn=(2172) fftw_rdft_dht_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 234
+0 1
+
+fn=(2180) fftw_rdft2_nop_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 242
+0 1
+
+fn=(2228) fftw_codelet_r2cf_5
+0 3
+cfn=(2204)
+calls=1 0 
+0 1858
+0 1
+
+fn=(2234) fftw_codelet_r2cf_8
+0 3
+cfn=(2204)
+calls=1 0 
+0 2165
+0 1
+
+fn=(2240) fftw_codelet_r2cf_11
+0 3
+cfn=(2204)
+calls=1 0 
+0 1922
+0 1
+
+fn=(2246) fftw_codelet_r2cf_14
+0 3
+cfn=(2204)
+calls=1 0 
+0 24025
+0 1
+
+fn=(2252) fftw_codelet_r2cf_32
+0 3
+cfn=(2204)
+calls=1 0 
+0 1604
+0 1
+
+fn=(2258) fftw_codelet_r2cf_20
+0 3
+cfn=(2204)
+calls=1 0 
+0 1886
+0 1
+
+fn=(2380) fftw_codelet_hc2cf_4
+0 4
+cfn=(2366)
+calls=1 0 
+0 1266
+0 1
+
+fn=(2386) fftw_codelet_hc2cf_10
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2404) fftw_codelet_hc2cf2_20
+0 4
+cfn=(2366)
+calls=1 0 
+0 1298
+0 1
+
+fn=(2422) fftw_codelet_hc2cfdft_20
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2436) fftw_codelet_r2cb_3
+0 3
+cfn=(2204)
+calls=1 0 
+0 1862
+0 1
+
+fn=(2442) fftw_codelet_r2cb_6
+0 3
+cfn=(2204)
+calls=1 0 
+0 1862
+0 1
+
+fn=(2448) fftw_codelet_r2cb_9
+0 3
+cfn=(2204)
+calls=1 0 
+0 1862
+0 1
+
+fn=(2454) fftw_codelet_r2cb_12
+0 3
+cfn=(2204)
+calls=1 0 
+0 1886
+0 1
+
+fn=(2460) fftw_codelet_r2cb_15
+0 3
+cfn=(2204)
+calls=1 0 
+0 2180
+0 1
+
+fn=(2466) fftw_codelet_r2cb_64
+0 3
+cfn=(2204)
+calls=1 0 
+0 28979
+0 1
+
+fn=(2472) fftw_codelet_r2cb_25
+0 3
+cfn=(2204)
+calls=1 0 
+0 1604
+0 1
+
+fn=(2478) fftw_codelet_hb_4
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2484) fftw_codelet_hb_7
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2490) fftw_codelet_hb_10
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2496) fftw_codelet_hb_16
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2502) fftw_codelet_hb_20
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2508) fftw_codelet_hb2_8
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2514) fftw_codelet_hb2_5
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2520) fftw_codelet_r2cbIII_2
+0 3
+cfn=(2204)
+calls=1 0 
+0 1652
+0 1
+
+fn=(2526) fftw_codelet_r2cbIII_5
+0 3
+cfn=(2204)
+calls=1 0 
+0 1652
+0 1
+
+fn=(2532) fftw_codelet_r2cbIII_8
+0 3
+cfn=(2204)
+calls=1 0 
+0 1934
+0 1
+
+fn=(2538) fftw_codelet_r2cbIII_12
+0 3
+cfn=(2204)
+calls=1 0 
+0 1958
+0 1
+
+fn=(2544) fftw_codelet_r2cbIII_32
+0 3
+cfn=(2204)
+calls=1 0 
+0 1958
+0 1
+
+fn=(2550) fftw_codelet_r2cbIII_25
+0 3
+cfn=(2204)
+calls=1 0 
+0 1958
+0 1
+
+fn=(2568) fftw_codelet_hc2cb_20
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2586) fftw_codelet_hc2cbdft_8
+0 4
+cfn=(2366)
+calls=1 0 
+0 1314
+0 1
+
+fn=(2604) fftw_codelet_hc2cbdft2_32
+0 4
+cfn=(2366)
+calls=1 0 
+0 1346
+0 1
+
+fn=(2624) fftw_codelet_hc2cfdftv_2_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2642) fftw_codelet_hc2cbdftv_2_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2672) fftw_codelet_hc2cfdftv_16_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2690) fftw_codelet_hc2cbdftv_16_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2710) fftw_reodft11e_radix2_r2hc_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 338
+0 1
+
+fn=(2712) fftw_reodft11e_r2hc_odd_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 314
+0 1
+
+fn=(2732) fftw_mapflags
+0 488
+
+fn=(2788) fftw_md5puts
+0 133600
+cfn=(2770)
+calls=13360 0 
+0 387440
+0 13360
+0 163060
+cfn=(2770)
+calls=40765 0 
+0 1182185
+0 40765
+0 161690
+
+fn=(2868) 0x0000000000026b40
+0 13
+cfn=(2870)
+calls=1 0 
+0 18
+0 25
+cfn=(2968)
+calls=5 0 
+0 14793
+0 5
+0 3325
+cfn=(2902)
+calls=177 0 
+0 3769504657
+cfn=(2886) 0x0000000000063ef0
+calls=1 0 
+0 46
+0 1897
+cfn=(3458)
+calls=47 0 
+0 320446446
+0 220
+cfn=(2968)
+calls=41 0 
+0 114498
+0 41
+0 253
+cfn=(2870)
+calls=57 0 
+0 1026
+0 118
+cfn=(3458)
+calls=1 0 
+0 4905126
+0 8
+
+fn=(2869) 0x0000000000026b40'2
+0 27612
+cfn=(2870)
+calls=2124 0 
+0 38232
+0 23541
+cfn=(2968)
+calls=767 0 
+0 456203
+0 767
+0 25533178
+cfn=(3921) 0x000000000002efe0'2
+calls=26 0 
+0 2133
+cfn=(3943) 0x000000000002ea80'2
+calls=2658 0 
+0 42048122
+cfn=(4312)
+calls=1128 0 
+0 10152
+cfn=(4216)
+calls=5076 0 
+0 1239488
+cfn=(4210) 0x000000000006a360
+calls=1692 0 
+0 222486
+cfn=(4188)
+calls=1128 0 
+0 163878
+cfn=(4180) 0x0000000000068420
+calls=564 0 
+0 12269
+cfn=(4164) 0x0000000000065230
+calls=1128 0 
+0 62094
+cfn=(4160)
+calls=1128 0 
+0 5640
+cfn=(4150) 0x0000000000069460
+calls=1692 0 
+0 55836
+cfn=(4146) 0x0000000000069a00
+calls=564 0 
+0 2820
+cfn=(4142)
+calls=564 0 
+0 2820
+cfn=(4138) 0x0000000000064990
+calls=1128 0 
+0 5640
+cfn=(4120)
+calls=52452 0 
+0 2570881
+cfn=(4110) 0x0000000000065f80
+calls=81216 0 
+0 2436480
+cfn=(4104)
+calls=1128 0 
+0 23688
+cfn=(4096)
+calls=564 0 
+0 17484
+cfn=(4088) 0x00000000000f5b10
+calls=564 0 
+0 17484
+cfn=(4082) 0x00000000000f67b0
+calls=564 0 
+0 14100
+cfn=(4076) 0x00000000000f2ff0
+calls=564 0 
+0 12408
+cfn=(4070) 0x00000000000f4080
+calls=564 0 
+0 13536
+cfn=(4064) 0x00000000000f52c0
+calls=564 0 
+0 12408
+cfn=(3942) 0x000000000002ea80
+calls=462 0 
+0 1493781261
+cfn=(3920) 0x000000000002efe0
+calls=1534 0 
+0 4992052
+cfn=(3910) 0x0000000000030450
+calls=4680 0 
+0 154434
+cfn=(3227)
+calls=3054 0 
+0 1311193082
+cfn=(3226)
+calls=66 0 
+0 3529142038
+cfn=(3164)
+calls=3120 0 
+0 233827
+cfn=(3158)
+calls=1560 0 
+0 13750
+cfn=(3152)
+calls=1560 0 
+0 15488
+cfn=(3146) 0x000000000002b200
+calls=1560 0 
+0 39167
+cfn=(3140) 0x000000000002f620
+calls=1560 0 
+0 23638
+cfn=(3116) 0x000000000002e0f0
+calls=477360 0 
+0 19617268
+cfn=(2903)
+calls=762840 0 
+0 2182371965
+cfn=(2886)
+calls=1560 0 
+0 299945856
+0 11392757
+cfn=(3458)
+calls=4823 0 
+0 3153471529
+0 22581
+cfn=(2968)
+calls=4056 0 
+0 6927835
+0 4056
+0 22548
+cfn=(2870)
+calls=4812 0 
+0 86616
+0 31676
+cfn=(3458)
+calls=734 0 
+0 252755973
+0 9953
+
+fn=(2912)
+0 18167449
+cfn=(2924)
+calls=450926 0 
+0 5015683
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 627
+0 450931
+0 2340000
+
+fn=(2924)
+0 4758748
+cfn=(3138) fftw_isqrt
+calls=9354 0 
+0 417842
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 601
+0 9359
+0 56192
+cfn=(1184)
+calls=1816 0 
+0 21316
+0 1816
+
+fn=(3332) 0x00000000001b6df0
+0 9669
+
+fn=(3474)
+0 72579
+cfn=(3480) fftw_plan_awake
+calls=5582 0 
+0 269249980
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 608
+0 5587
+0 16746
+cfn=(4580) 0x0000000000068710
+calls=817 0 
+0 86350057
+cfn=(3484)
+calls=4765 0 
+0 38872177
+0 16746
+cfn=(2718)
+calls=5582 0 
+0 111640
+0 5582
+0 1035
+cfn=(2718)
+calls=1035 0 
+0 20700
+0 1035
+0 119106
+cfn=(4620) fftw_rdft_solve
+calls=845 0 
+0 23881766
+cfn=(3530) fftw_dft_solve
+calls=5772 0 
+0 391621077
+0 555828
+cfn=(4620)
+calls=5915 0 
+0 167164452
+cfn=(3530)
+calls=40404 0 
+0 2741330599
+0 82680
+cfn=(4620)
+calls=336 0 
+0 77248
+cfn=(3530)
+calls=16200 0 
+0 4002096
+0 1574833
+cfn=(3552) fftw_elapsed_since
+calls=46319 0 
+0 1991717
+0 46319
+0 33085
+cfn=(3552)
+calls=6616 0 
+0 284488
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 660
+0 6621
+0 316581
+cfn=(3480)
+calls=5582 0 
+0 3468368
+0 5582
+0 72566
+
+fn=(3552)
+0 794040
+cob=(3)
+cfi=(3)
+cfn=(2724)
+calls=52936 0 
+0 264680
+0 52936
+0 1164592
+
+fn=(3596) 0x000000000015a050
+0 3690
+
+fn=(3688)
+0 1048128
+
+fn=(3716) 0x00000000001b7330
+0 75834
+
+fn=(3768)
+0 16400
+cfn=(3716)
+calls=1640 0 
+0 35700
+0 14446
+
+fn=(3862)
+0 11480
+cfn=(3818)
+calls=1640 0 
+0 34440
+0 13940
+
+fn=(4016) fftw_mkproblem_rdft_1
+0 2740
+cfn=(4022)
+calls=684 0 
+0 4707919
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 5147
+0 689
+0 1370
+
+fn=(4064)
+0 12408
+
+fn=(4070)
+0 13536
+
+fn=(4218)
+0 83152
+cfn=(4224)
+calls=5197 0 
+0 351647
+0 57167
+cfn=(4306)
+calls=564 0 
+0 3513
+cfn=(4300) 0x0000000000068b70
+calls=564 0 
+0 4206
+cfn=(4278)
+calls=564 0 
+0 2820
+cfn=(4272) 0x0000000000068c20
+calls=564 0 
+0 15711
+cfn=(4266) 0x0000000000069290
+calls=1128 0 
+0 40405
+cfn=(4262) 0x0000000000069130
+calls=685 0 
+0 12613
+cfn=(4248) 0x0000000000069240
+calls=1128 0 
+0 24784
+0 20788
+
+fn=(4286)
+0 2928
+cfn=(3052)
+calls=976 0 
+0 495620
+0 976
+0 2928
+
+fn=(4428)
+0 44220
+
+fn=(4454) fftw_mkplan_f_d
+0 6468
+cfn=(3115)
+calls=231 0 
+0 1190325254
+0 231
+0 1155
+
+fn=(4455) fftw_mkplan_f_d'2
+0 3584
+cfn=(3115)
+calls=128 0 
+0 3983022
+0 128
+0 640
+
+fn=(4646) fftw_cpy2d
+0 204745352
+
+fn=(4652) fftw_cpy2d_co
+0 1488512
+cfn=(4646)
+calls=36160 0 
+0 56138528
+0 36160
+0 106240
+cfn=(4646)
+calls=21248 0 
+0 37556952
+0 21248
+
+fn=(4882)
+0 22616448
+
+fn=(4954)
+0 233568
+
+fn=(4998) 0x000000000015a0e0
+0 1080
+
+fn=(5232) 0x00000000001482b0
+0 1864176
+
+fn=(5292) 0x000000000013a4a0
+0 2576432
+
+fn=(5316) 0x00000000001397e0
+0 1682320
+
+fn=(5332) 0x0000000000139190
+0 2980104
+
+fn=(5456)
+0 8900232
+
+fn=(5618) fftw_tensor_strides_decrease
+0 17158
+cfn=(3936)
+calls=334 0 
+0 3006
+0 334
+0 2004
+
+fn=(5684) 0x00000000000690a0
+0 11596
+
+fn=(5824) 0x000000000015a170
+0 14982
+
+fn=(5842) 0x000000000002d080
+0 27654
+cfn=(4786)
+calls=2514 0 
+0 11319948
+0 2514
+
+fn=(5844) 0x000000000002be20
+0 216944
+cfn=(5846) 0x000000000002ce30
+calls=16688 0 
+0 136723280
+0 1131344
+cfn=(3872)
+calls=832 0 
+0 1844544
+cfn=(4557) 0x00000000000307a0'2
+calls=1024 0 
+0 14448256
+cfn=(4556) 0x00000000000307a0
+calls=13488 0 
+0 351010704
+cfn=(3532)
+calls=36192 0 
+0 18726592
+0 116816
+cfn=(3872)
+calls=208 0 
+0 461136
+cfn=(4557)
+calls=256 0 
+0 3612064
+cfn=(4556)
+calls=4728 0 
+0 175629744
+cfn=(3532)
+calls=11496 0 
+0 5228560
+0 611072
+
+fn=(5845) 0x000000000002be20'2
+0 694616
+cfn=(5846)
+calls=53432 0 
+0 122214864
+0 3736832
+cfn=(4557)
+calls=5376 0 
+0 79640064
+cfn=(3532)
+calls=172352 0 
+0 59299744
+0 374024
+cfn=(4557)
+calls=1344 0 
+0 19910016
+cfn=(3532)
+calls=52088 0 
+0 16696936
+0 2045576
+
+fn=(5878) 0x000000000005c4c0
+0 3177408
+
+fn=(6538) 0x00000000001a9b30
+0 2212992
+
+fn=(6690)
+0 4045008
+
+fn=(7282)
+0 55240968
+
+fn=(7370)
+0 10003056
+
+fn=(7530) fftw_transpose_tiled
+0 3472
+cfn=(4576)
+calls=248 0 
+0 16616
+0 248
+0 1984
+cfn=(7504)
+calls=248 0 
+0 234624
+0 1736
+
+fn=(7704) 0x0000000000140600
+0 11092920
+
+fn=(8110) 0x000000000002e9e0
+0 3600
+cfn=(3532)
+calls=240 0 
+0 56192
+0 6000
+cfn=(7550)
+calls=240 0 
+0 52216
+0 1680
+
+fn=(8468)
+0 2849568
+
+fn=(8502)
+0 1566336
+
+fn=(8728)
+0 2721776
+
+fn=(9238)
+0 8373168
+
+fn=(9402)
+0 4066880
+
+fn=(4580)
+0 5719
+cfn=(3490)
+calls=817 0 
+0 364318
+0 817
+0 4085
+cfn=(4588)
+calls=816 0 
+0 85870823
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2034
+0 821
+0 4085
+cfn=(1128)
+calls=817 0 
+0 96538
+0 817
+
+fn=(838) 0x00000000000248b0
+0 17
+
+fn=(1184)
+0 30639
+
+fn=(1222) fftw_dft_indirect_register
+0 5
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 973
+0 5
+0 5
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2455
+0 5
+0 3
+cfn=(1228)
+calls=1 0 
+0 367
+0 1
+0 6
+cfn=(1234)
+calls=1 0 
+0 800
+0 1
+
+fn=(1228)
+0 4047
+cfn=(1058)
+calls=1349 0 
+0 502440
+0 1349
+0 5396
+
+fn=(1328) fftw_codelet_n1_4
+0 3
+cfn=(1312)
+calls=1 0 
+0 1025
+0 1
+
+fn=(1348) fftw_codelet_n1_14
+0 3
+cfn=(1312)
+calls=1 0 
+0 1327
+0 1
+
+fn=(1368)
+0 430
+cfn=(1374) fftw_regsolver_ct_directw
+calls=214 0 
+0 351831
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1975
+0 219
+
+fn=(1388) fftw_codelet_t1_5
+0 3
+cfn=(1368)
+calls=1 0 
+0 1281
+0 1
+
+fn=(1394) fftw_codelet_t1_8
+0 3
+cfn=(1368)
+calls=1 0 
+0 1281
+0 1
+
+fn=(1400) fftw_codelet_t1_12
+0 3
+cfn=(1368)
+calls=1 0 
+0 1293
+0 1
+
+fn=(1406) fftw_codelet_t1_32
+0 3
+cfn=(1368)
+calls=1 0 
+0 1389
+0 1
+
+fn=(1412) fftw_codelet_t1_25
+0 3
+cfn=(1368)
+calls=1 0 
+0 1297
+0 1
+
+fn=(1418) fftw_codelet_t2_16
+0 3
+cfn=(1368)
+calls=1 0 
+0 1297
+0 1
+
+fn=(1424) fftw_codelet_t2_5
+0 3
+cfn=(1368)
+calls=1 0 
+0 1281
+0 1
+
+fn=(1430) fftw_codelet_t2_25
+0 3
+cfn=(1368)
+calls=1 0 
+0 1293
+0 1
+
+fn=(1466) fftw_codelet_n1fv_4_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1472) fftw_codelet_n1fv_7_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1478) fftw_codelet_n1fv_10_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1484) fftw_codelet_n1fv_13_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1490) fftw_codelet_n1fv_16_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1496) fftw_codelet_n1fv_128_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1353
+0 1
+
+fn=(1502) fftw_codelet_n1bv_2_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1486
+0 1
+
+fn=(1508) fftw_codelet_n1bv_5_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1514) fftw_codelet_n1bv_8_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1520) fftw_codelet_n1bv_11_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1526) fftw_codelet_n1bv_14_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1532) fftw_codelet_n1bv_32_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1538) fftw_codelet_n1bv_20_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1544) fftw_codelet_n2fv_4_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1321
+0 1
+
+fn=(1550) fftw_codelet_n2fv_10_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1556) fftw_codelet_n2fv_16_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1562) fftw_codelet_n2fv_20_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1568) fftw_codelet_n2bv_6_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1574) fftw_codelet_n2bv_12_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1580) fftw_codelet_n2bv_32_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1586) fftw_codelet_n2sv_4_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1592) fftw_codelet_n2sv_32_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1598) fftw_codelet_t1fuv_3_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1407
+0 1
+
+fn=(1604) fftw_codelet_t1fuv_6_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1552
+0 1
+
+fn=(1610) fftw_codelet_t1fuv_9_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1616) fftw_codelet_t1fv_3_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1622) fftw_codelet_t1fv_6_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1628) fftw_codelet_t1fv_9_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1634) fftw_codelet_t1fv_15_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1640) fftw_codelet_t1fv_64_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1646) fftw_codelet_t2fv_2_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1652) fftw_codelet_t2fv_16_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1658) fftw_codelet_t2fv_5_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1391
+0 1
+
+fn=(1664) fftw_codelet_t2fv_25_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1552
+0 1
+
+fn=(1670) fftw_codelet_t3fv_16_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1433
+0 1
+
+fn=(1676) fftw_codelet_t3fv_10_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1433
+0 1
+
+fn=(1682) fftw_codelet_t1buv_2_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1688) fftw_codelet_t1buv_5_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1694) fftw_codelet_t1buv_8_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1700) fftw_codelet_t1bv_2_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1706) fftw_codelet_t1bv_5_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1712) fftw_codelet_t1bv_8_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1718) fftw_codelet_t1bv_12_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1724) fftw_codelet_t1bv_32_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1730) fftw_codelet_t1bv_25_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1736) fftw_codelet_t2bv_8_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1742) fftw_codelet_t2bv_64_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1748) fftw_codelet_t2bv_20_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1405
+0 1
+
+fn=(1754) fftw_codelet_t3bv_8_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(1760) fftw_codelet_t3bv_5_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(1766) fftw_codelet_t3bv_25_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1433
+0 1
+
+fn=(1772) fftw_codelet_t1sv_8_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1778) fftw_codelet_t2sv_4_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1784) fftw_codelet_t2sv_32_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1790) fftw_codelet_q1fv_5_sse2
+0 3
+cfn=(1438)
+calls=1 0 
+0 685
+0 1
+
+fn=(1796) fftw_codelet_q1bv_4_sse2
+0 3
+cfn=(1438)
+calls=1 0 
+0 685
+0 1
+
+fn=(2164) fftw_rdft_buffered_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 274
+0 1
+0 3
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 5
+cfn=(1234)
+calls=1 0 
+0 274
+0 1
+
+fn=(2176) fftw_dht_rader_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 242
+0 1
+0 3
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 5
+cfn=(1234)
+calls=1 0 
+0 242
+0 1
+
+fn=(2184) fftw_rdft2_buffered_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 282
+0 1
+0 3
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 5
+cfn=(1234)
+calls=1 0 
+0 282
+0 1
+
+fn=(2188) fftw_rdft2_rdft_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 250
+0 1
+
+fn=(2210) fftw_mksolver_rdft_r2c_direct
+0 576
+cfn=(1228)
+calls=72 0 
+0 27079
+0 72
+0 504
+
+fn=(2216) fftw_mksolver_rdft_r2c_directbuf
+0 576
+cfn=(1228)
+calls=72 0 
+0 27003
+0 72
+0 504
+
+fn=(2366)
+0 92
+cfn=(2372)
+calls=91 0 
+0 122416
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2574
+0 96
+
+fn=(2396) fftw_codelet_hc2cf2_4
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2414) fftw_codelet_hc2cfdft_10
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2432) fftw_codelet_hc2cfdft2_20
+0 4
+cfn=(2366)
+calls=1 0 
+0 1346
+0 1
+
+fn=(2560) fftw_codelet_hc2cb_10
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2578) fftw_codelet_hc2cb2_20
+0 4
+cfn=(2366)
+calls=1 0 
+0 1298
+0 1
+
+fn=(2596) fftw_codelet_hc2cbdft_20
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2614)
+0 10
+cfn=(2620)
+calls=1 0 
+0 399
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1104
+0 6
+0 8
+cfn=(1234)
+calls=2 0 
+0 404
+0 2
+
+fn=(2634) fftw_codelet_hc2cfdftv_12_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1426
+0 1
+
+fn=(2652) fftw_codelet_hc2cbdftv_12_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1426
+0 1
+
+fn=(2664) fftw_codelet_hc2cfdftv_6_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1394
+0 1
+
+fn=(2682) fftw_codelet_hc2cbdftv_6_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1394
+0 1
+
+fn=(2782) 0x000000000002f7c0
+0 101400
+cfn=(2788)
+calls=12674 0 
+0 1951796
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 731
+0 12679
+0 76050
+cfn=(2778)
+calls=12675 0 
+0 2091375
+0 12675
+0 63375
+cfn=(2798)
+calls=12674 0 
+0 3916266
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 870
+0 12679
+0 63375
+cfn=(2798)
+calls=12675 0 
+0 3916575
+0 12675
+0 25350
+cfn=(2808) fftw_ialignment_of
+calls=12674 0 
+0 38022
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 628
+0 12679
+0 38025
+cfn=(2778)
+calls=12675 0 
+0 2091375
+0 12675
+0 25350
+cfn=(2808)
+calls=12675 0 
+0 38025
+0 12675
+0 38025
+cfn=(2778)
+calls=12675 0 
+0 2091375
+0 12675
+0 25350
+cfn=(2808)
+calls=12675 0 
+0 38025
+0 12675
+0 38025
+cfn=(2778)
+calls=12675 0 
+0 2091375
+0 12675
+0 25350
+cfn=(2808)
+calls=12675 0 
+0 38025
+0 12675
+0 38025
+cfn=(2778)
+calls=12675 0 
+0 2091375
+0 12675
+0 38025
+cfn=(2830)
+calls=12674 0 
+0 34882836
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 3508
+0 12679
+0 76050
+cfn=(2830)
+calls=12675 0 
+0 16823698
+0 12675
+
+fn=(2798)
+0 515310
+cfn=(2764)
+calls=103062 0 
+0 56682414
+0 103062
+0 206124
+
+fn=(2846) 0x0000000000025e40
+0 3863038
+
+fn=(3052)
+0 120495
+cfn=(1058)
+calls=24099 0 
+0 10804647
+0 24099
+0 96396
+cfn=(3058)
+calls=24098 0 
+0 144588
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 583
+0 24103
+0 192792
+
+fn=(3138)
+0 653750
+
+fn=(3178)
+0 1848
+
+fn=(3200)
+0 5976
+
+fn=(3362) 0x00000000001b6cb0
+0 175382
+
+fn=(3398)
+0 45549
+cfn=(3052)
+calls=15183 0 
+0 6664009
+0 15183
+0 45549
+
+fn=(3564)
+0 2815288
+
+fn=(3882)
+0 52888
+
+fn=(3888)
+0 5460
+
+fn=(3972) fftw_tensor_min_istride
+0 4389
+cfn=(3324)
+calls=231 0 
+0 1386
+0 231
+0 693
+
+fn=(4110)
+0 2436480
+
+fn=(4150)
+0 55836
+
+fn=(4164)
+0 20304
+cfn=(1202)
+calls=1128 0 
+0 3384
+0 1128
+0 2256
+cfn=(2968)
+calls=1128 0 
+0 3384
+0 1128
+0 2256
+cfn=(2968)
+calls=1128 0 
+0 3384
+0 1128
+0 2256
+cfn=(2968)
+calls=1128 0 
+0 3384
+0 1128
+0 16974
+
+fn=(4180)
+0 8229
+cfn=(3936)
+calls=333 0 
+0 3041
+0 333
+0 666
+
+fn=(4272)
+0 7275
+cfn=(3324)
+calls=193 0 
+0 1158
+0 193
+0 965
+cfn=(3324)
+calls=193 0 
+0 1158
+0 193
+0 1886
+cfn=(3324)
+calls=11 0 
+0 66
+0 11
+0 33
+cfn=(3324)
+calls=11 0 
+0 66
+0 11
+0 2696
+
+fn=(4350)
+0 1646362
+
+fn=(4440)
+0 193883
+
+fn=(4502) 0x000000000002ed00
+0 5026
+cfn=(3481) fftw_plan_awake'2
+calls=718 0 
+0 22976
+0 718
+0 4308
+cfn=(3481)
+calls=718 0 
+0 10278553
+0 718
+
+fn=(4503) 0x000000000002ed00'2
+0 266
+cfn=(3481)
+calls=38 0 
+0 1216
+0 38
+0 228
+cfn=(3481)
+calls=38 0 
+0 570
+0 38
+
+fn=(4522) fftw_cpy1d
+0 2050352
+
+fn=(4530) 0x000000000002ea60
+0 1360
+cfn=(2969)
+calls=340 0 
+0 455251
+0 340
+0 1020
+cfn=(2969)
+calls=340 0 
+0 120980
+0 340
+
+fn=(4531) 0x000000000002ea60'2
+0 76
+cfn=(2969)
+calls=19 0 
+0 12675
+0 19
+0 57
+cfn=(2969)
+calls=19 0 
+0 6954
+0 19
+
+fn=(4620)
+0 211200
+cfn=(4640) fftw_cpy2d_ci
+calls=1640 0 
+0 36220464
+cfn=(4652)
+calls=1672 0 
+0 29927312
+cfn=(4662)
+calls=1544 0 
+0 41847424
+cfn=(4628)
+calls=1544 0 
+0 81574058
+0 56512
+cfn=(7498)
+calls=96 0 
+0 67016
+0 2688
+cfn=(7498)
+calls=384 0 
+0 268064
+0 11088
+cfn=(7552)
+calls=424 0 
+0 129088
+cfn=(7530)
+calls=88 0 
+0 180720
+cfn=(7502) fftw_transpose_tiledbuf
+calls=88 0 
+0 565216
+0 62616
+
+fn=(4946)
+0 99024
+
+fn=(4964)
+0 229008
+
+fn=(5020)
+0 425696
+
+fn=(5046) 0x000000000019bd20
+0 1684584
+
+fn=(5192) 0x000000000019a570
+0 2466752
+
+fn=(5216) 0x000000000019a010
+0 2386800
+
+fn=(5374) 0x0000000000137ee0
+0 1682320
+
+fn=(5390) 0x0000000000137890
+0 2980104
+
+fn=(5818) 0x00000000001b7060
+0 256
+
+fn=(5934) 0x000000000019d0f0
+0 2585792
+
+fn=(5948) 0x000000000019bb30
+0 4516752
+
+fn=(6050)
+0 2618256
+
+fn=(6072) 0x000000000019a320
+0 6576016
+
+fn=(6360)
+0 34022224
+
+fn=(6460)
+0 31897512
+
+fn=(6626) 0x000000000019c8b0
+0 2585504
+
+fn=(7098) 0x00000000001a0c50
+0 1988480
+
+fn=(7472) 0x000000000006aeb0
+0 363
+
+fn=(7478) 0x000000000006a090
+0 418
+
+fn=(7554) 0x000000000014b940
+0 12161064
+
+fn=(8064) 0x000000000002ed30
+0 132
+cfn=(4418)
+calls=12 0 
+0 4268
+0 12
+0 48
+cfn=(4418)
+calls=12 0 
+0 4192
+0 12
+0 144
+cfn=(1070)
+calls=12 0 
+0 85249
+0 12
+
+fn=(8862)
+0 1006320
+
+fn=(9102)
+0 3137184
+
+fn=(9542)
+0 5243112
+
+fn=(9634)
+0 5243112
+
+fn=(1040)
+0 88392
+
+fn=(1052)
+0 689503
+cfn=(1058)
+calls=62058 0 
+0 18885544
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 975
+0 62063
+0 441267
+cfn=(1058)
+calls=51018 0 
+0 19894781
+0 51018
+0 153054
+
+fn=(1108)
+0 142770
+cfn=(1114)
+calls=28553 0 
+0 566966
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 609
+0 28558
+0 114204
+cfn=(1090)
+calls=28548 0 
+0 12344834
+0 223010
+cob=(3)
+cfi=(3)
+cfn=(4028) qsort
+calls=16053 0 
+0 5393039
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2341
+0 16058
+0 387273
+cfn=(1052)
+calls=13082 0 
+0 4257460
+0 13082
+0 2972
+cfn=(1052)
+calls=2972 0 
+0 1173123
+0 2972
+0 774218
+cfn=(1128)
+calls=16054 0 
+0 1894637
+0 16054
+0 60170
+cob=(3)
+cfi=(3)
+cfn=(4028)
+calls=3002 0 
+0 1100096
+0 3002
+0 142770
+cfn=(1052)
+calls=6 0 
+0 2127
+0 6
+
+fn=(1140)
+0 199888
+cob=(3)
+cfi=(3)
+cfn=(458) free
+calls=199887 0 
+0 24613663
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2193
+0 199892
+
+fn=(1234)
+0 14839
+cfn=(1244) fftw_solver_use
+calls=1348 0 
+0 2696
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 603
+0 1353
+0 18886
+cfn=(1262)
+calls=1348 0 
+0 262932
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 772
+0 1353
+0 21752
+cfn=(1058)
+calls=28 0 
+0 87556
+0 28
+0 60627
+cfn=(1202)
+calls=28 0 
+0 4554
+0 28
+0 2754
+
+fn=(1244)
+0 2698
+
+fn=(1284) fftw_dft_nop_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 382
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 226
+0 1
+
+fn=(1318)
+0 1224
+cfn=(1228)
+calls=153 0 
+0 58089
+0 153
+0 1071
+
+fn=(1338) fftw_codelet_n1_9
+0 3
+cfn=(1312)
+calls=1 0 
+0 1025
+0 1
+
+fn=(1344) fftw_codelet_n1_12
+0 3
+cfn=(1312)
+calls=1 0 
+0 1041
+0 1
+
+fn=(1354) fftw_codelet_n1_32
+0 3
+cfn=(1312)
+calls=1 0 
+0 1253
+0 1
+
+fn=(1360) fftw_codelet_n1_25
+0 3
+cfn=(1312)
+calls=1 0 
+0 1253
+0 1
+
+fn=(1376) 0x000000000002c540
+0 3440
+cfn=(1294)
+calls=215 0 
+0 86648
+0 215
+0 1290
+cfn=(1234)
+calls=215 0 
+0 97082
+0 215
+0 2150
+
+fn=(1808) fftw_codelet_n1fv_2_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1814) fftw_codelet_n1fv_5_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1820) fftw_codelet_n1fv_8_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1826) fftw_codelet_n1fv_11_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1832) fftw_codelet_n1fv_14_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1838) fftw_codelet_n1fv_32_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1844) fftw_codelet_n1fv_20_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1850) fftw_codelet_n1bv_3_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1856) fftw_codelet_n1bv_6_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1862) fftw_codelet_n1bv_9_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1868) fftw_codelet_n1bv_12_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1874) fftw_codelet_n1bv_15_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1880) fftw_codelet_n1bv_64_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1886) fftw_codelet_n1bv_25_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1321
+0 1
+
+fn=(1892) fftw_codelet_n2fv_6_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1488
+0 1
+
+fn=(1898) fftw_codelet_n2fv_12_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 16091
+0 1
+
+fn=(1904) fftw_codelet_n2fv_32_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1910) fftw_codelet_n2bv_2_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1916) fftw_codelet_n2bv_8_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1922) fftw_codelet_n2bv_14_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1928) fftw_codelet_n2bv_64_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1934) fftw_codelet_n2sv_8_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1940) fftw_codelet_n2sv_64_avx
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1946) fftw_codelet_t1fuv_4_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1952) fftw_codelet_t1fuv_7_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1958) fftw_codelet_t1fuv_10_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1964) fftw_codelet_t1fv_4_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(1970) fftw_codelet_t1fv_7_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(1976) fftw_codelet_t1fv_10_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1982) fftw_codelet_t1fv_16_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1988) fftw_codelet_t1fv_20_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1994) fftw_codelet_t2fv_4_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2000) fftw_codelet_t2fv_32_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2006) fftw_codelet_t2fv_10_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2012) fftw_codelet_t3fv_4_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2018) fftw_codelet_t3fv_32_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1389
+0 1
+
+fn=(2024) fftw_codelet_t3fv_20_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(2030) fftw_codelet_t1buv_3_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(2036) fftw_codelet_t1buv_6_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(2042) fftw_codelet_t1buv_9_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2048) fftw_codelet_t1bv_3_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2054) fftw_codelet_t1bv_6_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2060) fftw_codelet_t1bv_9_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2066) fftw_codelet_t1bv_15_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2072) fftw_codelet_t1bv_64_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2078) fftw_codelet_t2bv_2_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2084) fftw_codelet_t2bv_16_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2090) fftw_codelet_t2bv_5_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2096) fftw_codelet_t2bv_25_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2102) fftw_codelet_t3bv_16_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2108) fftw_codelet_t3bv_10_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2114) fftw_codelet_t1sv_2_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2120) fftw_codelet_t1sv_16_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2126) fftw_codelet_t2sv_8_avx
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2132) fftw_codelet_q1fv_2_avx
+0 3
+cfn=(1438)
+calls=1 0 
+0 677
+0 1
+
+fn=(2138) fftw_codelet_q1fv_8_avx
+0 3
+cfn=(1438)
+calls=1 0 
+0 677
+0 1
+
+fn=(2144) fftw_codelet_q1bv_5_avx
+0 3
+cfn=(1438)
+calls=1 0 
+0 677
+0 1
+
+fn=(2156) fftw_rdft_rank0_register
+0 70
+cfn=(1228)
+calls=8 0 
+0 3072
+0 8
+0 3
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 54
+cfn=(1234)
+calls=9 0 
+0 2250
+0 9
+0 26
+
+fn=(2160) fftw_rdft_vrank_geq1_register
+0 8
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 6
+cfn=(1234)
+calls=1 0 
+0 290
+0 1
+0 3
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 9
+cfn=(1234)
+calls=1 0 
+0 290
+0 1
+
+fn=(2196)
+0 651
+cfn=(1228)
+calls=93 0 
+0 34060
+0 93
+0 558
+
+fn=(2284) fftw_codelet_hf_3
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2286) fftw_codelet_hf_4
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2292) fftw_codelet_hf_7
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2298) fftw_codelet_hf_10
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2304) fftw_codelet_hf_16
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2310) fftw_codelet_hf_20
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2316) fftw_codelet_hf2_8
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2322) fftw_codelet_hf2_5
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2328) fftw_codelet_r2cfII_2
+0 3
+cfn=(2204)
+calls=1 0 
+0 1910
+0 1
+
+fn=(2334) fftw_codelet_r2cfII_5
+0 3
+cfn=(2204)
+calls=1 0 
+0 1910
+0 1
+
+fn=(2340) fftw_codelet_r2cfII_8
+0 3
+cfn=(2204)
+calls=1 0 
+0 1910
+0 1
+
+fn=(2346) fftw_codelet_r2cfII_12
+0 3
+cfn=(2204)
+calls=1 0 
+0 1934
+0 1
+
+fn=(2352) fftw_codelet_r2cfII_32
+0 3
+cfn=(2204)
+calls=1 0 
+0 1934
+0 1
+
+fn=(2358) fftw_codelet_r2cfII_25
+0 3
+cfn=(2204)
+calls=1 0 
+0 1934
+0 1
+
+fn=(2378)
+0 1472
+cfn=(1228)
+calls=184 0 
+0 69552
+0 184
+0 1288
+
+fn=(2388) fftw_codelet_hc2cf_12
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2406) fftw_codelet_hc2cfdft_2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1314
+0 1
+
+fn=(2424) fftw_codelet_hc2cfdft2_4
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2552) fftw_codelet_hc2cb_2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1266
+0 1
+
+fn=(2570) fftw_codelet_hc2cb2_4
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2588) fftw_codelet_hc2cbdft_10
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2606) fftw_codelet_hc2cbdft2_20
+0 4
+cfn=(2366)
+calls=1 0 
+0 1346
+0 1
+
+fn=(2626) fftw_codelet_hc2cfdftv_4_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2644) fftw_codelet_hc2cbdftv_4_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2674) fftw_codelet_hc2cfdftv_32_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2692) fftw_codelet_hc2cbdftv_32_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2750) fftw_md5begin
+0 80160
+
+fn=(2770)
+0 101015376
+
+fn=(2950)
+0 5496
+
+fn=(3066)
+0 229472
+cfn=(1058)
+calls=28684 0 
+0 10871290
+0 28684
+0 1779390
+
+fn=(3302)
+0 78536
+cfn=(1052)
+calls=19634 0 
+0 7546759
+0 19634
+0 622254
+
+fn=(3430) 0x0000000000159fc0
+0 23379
+
+fn=(3500)
+0 216048
+cfn=(3501) 0x0000000000030ba0'2
+calls=80 0 
+0 4240
+0 2080
+cfn=(3501)
+calls=260 0 
+0 14080
+0 5910796
+
+fn=(3501)
+0 18320
+
+fn=(3530)
+0 228816
+cfn=(4508)
+calls=536 0 
+0 2604152
+cfn=(3872)
+calls=752 0 
+0 2035120
+cfn=(4556)
+calls=11120 0 
+0 945082560
+cfn=(5844)
+calls=5336 0 
+0 517938144
+cfn=(3664)
+calls=4136 0 
+0 16181928
+cfn=(3532)
+calls=3544 0 
+0 2711208
+0 220864
+cfn=(5846)
+calls=1344 0 
+0 26979360
+0 510120
+cfn=(7904)
+calls=192 0 
+0 15682344
+cfn=(7780)
+calls=192 0 
+0 18237512
+cfn=(7704)
+calls=192 0 
+0 11092920
+cfn=(7638) 0x0000000000146d00
+calls=200 0 
+0 9576384
+cfn=(7554)
+calls=192 0 
+0 12161064
+cfn=(7226)
+calls=144 0 
+0 5371456
+cfn=(7174) 0x00000000001a6880
+calls=144 0 
+0 4878576
+cfn=(7098)
+calls=64 0 
+0 1988480
+cfn=(7070) 0x00000000001a6090
+calls=64 0 
+0 1708928
+cfn=(6994)
+calls=120 0 
+0 8713680
+cfn=(6914)
+calls=120 0 
+0 10051728
+cfn=(6870)
+calls=120 0 
+0 5126952
+cfn=(6834) 0x00000000001463c0
+calls=120 0 
+0 3944280
+cfn=(6786) 0x000000000014ace0
+calls=120 0 
+0 5658576
+cfn=(6026)
+calls=192 0 
+0 3169536
+cfn=(6626)
+calls=176 0 
+0 2585504
+cfn=(6600)
+calls=192 0 
+0 2219240
+cfn=(6580) 0x00000000001a9720
+calls=160 0 
+0 2839936
+cfn=(6538)
+calls=64 0 
+0 2212992
+cfn=(6476) 0x00000000001aa4f0
+calls=144 0 
+0 5836416
+cfn=(6460)
+calls=672 0 
+0 16658080
+cfn=(6428)
+calls=312 0 
+0 9638904
+cfn=(6376)
+calls=144 0 
+0 7904408
+cfn=(6360)
+calls=672 0 
+0 17781728
+cfn=(6324)
+calls=312 0 
+0 10919040
+cfn=(6312) 0x0000000000137630
+calls=656 0 
+0 11473344
+cfn=(6292) 0x00000000001386f0
+calls=312 0 
+0 5643264
+cfn=(6280) 0x0000000000138f30
+calls=656 0 
+0 11473344
+cfn=(6260) 0x0000000000139ff0
+calls=312 0 
+0 5643264
+cfn=(6228)
+calls=144 0 
+0 4620688
+cfn=(6216)
+calls=704 0 
+0 9204480
+cfn=(6198)
+calls=336 0 
+0 4449984
+cfn=(6186)
+calls=656 0 
+0 12484656
+cfn=(6162) 0x000000000014a7a0
+calls=312 0 
+0 6381984
+cfn=(6072)
+calls=504 0 
+0 5830224
+cfn=(5948)
+calls=368 0 
+0 4516752
+cfn=(5934)
+calls=104 0 
+0 2585792
+cfn=(5920)
+calls=480 0 
+0 5026080
+cfn=(5908) 0x00000000001a9510
+calls=368 0 
+0 4863600
+cfn=(5568)
+calls=472 0 
+0 7556528
+cfn=(5556)
+calls=216 0 
+0 3812568
+cfn=(5544)
+calls=240 0 
+0 4244640
+cfn=(5528)
+calls=216 0 
+0 4319592
+cfn=(5506)
+calls=112 0 
+0 2540656
+cfn=(5470)
+calls=96 0 
+0 4177168
+cfn=(5456)
+calls=240 0 
+0 4567200
+cfn=(5432)
+calls=112 0 
+0 2914736
+cfn=(5424) 0x00000000001372a0
+calls=456 0 
+0 5244584
+cfn=(5416)
+calls=216 0 
+0 2707864
+cfn=(5404) 0x00000000001374b0
+calls=208 0 
+0 3032576
+cfn=(5390)
+calls=200 0 
+0 2980104
+cfn=(5374)
+calls=112 0 
+0 1682320
+cfn=(5366) 0x0000000000138ba0
+calls=472 0 
+0 5249608
+cfn=(5358)
+calls=216 0 
+0 2707864
+cfn=(5346) 0x0000000000138db0
+calls=208 0 
+0 3032576
+cfn=(5332)
+calls=200 0 
+0 2980104
+cfn=(5316)
+calls=112 0 
+0 1682320
+cfn=(5292)
+calls=96 0 
+0 2576432
+cfn=(5284)
+calls=472 0 
+0 4200064
+cfn=(5276)
+calls=240 0 
+0 2261280
+cfn=(5262) 0x0000000000141f00
+calls=128 0 
+0 1270784
+cfn=(5250) 0x0000000000148120
+calls=208 0 
+0 3216192
+cfn=(5232)
+calls=112 0 
+0 1864176
+cfn=(5224)
+calls=360 0 
+0 3050480
+cfn=(5216)
+calls=168 0 
+0 2208160
+cfn=(5204)
+calls=104 0 
+0 1584864
+cfn=(5192)
+calls=120 0 
+0 2075352
+cfn=(5132) 0x000000000019b800
+calls=296 0 
+0 2525408
+cfn=(5124)
+calls=144 0 
+0 1759856
+cfn=(5058) 0x000000000019b9e0
+calls=104 0 
+0 1281664
+cfn=(5046)
+calls=112 0 
+0 1684584
+cfn=(4980) 0x000000000019cc70
+calls=48 0 
+0 1290288
+cfn=(4930) 0x00000000001a26c0
+calls=352 0 
+0 2372272
+cfn=(4840) 0x00000000001a2760
+calls=104 0 
+0 1055800
+cfn=(4824) 0x00000000001a7930
+calls=88 0 
+0 1379136
+0 295344
+cfn=(5216)
+calls=56 0 
+0 174720
+cfn=(6072)
+calls=176 0 
+0 725024
+cfn=(5204)
+calls=112 0 
+0 808416
+cfn=(5224)
+calls=120 0 
+0 328160
+cfn=(5192)
+calls=88 0 
+0 379256
+cfn=(6026)
+calls=128 0 
+0 598512
+cfn=(5176) 0x000000000019ab90
+calls=120 0 
+0 1883904
+0 8800
+cfn=(5216)
+calls=56 0 
+0 3920
+cfn=(6072)
+calls=176 0 
+0 20768
+cfn=(5204)
+calls=112 0 
+0 10080
+cfn=(5224)
+calls=120 0 
+0 5160
+cfn=(5192)
+calls=88 0 
+0 12144
+cfn=(6026)
+calls=128 0 
+0 29952
+cfn=(5176)
+calls=120 0 
+0 21120
+0 386552
+cfn=(8348)
+calls=6080 0 
+0 47142328
+0 4704880
+cfn=(8348)
+calls=470488 0 
+0 737313152
+0 1003760
+cfn=(8348)
+calls=6328 0 
+0 42320840
+0 457640
+cfn=(7370)
+calls=272 0 
+0 2362496
+cfn=(7310)
+calls=344 0 
+0 1746048
+cfn=(7282)
+calls=248 0 
+0 585808
+cfn=(6648)
+calls=104 0 
+0 87008
+cfn=(6718)
+calls=192 0 
+0 731296
+cfn=(6690)
+calls=352 0 
+0 463088
+cfn=(6664)
+calls=312 0 
+0 423904
+cfn=(5960)
+calls=552 0 
+0 236296
+cfn=(6122)
+calls=328 0 
+0 769720
+cfn=(6098)
+calls=536 0 
+0 488512
+cfn=(6084)
+calls=360 0 
+0 219080
+cfn=(6060)
+calls=1456 0 
+0 629856
+cfn=(6050)
+calls=1664 0 
+0 500064
+cfn=(6038)
+calls=640 0 
+0 185792
+cfn=(6002)
+calls=608 0 
+0 670928
+cfn=(5986)
+calls=904 0 
+0 466296
+cfn=(5970)
+calls=592 0 
+0 341872
+cfn=(5156)
+calls=1488 0 
+0 342928
+cfn=(5148)
+calls=1400 0 
+0 215424
+cfn=(5140)
+calls=424 0 
+0 79408
+cfn=(5098)
+calls=464 0 
+0 252416
+cfn=(5086)
+calls=464 0 
+0 146400
+cfn=(5074)
+calls=352 0 
+0 120480
+cfn=(5028)
+calls=1048 0 
+0 263808
+cfn=(5020)
+calls=1136 0 
+0 210656
+cfn=(5012)
+calls=768 0 
+0 172032
+cfn=(5004)
+calls=320 0 
+0 68960
+cfn=(4964)
+calls=1480 0 
+0 206544
+cfn=(4954)
+calls=1584 0 
+0 144048
+cfn=(4946)
+calls=792 0 
+0 94056
+cfn=(4938)
+calls=536 0 
+0 77400
+cfn=(4898)
+calls=336 0 
+0 289936
+cfn=(4882)
+calls=464 0 
+0 235088
+cfn=(4866)
+calls=336 0 
+0 174576
+cfn=(4856)
+calls=160 0 
+0 58720
+cfn=(3688)
+calls=760 0 
+0 320744
+cfn=(3626)
+calls=1304 0 
+0 280344
+cfn=(3564)
+calls=600 0 
+0 188488
+cfn=(3534)
+calls=328 0 
+0 90944
+0 166640
+cfn=(7282)
+calls=176 0 
+0 599896
+cfn=(6648)
+calls=192 0 
+0 191712
+cfn=(6084)
+calls=176 0 
+0 95896
+cfn=(6038)
+calls=512 0 
+0 73336
+cfn=(5960)
+calls=472 0 
+0 113416
+cfn=(5140)
+calls=696 0 
+0 68328
+cfn=(5066)
+calls=408 0 
+0 74824
+cfn=(5004)
+calls=608 0 
+0 86944
+cfn=(4938)
+calls=720 0 
+0 51168
+cfn=(4856)
+calls=344 0 
+0 89048
+cfn=(3534)
+calls=472 0 
+0 45416
+0 76416
+cfn=(7282)
+calls=176 0 
+0 129184
+cfn=(6648)
+calls=192 0 
+0 71040
+cfn=(6084)
+calls=176 0 
+0 51392
+cfn=(6038)
+calls=512 0 
+0 53248
+cfn=(5960)
+calls=472 0 
+0 84016
+cfn=(5140)
+calls=696 0 
+0 48720
+cfn=(5066)
+calls=408 0 
+0 53856
+cfn=(5004)
+calls=608 0 
+0 46208
+cfn=(4938)
+calls=720 0 
+0 36720
+cfn=(4856)
+calls=344 0 
+0 68800
+cfn=(3534)
+calls=472 0 
+0 52864
+0 84544
+cfn=(3670)
+calls=216 0 
+0 674080
+0 1584
+cfn=(3670)
+calls=144 0 
+0 114192
+0 9504
+cfn=(3670)
+calls=216 0 
+0 273672
+0 16080
+cfn=(3670)
+calls=856 0 
+0 3625167
+0 20928
+cfn=(4510)
+calls=2040 0 
+0 32104901
+0 20880
+cfn=(3532)
+calls=32 0 
+0 20928
+0 2752
+cfn=(4510)
+calls=64 0 
+0 28608
+0 128
+cfn=(4510)
+calls=16 0 
+0 4008
+0 560
+cfn=(8110)
+calls=80 0 
+0 63008
+0 1063144
+cfn=(3872)
+calls=128 0 
+0 283776
+cfn=(8110)
+calls=128 0 
+0 45344
+cfn=(4556)
+calls=1568 0 
+0 44033984
+cfn=(4816) 0x000000000002bdf0
+calls=14616 0 
+0 213776384
+cfn=(3532)
+calls=16432 0 
+0 4196272
+0 35336
+cfn=(3872)
+calls=32 0 
+0 70944
+cfn=(8110)
+calls=32 0 
+0 11336
+cfn=(4556)
+calls=608 0 
+0 24131144
+cfn=(4816)
+calls=1776 0 
+0 47453704
+cfn=(3532)
+calls=2600 0 
+0 714152
+0 306240
+cfn=(7550)
+calls=32 0 
+0 23088
+0 224
+
+fn=(3578) 0x000000000002e0d0
+0 17064
+cfn=(3584)
+calls=4265 0 
+0 587351
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 755
+0 4270
+0 8532
+cfn=(3584)
+calls=4266 0 
+0 584361
+0 4266
+0 12798
+cfn=(3584)
+calls=4266 0 
+0 698675
+0 4266
+
+fn=(3714)
+0 15770
+cfn=(3716)
+calls=1577 0 
+0 40134
+0 16532
+
+fn=(3920)
+0 26078
+cfn=(3930) fftw_tensor_inplace_strides2
+calls=1533 0 
+0 38031
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1434
+0 1538
+0 26578
+cfn=(3324)
+calls=390 0 
+0 2340
+0 390
+0 1170
+cfn=(3324)
+calls=390 0 
+0 2340
+0 390
+0 5886
+cfn=(1040)
+calls=2 0 
+0 12
+0 2
+0 8
+cfn=(1040)
+calls=2 0 
+0 12
+0 2
+0 12
+cfn=(1040)
+calls=2 0 
+0 12
+0 2
+0 24
+cfn=(1040)
+calls=6 0 
+0 36
+0 6
+0 48
+cfn=(1040)
+calls=8 0 
+0 48
+0 8
+0 48
+cfn=(4418)
+calls=8 0 
+0 3350
+0 8
+0 48
+cfn=(4418)
+calls=8 0 
+0 3254
+0 8
+0 96
+cfn=(3490)
+calls=8 0 
+0 5453
+0 8
+0 16
+cfn=(3986)
+calls=8 0 
+0 3225
+0 8
+0 56
+cfn=(1070)
+calls=8 0 
+0 69039
+0 8
+0 24
+cfn=(3115)
+calls=8 0 
+0 1393255
+0 8
+0 40
+cfn=(1122)
+calls=8 0 
+0 1952
+0 8
+0 32
+cfn=(3302)
+calls=8 0 
+0 2554
+0 8
+0 40
+cfn=(3302)
+calls=8 0 
+0 2672
+0 8
+0 120
+cfn=(1070)
+calls=8 0 
+0 61639
+0 8
+0 24
+cfn=(3115)
+calls=8 0 
+0 2598508
+0 8
+0 40
+cfn=(3302)
+calls=8 0 
+0 3280
+0 8
+0 184
+cfn=(3302)
+calls=8 0 
+0 2917
+0 8
+0 56
+cfn=(1070)
+calls=8 0 
+0 46223
+0 8
+0 24
+cfn=(3115)
+calls=8 0 
+0 682242
+0 8
+0 56
+cfn=(3398)
+calls=8 0 
+0 3611
+0 8
+0 104
+cfn=(8090)
+calls=7 0 
+0 63
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 586
+0 12
+0 32
+cfn=(3078)
+calls=8 0 
+0 168
+0 8
+0 32
+cfn=(3078)
+calls=8 0 
+0 168
+0 8
+0 90
+cfn=(1040)
+calls=6 0 
+0 36
+0 6
+0 24
+cfn=(1040)
+calls=6 0 
+0 36
+0 6
+0 60
+
+fn=(3921)
+0 428
+cfn=(3930)
+calls=25 0 
+0 809
+0 25
+0 550
+cfn=(3324)
+calls=11 0 
+0 66
+0 11
+0 33
+cfn=(3324)
+calls=11 0 
+0 66
+0 11
+0 134
+
+fn=(4088)
+0 8460
+cfn=(1202)
+calls=564 0 
+0 1692
+0 564
+0 6768
+
+fn=(4262)
+0 12613
+
+fn=(4266)
+0 6980
+cfn=(4576)
+calls=385 0 
+0 29645
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 718
+0 390
+0 2672
+
+fn=(4368) fftw_problem_destroy
+0 116806
+cfn=(1122)
+calls=12674 0 
+0 3092456
+0 12674
+0 38022
+cfn=(1134)
+calls=12674 0 
+0 1470184
+0 12674
+0 3425
+cfn=(1122)
+calls=685 0 
+0 167171
+0 685
+0 2055
+cfn=(1134)
+calls=685 0 
+0 79460
+0 685
+
+fn=(4446)
+0 45582
+cfn=(1122)
+calls=7597 0 
+0 1853865
+0 7597
+0 45582
+cfn=(1122)
+calls=7597 0 
+0 1853668
+0 7597
+
+fn=(4554) 0x0000000000030b10
+0 10594
+cfn=(3481)
+calls=5297 0 
+0 108512738
+0 5297
+
+fn=(4555) 0x0000000000030b10'2
+0 5306
+cfn=(3481)
+calls=2653 0 
+0 30375358
+0 2653
+
+fn=(4634)
+0 46320
+cfn=(4646)
+calls=1544 0 
+0 1390304
+0 1544
+0 55584
+cob=(2) ???
+cfi=(2) ???
+cfn=(4638) 0x0000000004c4f7c0
+calls=1544 0 
+0 1435853
+0 27792
+cob=(2)
+cfi=(2)
+cfn=(4650) 0x0000000004c4f7d0
+calls=1544 0 
+0 1380224
+0 312936
+cfn=(4635) fftw_tile2d'2
+calls=7296 0 
+0 69199736
+0 7296
+0 59136
+cfn=(4635)
+calls=1872 0 
+0 49126856
+0 1872
+0 267336
+cob=(2)
+cfi=(2)
+cfn=(4638)
+calls=1104 0 
+0 145416
+0 22080
+cob=(2)
+cfi=(2)
+cfn=(4638)
+calls=1104 0 
+0 143368
+0 22080
+cob=(2)
+cfi=(2)
+cfn=(4650)
+calls=1104 0 
+0 145416
+0 19872
+cob=(2)
+cfi=(2)
+cfn=(4650)
+calls=1104 0 
+0 143368
+0 7728
+
+fn=(4635)
+0 1521360
+cfn=(4646)
+calls=50712 0 
+0 35053416
+0 50712
+0 1825632
+cob=(2)
+cfi=(2)
+cfn=(4638)
+calls=50712 0 
+0 37894456
+0 912816
+cob=(2)
+cfi=(2)
+cfn=(4650)
+calls=50712 0 
+0 34308080
+0 4258360
+cfn=(4635)
+calls=53472 0 
+0 129872664
+0 53472
+0 834432
+cfn=(4635)
+calls=38784 0 
+0 135877840
+0 38784
+0 1575072
+
+fn=(4640)
+0 1303904
+cfn=(4646)
+calls=21160 0 
+0 29586000
+0 21160
+0 176080
+cfn=(4646)
+calls=35215 0 
+0 45019843
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 870
+0 35220
+
+fn=(4676)
+0 41976
+cfn=(4652)
+calls=1272 0 
+0 29497704
+0 11448
+
+fn=(4776) 0x000000000002bed0
+0 48951
+cfn=(3481)
+calls=6993 0 
+0 105838078
+0 6993
+0 41958
+cfn=(3481)
+calls=6993 0 
+0 166568141
+0 6993
+
+fn=(4777) 0x000000000002bed0'2
+0 47376
+cfn=(3481)
+calls=6768 0 
+0 28173325
+0 6768
+0 40608
+cfn=(3481)
+calls=6768 0 
+0 105401137
+0 6768
+
+fn=(4792)
+0 61938
+cfn=(1058)
+calls=6882 0 
+0 2825122
+0 6882
+0 172050
+
+fn=(4840)
+0 2150848
+
+fn=(4930)
+0 6443920
+
+fn=(4938)
+0 229080
+
+fn=(5066)
+0 216680
+
+fn=(5176)
+0 1905024
+
+fn=(5262)
+0 1270784
+
+fn=(5528)
+0 35956080
+
+fn=(5648) 0x000000000006a020
+0 17652
+
+fn=(6002)
+0 1861200
+
+fn=(6084)
+0 95723536
+
+fn=(6098)
+0 11418560
+
+fn=(6162)
+0 6381984
+
+fn=(7070)
+0 1708928
+
+fn=(7174)
+0 237591144
+
+fn=(8490)
+0 5214832
+
+fn=(8512)
+0 4617984
+
+fn=(8592)
+0 2146200
+
+fn=(8628)
+0 2669760
+
+fn=(8636)
+0 5301440
+
+fn=(8794)
+0 1799520
+
+fn=(8876)
+0 4652064
+
+fn=(9072)
+0 11103408
+
+fn=(9496)
+0 2727008
+
+fn=(9588)
+0 2727008
+
+fn=(4590)
+0 3672150
+cfn=(4591) 0x00000000000684c0'2
+calls=122405 0 
+0 5028355
+0 9172668
+cfn=(4591)
+calls=1528778 0 
+0 62707948
+0 4281606
+
+fn=(4591)
+0 26434828
+cfn=(4591)
+calls=210 0 
+0 8610
+0 3600
+cfn=(4591)
+calls=600 0 
+0 24600
+0 41297875
+
+fn=(1128)
+0 113075
+cfn=(1134)
+calls=113074 0 
+0 13117395
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 3367
+0 113079
+
+fn=(1272) fftw_dft_rank_geq2_register
+0 14
+cfn=(1228)
+calls=1 0 
+0 367
+0 1
+0 8
+cfn=(1228)
+calls=2 0 
+0 765
+0 2
+0 18
+cfn=(1234)
+calls=3 0 
+0 1918
+0 3
+0 16
+
+fn=(1286) fftw_ct_generic_register
+0 11
+cfn=(1294)
+calls=1 0 
+0 544
+0 1
+0 3
+cfn=(1234)
+calls=1 0 
+0 250
+0 1
+0 12
+cfn=(1288) 0x000000000002d600
+calls=1 0 
+0 1909
+0 4
+
+fn=(1446) fftw_codelet_q1_4
+0 3
+cfn=(1438)
+calls=1 0 
+0 627
+0 1
+
+fn=(1448) fftw_codelet_q1_8
+0 3
+cfn=(1438)
+calls=1 0 
+0 627
+0 1
+
+fn=(1454) fftw_codelet_q1_6
+0 3
+cfn=(1438)
+calls=1 0 
+0 641
+0 1
+
+fn=(1806)
+0 35
+
+fn=(2154) fftw_rdft_indirect_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 319
+0 1
+0 5
+cfn=(1234)
+calls=1 0 
+0 274
+0 1
+0 3
+cfn=(1228)
+calls=1 0 
+0 319
+0 1
+0 6
+cfn=(1234)
+calls=1 0 
+0 274
+0 1
+
+fn=(2224) fftw_codelet_r2cf_3
+0 3
+cfn=(2204)
+calls=1 0 
+0 1862
+0 1
+
+fn=(2230) fftw_codelet_r2cf_6
+0 3
+cfn=(2204)
+calls=1 0 
+0 1856
+0 1
+
+fn=(2236) fftw_codelet_r2cf_9
+0 3
+cfn=(2204)
+calls=1 0 
+0 1898
+0 1
+
+fn=(2242) fftw_codelet_r2cf_12
+0 3
+cfn=(2204)
+calls=1 0 
+0 1922
+0 1
+
+fn=(2248) fftw_codelet_r2cf_15
+0 3
+cfn=(2204)
+calls=1 0 
+0 1603
+0 1
+
+fn=(2254) fftw_codelet_r2cf_64
+0 3
+cfn=(2204)
+calls=1 0 
+0 2110
+0 1
+
+fn=(2260) fftw_codelet_r2cf_25
+0 3
+cfn=(2204)
+calls=1 0 
+0 1886
+0 1
+
+fn=(2268)
+0 46
+cfn=(2274)
+calls=45 0 
+0 55787
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1918
+0 50
+
+fn=(2398) fftw_codelet_hc2cf2_8
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2416) fftw_codelet_hc2cfdft_12
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2438) fftw_codelet_r2cb_4
+0 3
+cfn=(2204)
+calls=1 0 
+0 1862
+0 1
+
+fn=(2444) fftw_codelet_r2cb_7
+0 3
+cfn=(2204)
+calls=1 0 
+0 1862
+0 1
+
+fn=(2450) fftw_codelet_r2cb_10
+0 3
+cfn=(2204)
+calls=1 0 
+0 1886
+0 1
+
+fn=(2456) fftw_codelet_r2cb_13
+0 3
+cfn=(2204)
+calls=1 0 
+0 1880
+0 1
+
+fn=(2462) fftw_codelet_r2cb_16
+0 3
+cfn=(2204)
+calls=1 0 
+0 1922
+0 1
+
+fn=(2468) fftw_codelet_r2cb_128
+0 3
+cfn=(2204)
+calls=1 0 
+0 1627
+0 1
+
+fn=(2474) fftw_codelet_hb_2
+0 3
+cfn=(2268)
+calls=1 0 
+0 1457
+0 1
+
+fn=(2480) fftw_codelet_hb_5
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2486) fftw_codelet_hb_8
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2492) fftw_codelet_hb_12
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2498) fftw_codelet_hb_32
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2504) fftw_codelet_hb_25
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2510) fftw_codelet_hb2_16
+0 3
+cfn=(2268)
+calls=1 0 
+0 1255
+0 1
+
+fn=(2516) fftw_codelet_hb2_20
+0 3
+cfn=(2268)
+calls=1 0 
+0 1255
+0 1
+
+fn=(2522) fftw_codelet_r2cbIII_3
+0 3
+cfn=(2204)
+calls=1 0 
+0 1652
+0 1
+
+fn=(2528) fftw_codelet_r2cbIII_6
+0 3
+cfn=(2204)
+calls=1 0 
+0 1746
+0 1
+
+fn=(2534) fftw_codelet_r2cbIII_9
+0 3
+cfn=(2204)
+calls=1 0 
+0 1934
+0 1
+
+fn=(2540) fftw_codelet_r2cbIII_15
+0 3
+cfn=(2204)
+calls=1 0 
+0 1958
+0 1
+
+fn=(2546) fftw_codelet_r2cbIII_64
+0 3
+cfn=(2204)
+calls=1 0 
+0 1958
+0 1
+
+fn=(2562) fftw_codelet_hc2cb_12
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2580) fftw_codelet_hc2cbdft_2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1314
+0 1
+
+fn=(2598) fftw_codelet_hc2cbdft2_4
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2636) fftw_codelet_hc2cfdftv_16_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1426
+0 1
+
+fn=(2654) fftw_codelet_hc2cbdftv_16_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1426
+0 1
+
+fn=(2666) fftw_codelet_hc2cfdftv_8_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1394
+0 1
+
+fn=(2684) fftw_codelet_hc2cbdftv_8_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1394
+0 1
+
+fn=(2702) fftw_redft00e_r2hc_pad_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 319
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 306
+0 1
+
+fn=(2840) fftw_md5end
+0 1035665
+cfn=(2770)
+calls=309595 0 
+0 8978255
+0 309595
+0 13360
+cfn=(2770)
+calls=13360 0 
+0 387440
+0 13360
+0 1371980
+cfn=(2770)
+calls=13360 0 
+0 387440
+0 13360
+0 374080
+cfn=(2770)
+calls=93520 0 
+0 26332560
+0 93520
+0 267200
+
+fn=(3140)
+0 19182
+cfn=(3936)
+calls=333 0 
+0 3041
+0 333
+0 674
+cfn=(3398)
+calls=2 0 
+0 1136
+0 2
+0 6
+cfn=(3058)
+calls=2 0 
+0 12
+0 2
+0 6
+
+fn=(3146)
+0 35844
+cfn=(1178)
+calls=132 0 
+0 2859
+0 132
+0 332
+
+fn=(3188)
+0 7416
+cfn=(3194)
+calls=230 0 
+0 15996
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1738
+0 235
+0 1155
+cfn=(3194)
+calls=231 0 
+0 13860
+0 231
+0 4620
+
+fn=(3206)
+0 34536
+
+fn=(3482) fftw_null_awake
+0 11953
+
+fn=(3490)
+0 189137
+cfn=(1052)
+calls=14549 0 
+0 5446442
+0 14549
+0 625229
+
+fn=(3600) 0x0000000000159e80
+0 44697
+
+fn=(3682)
+0 435396144
+
+fn=(3792)
+0 137328
+
+fn=(3816)
+0 8610
+cfn=(3818)
+calls=1230 0 
+0 25830
+0 11070
+
+fn=(3930)
+0 17154
+cfn=(3936)
+calls=5717 0 
+0 67756
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 694
+0 5722
+0 22872
+cfn=(3936)
+calls=2466 0 
+0 37895
+0 2466
+0 12330
+
+fn=(3942)
+0 14784
+cfn=(3962) fftw_tensor_min_ostride
+calls=230 0 
+0 6670
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 694
+0 235
+0 924
+cfn=(3972)
+calls=230 0 
+0 6670
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 686
+0 235
+0 3003
+cfn=(3490)
+calls=231 0 
+0 105131
+0 231
+0 462
+cfn=(3986)
+calls=230 0 
+0 73416
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1082
+0 235
+0 1617
+cfn=(1070)
+calls=231 0 
+0 617213
+0 231
+0 693
+cfn=(3115)
+calls=231 0 
+0 300974875
+0 231
+0 1386
+cfn=(4412) 0x000000000002ed80
+calls=231 0 
+0 1520108
+0 1386
+cfn=(4454)
+calls=230 0 
+0 1190172629
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 161080
+0 235
+0 1848
+cfn=(3398)
+calls=231 0 
+0 102303
+0 231
+0 1848
+cfn=(4498)
+calls=230 0 
+0 5520
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 593
+0 235
+0 2541
+
+fn=(3943)
+0 59216
+cfn=(3490)
+calls=446 0 
+0 209237
+0 446
+0 892
+cfn=(3986)
+calls=446 0 
+0 146738
+0 446
+0 3122
+cfn=(1070)
+calls=446 0 
+0 3366964
+0 446
+0 1338
+cfn=(3115)
+calls=446 0 
+0 39829229
+0 446
+0 1722
+cfn=(8064)
+calls=12 0 
+0 94069
+cfn=(4412)
+calls=116 0 
+0 796652
+0 768
+cfn=(4455)
+calls=128 0 
+0 3987374
+0 128
+0 1024
+cfn=(3398)
+calls=128 0 
+0 50802
+0 128
+0 1024
+cfn=(4498)
+calls=128 0 
+0 3072
+0 128
+0 4048
+cfn=(2968)
+calls=318 0 
+0 954
+0 318
+0 636
+cfn=(2968)
+calls=318 0 
+0 954
+0 318
+0 5238
+cfn=(3930)
+calls=1640 0 
+0 51532
+0 1640
+0 13102
+cfn=(5618)
+calls=779 0 
+0 22460
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 739
+0 784
+0 2006
+
+fn=(3962)
+0 4389
+cfn=(3324)
+calls=231 0 
+0 1386
+0 231
+0 693
+
+fn=(4042) fftw_dimcmp
+0 42405
+cfn=(3324)
+calls=3855 0 
+0 23130
+0 3855
+0 11565
+cfn=(3324)
+calls=3855 0 
+0 23130
+0 3855
+0 11565
+cfn=(3324)
+calls=3855 0 
+0 23130
+0 3855
+0 15420
+cfn=(3324)
+calls=3855 0 
+0 23130
+0 3855
+0 15420
+cfn=(3206)
+calls=3855 0 
+0 15420
+0 3855
+0 15420
+cfn=(3206)
+calls=3855 0 
+0 15420
+0 3855
+0 55830
+
+fn=(4046) 0x0000000000068640
+0 6850
+cfn=(2788)
+calls=685 0 
+0 130150
+0 685
+0 4110
+cfn=(2778)
+calls=685 0 
+0 113025
+0 685
+0 4110
+cfn=(2808)
+calls=685 0 
+0 2055
+0 685
+0 2055
+cfn=(2778)
+calls=685 0 
+0 113025
+0 685
+0 1370
+cfn=(2808)
+calls=685 0 
+0 2055
+0 685
+0 2055
+cfn=(2778)
+calls=685 0 
+0 113025
+0 685
+0 2055
+cfn=(2830)
+calls=685 0 
+0 126725
+0 685
+0 5480
+cfn=(2830)
+calls=685 0 
+0 3263579
+0 685
+
+fn=(4138)
+0 5640
+
+fn=(4248)
+0 8304
+cfn=(5684)
+calls=666 0 
+0 11596
+0 1422
+cfn=(4576)
+calls=30 0 
+0 2010
+0 30
+0 1422
+
+fn=(4498)
+0 34320
+cfn=(3084)
+calls=6864 0 
+0 123552
+0 6864
+
+fn=(4504) 0x00000000000641e0
+0 1544
+cfn=(3481)
+calls=772 0 
+0 11580
+0 772
+
+fn=(4556)
+0 2386704
+cfn=(4817) 0x000000000002bdf0'2
+calls=20464 0 
+0 93522512
+cfn=(4816)
+calls=144224 0 
+0 1078835120
+0 226128
+cfn=(4817)
+calls=6008 0 
+0 37154328
+cfn=(4816)
+calls=26296 0 
+0 353392696
+0 1637376
+
+fn=(4557)
+0 1446824
+cfn=(4817)
+calls=95624 0 
+0 422323664
+0 146552
+cfn=(4817)
+calls=20936 0 
+0 91259616
+0 983408
+
+fn=(4794)
+0 2372007
+
+fn=(4856)
+0 55657104
+
+fn=(4980)
+0 1290288
+
+fn=(5038)
+0 6166
+
+fn=(5058)
+0 1281664
+
+fn=(5346)
+0 3032576
+
+fn=(5506)
+0 4849040
+
+fn=(5568)
+0 14909440
+
+fn=(5748) 0x00000000001b6fe0
+0 23850
+
+fn=(5848) 0x00000000001b3e70
+0 9529296
+
+fn=(5908)
+0 4863600
+
+fn=(5970)
+0 6737808
+
+fn=(6260)
+0 5643264
+
+fn=(6292)
+0 5643264
+
+fn=(6324)
+0 20487992
+
+fn=(6580)
+0 2839936
+
+fn=(6834)
+0 3944280
+
+fn=(7310)
+0 3420224
+
+fn=(7498)
+0 28080
+cfn=(7552)
+calls=720 0 
+0 66400
+cfn=(7530)
+calls=160 0 
+0 77960
+cfn=(7502)
+calls=160 0 
+0 228240
+
+fn=(7502)
+0 3472
+cfn=(4576)
+calls=248 0 
+0 16616
+0 248
+0 2480
+cfn=(7504)
+calls=248 0 
+0 768904
+0 1736
+
+fn=(8098) 0x000000000002efb0
+0 112
+cfn=(3481)
+calls=16 0 
+0 512
+0 16
+0 48
+cfn=(3481)
+calls=16 0 
+0 1216
+0 16
+0 96
+cfn=(3481)
+calls=16 0 
+0 274
+0 16
+
+fn=(8620)
+0 1172736
+
+fn=(8776)
+0 2635064
+
+fn=(8826)
+0 1102456
+
+fn=(8842)
+0 1849096
+
+fn=(9434)
+0 2286736
+
+fn=(9522)
+0 2883984
+
+fn=(9614)
+0 2883984
+
+fn=(990)
+0 2
+cfn=(996)
+calls=1 0 
+0 364
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2998
+0 6
+
+fn=(1046)
+0 69008
+cfn=(1052)
+calls=8625 0 
+0 2676748
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1567
+0 8630
+0 60382
+
+fn=(1156) fftw_the_planner
+0 5
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 4350
+0 5
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1080573
+0 5
+0 3
+
+fn=(1280) fftw_dft_rader_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 382
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 930
+0 1
+
+fn=(1324)
+0 1224
+cfn=(1228)
+calls=153 0 
+0 58688
+0 153
+0 1071
+
+fn=(1326) fftw_codelet_n1_3
+0 3
+cfn=(1312)
+calls=1 0 
+0 1025
+0 1
+
+fn=(1330) fftw_codelet_n1_5
+0 3
+cfn=(1312)
+calls=1 0 
+0 1025
+0 1
+
+fn=(1374)
+0 3440
+cfn=(1294)
+calls=215 0 
+0 87780
+0 215
+0 1290
+cfn=(1234)
+calls=215 0 
+0 62273
+0 215
+0 4515
+cfn=(1376)
+calls=215 0 
+0 191040
+0 2365
+
+fn=(1390) fftw_codelet_t1_6
+0 3
+cfn=(1368)
+calls=1 0 
+0 1281
+0 1
+
+fn=(1396) fftw_codelet_t1_9
+0 3
+cfn=(1368)
+calls=1 0 
+0 1281
+0 1
+
+fn=(1402) fftw_codelet_t1_15
+0 3
+cfn=(1368)
+calls=1 0 
+0 1293
+0 1
+
+fn=(1408) fftw_codelet_t1_64
+0 3
+cfn=(1368)
+calls=1 0 
+0 1321
+0 1
+
+fn=(1414) fftw_codelet_t2_4
+0 3
+cfn=(1368)
+calls=1 0 
+0 1281
+0 1
+
+fn=(1420) fftw_codelet_t2_32
+0 3
+cfn=(1368)
+calls=1 0 
+0 1297
+0 1
+
+fn=(1426) fftw_codelet_t2_10
+0 3
+cfn=(1368)
+calls=1 0 
+0 1297
+0 1
+
+fn=(1432) fftw_codelet_q1_2
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1993
+0 5
+
+fn=(1462) fftw_codelet_n1fv_2_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1349
+0 1
+
+fn=(1468) fftw_codelet_n1fv_5_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1474) fftw_codelet_n1fv_8_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1480) fftw_codelet_n1fv_11_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1486) fftw_codelet_n1fv_14_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1492) fftw_codelet_n1fv_32_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1498) fftw_codelet_n1fv_20_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1337
+0 1
+
+fn=(1504) fftw_codelet_n1bv_3_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1510) fftw_codelet_n1bv_6_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1516) fftw_codelet_n1bv_9_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1522) fftw_codelet_n1bv_12_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1528) fftw_codelet_n1bv_15_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1534) fftw_codelet_n1bv_64_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1540) fftw_codelet_n1bv_25_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1337
+0 1
+
+fn=(1546) fftw_codelet_n2fv_6_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1321
+0 1
+
+fn=(1552) fftw_codelet_n2fv_12_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1558) fftw_codelet_n2fv_32_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1564) fftw_codelet_n2bv_2_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1570) fftw_codelet_n2bv_8_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1576) fftw_codelet_n2bv_14_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1582) fftw_codelet_n2bv_64_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1588) fftw_codelet_n2sv_8_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1594) fftw_codelet_n2sv_64_sse2
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1600) fftw_codelet_t1fuv_4_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1405
+0 1
+
+fn=(1606) fftw_codelet_t1fuv_7_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 9474
+0 1
+
+fn=(1612) fftw_codelet_t1fuv_10_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1425
+0 1
+
+fn=(1618) fftw_codelet_t1fv_4_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1624) fftw_codelet_t1fv_7_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1630) fftw_codelet_t1fv_10_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1636) fftw_codelet_t1fv_16_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1642) fftw_codelet_t1fv_20_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1648) fftw_codelet_t2fv_4_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1654) fftw_codelet_t2fv_32_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1660) fftw_codelet_t2fv_10_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1405
+0 1
+
+fn=(1666) fftw_codelet_t3fv_4_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(1672) fftw_codelet_t3fv_32_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1433
+0 1
+
+fn=(1678) fftw_codelet_t3fv_20_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 11012
+0 1
+
+fn=(1684) fftw_codelet_t1buv_3_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1690) fftw_codelet_t1buv_6_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1696) fftw_codelet_t1buv_9_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1702) fftw_codelet_t1bv_3_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1708) fftw_codelet_t1bv_6_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1714) fftw_codelet_t1bv_9_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1720) fftw_codelet_t1bv_15_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1726) fftw_codelet_t1bv_64_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1732) fftw_codelet_t2bv_2_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1738) fftw_codelet_t2bv_16_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1744) fftw_codelet_t2bv_5_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1750) fftw_codelet_t2bv_25_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1405
+0 1
+
+fn=(1756) fftw_codelet_t3bv_16_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1433
+0 1
+
+fn=(1762) fftw_codelet_t3bv_10_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1433
+0 1
+
+fn=(1768) fftw_codelet_t1sv_2_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(1774) fftw_codelet_t1sv_16_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(1780) fftw_codelet_t2sv_8_sse2
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1786) fftw_codelet_q1fv_2_sse2
+0 3
+cfn=(1438)
+calls=1 0 
+0 685
+0 1
+
+fn=(1792) fftw_codelet_q1fv_8_sse2
+0 3
+cfn=(1438)
+calls=1 0 
+0 685
+0 1
+
+fn=(1798) fftw_codelet_q1bv_5_sse2
+0 3
+cfn=(1438)
+calls=1 0 
+0 685
+0 1
+
+fn=(2158) fftw_rdft_vrank3_transpose_register
+0 14
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 8
+cfn=(1228)
+calls=2 0 
+0 738
+0 2
+0 12
+cfn=(1234)
+calls=3 0 
+0 1014
+0 3
+0 16
+
+fn=(2166) fftw_rdft_generic_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 266
+0 1
+0 3
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 5
+cfn=(1234)
+calls=1 0 
+0 266
+0 1
+
+fn=(2170) fftw_dft_r2hc_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 234
+0 1
+
+fn=(2276)
+0 598
+cfn=(2196)
+calls=46 0 
+0 18266
+0 46
+0 276
+cfn=(1234)
+calls=46 0 
+0 9228
+0 46
+0 460
+
+fn=(2360) fftw_codelet_hc2cf_2
+0 4
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 3205
+0 5
+
+fn=(2390) fftw_codelet_hc2cf_16
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2408) fftw_codelet_hc2cfdft_4
+0 4
+cfn=(2366)
+calls=1 0 
+0 1314
+0 1
+
+fn=(2426) fftw_codelet_hc2cfdft2_8
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2554) fftw_codelet_hc2cb_4
+0 4
+cfn=(2366)
+calls=1 0 
+0 1266
+0 1
+
+fn=(2572) fftw_codelet_hc2cb2_8
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2590) fftw_codelet_hc2cbdft_12
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2628) fftw_codelet_hc2cfdftv_6_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2646) fftw_codelet_hc2cbdftv_6_sse2
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2676) fftw_codelet_hc2cfdftv_20_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2694) fftw_codelet_hc2cbdftv_20_avx
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2706) fftw_reodft00e_splitradix_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 330
+0 1
+
+fn=(2708) fftw_reodft010e_r2hc_register
+0 5
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 290
+0 1
+
+fn=(2736)
+0 24
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 583
+0 5
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1928
+0 5
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 726
+0 5
+0 4
+cfn=(2782)
+calls=1 0 
+0 7148
+0 2
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 4109
+0 5
+0 9
+cfn=(2846)
+calls=1 0 
+0 38
+0 38
+cfn=(2868)
+calls=1 0 
+0 4094992515
+0 7
+cfn=(2846)
+calls=1 0 
+0 38
+0 6
+
+fn=(2737) 0x0000000000026d00'2
+0 320616
+cfn=(2750)
+calls=13359 0 
+0 80154
+0 13359
+0 40077
+cfn=(2758) fftw_md5unsigned
+calls=13359 0 
+0 2204235
+0 13359
+0 40077
+cfn=(2778)
+calls=13359 0 
+0 2204235
+0 13359
+0 53436
+cfn=(4046)
+calls=685 0 
+0 3897204
+cfn=(2782)
+calls=12674 0 
+0 72947973
+0 26718
+cfn=(2840)
+calls=13359 0 
+0 39574267
+0 13359
+0 120231
+cfn=(2846)
+calls=13359 0 
+0 507642
+0 185181
+cfn=(2869)
+calls=2124 0 
+0 12341280730
+0 625891
+cfn=(3226)
+calls=37 0 
+0 2080365
+cfn=(3140)
+calls=1 0 
+0 756
+cfn=(4216)
+calls=121 0 
+0 87181
+cfn=(2886)
+calls=121 0 
+0 2552100
+cfn=(3943)
+calls=112 0 
+0 6612018
+cfn=(2903)
+calls=3257 0 
+0 145538407
+cfn=(3227)
+calls=3104 0 
+0 140852761
+cfn=(3116)
+calls=3218 0 
+0 7043035
+0 239304
+cfn=(4338) 0x00000000000262f0
+calls=9971 0 
+0 3129283
+0 11853
+cfn=(4338)
+calls=1317 0 
+0 2369194
+0 164611
+cfn=(2846)
+calls=13359 0 
+0 3355320
+0 53712
+cfn=(4338)
+calls=807 0 
+0 814379
+0 31527
+
+fn=(2808)
+0 156210
+
+fn=(3114)
+0 288
+cfn=(2737)
+calls=48 0 
+0 3769216596
+0 144
+cfn=(4368)
+calls=48 0 
+0 17952
+0 48
+0 240
+
+fn=(3115)
+0 79866
+cfn=(2737)
+calls=13311 0 
+0 9009881313
+0 39933
+cfn=(4368)
+calls=13310 0 
+0 4977971
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1007
+0 13315
+0 66555
+
+fn=(3676)
+0 17217400
+cfn=(3682)
+calls=555399 0 
+0 237145724
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 909
+0 555404
+
+fn=(3910)
+0 154434
+
+fn=(4076)
+0 12408
+
+fn=(4082)
+0 14100
+
+fn=(4146)
+0 2820
+
+fn=(4298)
+0 6832
+cfn=(3058)
+calls=976 0 
+0 5856
+0 976
+0 6832
+
+fn=(4300)
+0 4206
+
+fn=(4338)
+0 3793199
+cfn=(1164)
+calls=2124 0 
+0 2496293
+0 23364
+
+fn=(4512)
+0 8976
+cfn=(4640)
+calls=272 0 
+0 357984
+0 8064
+cfn=(4522)
+calls=431 0 
+0 2050292
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 613
+0 436
+0 1904
+
+fn=(4534) 0x00000000000641d0
+0 734
+cfn=(2969)
+calls=367 0 
+0 75370
+0 367
+
+fn=(4536) fftw_plan_null_destroy
+0 978
+
+fn=(4814)
+0 27524
+cfn=(1202)
+calls=6881 0 
+0 20643
+0 6881
+0 13762
+cfn=(1202)
+calls=6881 0 
+0 20643
+0 6881
+0 20643
+cfn=(1134)
+calls=6881 0 
+0 798196
+0 6881
+
+fn=(4848) 0x000000000002beb0
+0 13024
+cfn=(2969)
+calls=3256 0 
+0 1443607
+0 3256
+0 9768
+cfn=(2969)
+calls=3256 0 
+0 4467162
+0 3256
+
+fn=(4849) 0x000000000002beb0'2
+0 12972
+cfn=(2969)
+calls=3243 0 
+0 1473093
+0 3243
+0 9729
+cfn=(2969)
+calls=3243 0 
+0 3287341
+0 3243
+
+fn=(4992) 0x00000000001b6f50
+0 1080
+
+fn=(5012)
+0 236128
+
+fn=(5132)
+0 2525408
+
+fn=(5140)
+0 262496
+
+fn=(5148)
+0 18905080
+
+fn=(5250)
+0 3216192
+
+fn=(5366)
+0 5249608
+
+fn=(5404)
+0 3032576
+
+fn=(5470)
+0 7969440
+
+fn=(5544)
+0 8282272
+
+fn=(5868) 0x000000000002d000
+0 4532
+cfn=(3584)
+calls=1133 0 
+0 138226
+0 1133
+0 3399
+cfn=(3584)
+calls=1133 0 
+0 138226
+0 1133
+
+fn=(6280)
+0 11473344
+
+fn=(6312)
+0 11473344
+
+fn=(6476)
+0 5836416
+
+fn=(7638)
+0 207962088
+
+fn=(7780)
+0 35295944
+
+fn=(8120) 0x000000000002ef90
+0 32
+cfn=(2969)
+calls=8 0 
+0 3624
+0 8
+0 16
+cfn=(2969)
+calls=8 0 
+0 13530
+0 8
+0 24
+cfn=(2969)
+calls=8 0 
+0 2563
+0 8
+
+fn=(8144) 0x00000000001b45b0
+0 126408336
+
+fn=(8818)
+0 1467936
+
+fn=(8910)
+0 2701280
+
+fn=(8918)
+0 11109760
+
+fn=(9048)
+0 5520832
+
+fn=(9510)
+0 10496688
+
+fn=(9602)
+0 10496688
+
+fn=(4576)
+0 32000
+cfn=(3138)
+calls=4000 0 
+0 235860
+0 4000
+
+fn=(1016) fftw_plan_dft
+0 13
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 4096113226
+0 5
+
+fn=(1034)
+0 12
+
+fn=(1090)
+0 936104
+cfn=(1052)
+calls=41223 0 
+0 14409111
+0 41223
+0 1375827
+
+fn=(1220)
+0 143
+cfn=(2702)
+calls=1 0 
+0 636
+cfn=(2660)
+calls=1 0 
+0 1399
+cfn=(2624)
+calls=1 0 
+0 1415
+cfn=(2608)
+calls=1 0 
+0 1946
+cfn=(2434)
+calls=1 0 
+0 1866
+cfn=(2198) fftw_codelet_r2cf_2
+calls=1 0 
+0 4638
+cfn=(2154)
+calls=1 0 
+0 1209
+cfn=(1808)
+calls=1 0 
+0 1313
+cfn=(1462)
+calls=1 0 
+0 1353
+cfn=(1306)
+calls=1 0 
+0 3028
+cfn=(1222)
+calls=1 0 
+0 4626
+0 2508
+cfn=(2712)
+calls=1 0 
+0 709
+cfn=(2710)
+calls=1 0 
+0 704
+cfn=(2708)
+calls=1 0 
+0 685
+cfn=(2706)
+calls=1 0 
+0 696
+cfn=(2704)
+calls=1 0 
+0 701
+cfn=(2694)
+calls=1 0 
+0 1415
+cfn=(2692)
+calls=1 0 
+0 1415
+cfn=(2690)
+calls=1 0 
+0 1415
+cfn=(2688)
+calls=1 0 
+0 1415
+cfn=(2686) fftw_codelet_hc2cbdftv_10_avx
+calls=1 0 
+0 1415
+cfn=(2684)
+calls=1 0 
+0 1399
+cfn=(2682)
+calls=1 0 
+0 1399
+cfn=(2680)
+calls=1 0 
+0 1399
+cfn=(2678)
+calls=1 0 
+0 1399
+cfn=(2676)
+calls=1 0 
+0 1415
+cfn=(2674)
+calls=1 0 
+0 1415
+cfn=(2672)
+calls=1 0 
+0 1415
+cfn=(2670)
+calls=1 0 
+0 1415
+cfn=(2668) fftw_codelet_hc2cfdftv_10_avx
+calls=1 0 
+0 1415
+cfn=(2666)
+calls=1 0 
+0 1399
+cfn=(2664)
+calls=1 0 
+0 1399
+cfn=(2662)
+calls=1 0 
+0 1399
+cfn=(2658)
+calls=1 0 
+0 1431
+cfn=(2656) fftw_codelet_hc2cbdftv_32_sse2
+calls=1 0 
+0 1431
+cfn=(2654)
+calls=1 0 
+0 1431
+cfn=(2652)
+calls=1 0 
+0 1431
+cfn=(2650)
+calls=1 0 
+0 1431
+cfn=(2648)
+calls=1 0 
+0 1415
+cfn=(2646)
+calls=1 0 
+0 1415
+cfn=(2644)
+calls=1 0 
+0 1415
+cfn=(2642)
+calls=1 0 
+0 1415
+cfn=(2640)
+calls=1 0 
+0 1431
+cfn=(2638) fftw_codelet_hc2cfdftv_32_sse2
+calls=1 0 
+0 1431
+cfn=(2636)
+calls=1 0 
+0 1431
+cfn=(2634)
+calls=1 0 
+0 1431
+cfn=(2632)
+calls=1 0 
+0 1431
+cfn=(2630)
+calls=1 0 
+0 1415
+cfn=(2628)
+calls=1 0 
+0 1415
+cfn=(2626)
+calls=1 0 
+0 1415
+cfn=(2622)
+calls=1 0 
+0 616
+cfn=(2606)
+calls=1 0 
+0 1351
+cfn=(2604)
+calls=1 0 
+0 1351
+cfn=(2602)
+calls=1 0 
+0 1351
+cfn=(2600) fftw_codelet_hc2cbdft2_8
+calls=1 0 
+0 1335
+cfn=(2598)
+calls=1 0 
+0 1335
+cfn=(2596)
+calls=1 0 
+0 1335
+cfn=(2594)
+calls=1 0 
+0 1335
+cfn=(2592)
+calls=1 0 
+0 1335
+cfn=(2590)
+calls=1 0 
+0 1335
+cfn=(2588)
+calls=1 0 
+0 1335
+cfn=(2586)
+calls=1 0 
+0 1319
+cfn=(2584)
+calls=1 0 
+0 1319
+cfn=(2582) fftw_codelet_hc2cbdft_4
+calls=1 0 
+0 1319
+cfn=(2580)
+calls=1 0 
+0 1319
+cfn=(2578)
+calls=1 0 
+0 1303
+cfn=(2576)
+calls=1 0 
+0 1303
+cfn=(2574)
+calls=1 0 
+0 1303
+cfn=(2572)
+calls=1 0 
+0 1287
+cfn=(2570)
+calls=1 0 
+0 1287
+cfn=(2568)
+calls=1 0 
+0 1287
+cfn=(2566)
+calls=1 0 
+0 1287
+cfn=(2564) fftw_codelet_hc2cb_16
+calls=1 0 
+0 1287
+cfn=(2562)
+calls=1 0 
+0 1287
+cfn=(2560)
+calls=1 0 
+0 1287
+cfn=(2558)
+calls=1 0 
+0 1271
+cfn=(2556)
+calls=1 0 
+0 1271
+cfn=(2554)
+calls=1 0 
+0 1271
+cfn=(2552)
+calls=1 0 
+0 1271
+cfn=(2550)
+calls=1 0 
+0 1962
+cfn=(2548)
+calls=1 0 
+0 1962
+cfn=(2546)
+calls=1 0 
+0 1962
+cfn=(2544)
+calls=1 0 
+0 1962
+cfn=(2542)
+calls=1 0 
+0 1962
+cfn=(2540)
+calls=1 0 
+0 1962
+cfn=(2538)
+calls=1 0 
+0 1962
+cfn=(2536)
+calls=1 0 
+0 1962
+cfn=(2534)
+calls=1 0 
+0 1938
+cfn=(2532)
+calls=1 0 
+0 1938
+cfn=(2530)
+calls=1 0 
+0 1938
+cfn=(2528)
+calls=1 0 
+0 1750
+cfn=(2526)
+calls=1 0 
+0 1656
+cfn=(2524)
+calls=1 0 
+0 1656
+cfn=(2522)
+calls=1 0 
+0 1656
+cfn=(2520)
+calls=1 0 
+0 1656
+cfn=(2518)
+calls=1 0 
+0 1259
+cfn=(2516)
+calls=1 0 
+0 1259
+cfn=(2514)
+calls=1 0 
+0 1243
+cfn=(2512)
+calls=1 0 
+0 1259
+cfn=(2510)
+calls=1 0 
+0 1259
+cfn=(2508)
+calls=1 0 
+0 1243
+cfn=(2506)
+calls=1 0 
+0 1243
+cfn=(2504)
+calls=1 0 
+0 1243
+cfn=(2502)
+calls=1 0 
+0 1243
+cfn=(2500)
+calls=1 0 
+0 1243
+cfn=(2498)
+calls=1 0 
+0 1243
+cfn=(2496)
+calls=1 0 
+0 1243
+cfn=(2494)
+calls=1 0 
+0 1243
+cfn=(2492)
+calls=1 0 
+0 1243
+cfn=(2490)
+calls=1 0 
+0 1243
+cfn=(2488)
+calls=1 0 
+0 1227
+cfn=(2486)
+calls=1 0 
+0 1227
+cfn=(2484)
+calls=1 0 
+0 1227
+cfn=(2482)
+calls=1 0 
+0 1227
+cfn=(2480)
+calls=1 0 
+0 1227
+cfn=(2478)
+calls=1 0 
+0 1227
+cfn=(2476)
+calls=1 0 
+0 1227
+cfn=(2474)
+calls=1 0 
+0 1461
+cfn=(2472)
+calls=1 0 
+0 1608
+cfn=(2470)
+calls=1 0 
+0 1608
+cfn=(2468)
+calls=1 0 
+0 1631
+cfn=(2466)
+calls=1 0 
+0 28983
+cfn=(2464)
+calls=1 0 
+0 1926
+cfn=(2462)
+calls=1 0 
+0 1926
+cfn=(2460)
+calls=1 0 
+0 2184
+cfn=(2458)
+calls=1 0 
+0 1884
+cfn=(2456)
+calls=1 0 
+0 1884
+cfn=(2454)
+calls=1 0 
+0 1890
+cfn=(2452)
+calls=1 0 
+0 1890
+cfn=(2450)
+calls=1 0 
+0 1890
+cfn=(2448)
+calls=1 0 
+0 1866
+cfn=(2446)
+calls=1 0 
+0 1866
+cfn=(2444)
+calls=1 0 
+0 1866
+cfn=(2442)
+calls=1 0 
+0 1866
+cfn=(2440)
+calls=1 0 
+0 1866
+cfn=(2438)
+calls=1 0 
+0 1866
+cfn=(2436)
+calls=1 0 
+0 1866
+cfn=(2432)
+calls=1 0 
+0 1351
+cfn=(2430)
+calls=1 0 
+0 1351
+cfn=(2428)
+calls=1 0 
+0 1351
+cfn=(2426)
+calls=1 0 
+0 1335
+cfn=(2424)
+calls=1 0 
+0 1335
+cfn=(2422)
+calls=1 0 
+0 1335
+cfn=(2420)
+calls=1 0 
+0 1335
+cfn=(2418) fftw_codelet_hc2cfdft_16
+calls=1 0 
+0 1335
+cfn=(2416)
+calls=1 0 
+0 1335
+cfn=(2414)
+calls=1 0 
+0 1335
+cfn=(2412)
+calls=1 0 
+0 1319
+cfn=(2410)
+calls=1 0 
+0 1319
+cfn=(2408)
+calls=1 0 
+0 1319
+cfn=(2406)
+calls=1 0 
+0 1319
+cfn=(2404)
+calls=1 0 
+0 1303
+cfn=(2402)
+calls=1 0 
+0 1303
+cfn=(2400) fftw_codelet_hc2cf2_16
+calls=1 0 
+0 1303
+cfn=(2398)
+calls=1 0 
+0 1287
+cfn=(2396)
+calls=1 0 
+0 1287
+cfn=(2394)
+calls=1 0 
+0 1287
+cfn=(2392)
+calls=1 0 
+0 1287
+cfn=(2390)
+calls=1 0 
+0 1287
+cfn=(2388)
+calls=1 0 
+0 1287
+cfn=(2386)
+calls=1 0 
+0 1287
+cfn=(2384)
+calls=1 0 
+0 1271
+cfn=(2382) fftw_codelet_hc2cf_6
+calls=1 0 
+0 1271
+cfn=(2380)
+calls=1 0 
+0 1271
+cfn=(2360)
+calls=1 0 
+0 3214
+cfn=(2358)
+calls=1 0 
+0 1938
+cfn=(2356)
+calls=1 0 
+0 1938
+cfn=(2354) fftw_codelet_r2cfII_64
+calls=1 0 
+0 1938
+cfn=(2352)
+calls=1 0 
+0 1938
+cfn=(2350)
+calls=1 0 
+0 1938
+cfn=(2348) fftw_codelet_r2cfII_15
+calls=1 0 
+0 1938
+cfn=(2346)
+calls=1 0 
+0 1938
+cfn=(2344)
+calls=1 0 
+0 1938
+cfn=(2342) fftw_codelet_r2cfII_9
+calls=1 0 
+0 1914
+cfn=(2340)
+calls=1 0 
+0 1914
+cfn=(2338)
+calls=1 0 
+0 1914
+cfn=(2336) fftw_codelet_r2cfII_6
+calls=1 0 
+0 1914
+cfn=(2334)
+calls=1 0 
+0 1914
+cfn=(2332)
+calls=1 0 
+0 1914
+cfn=(2330) fftw_codelet_r2cfII_3
+calls=1 0 
+0 1914
+cfn=(2328)
+calls=1 0 
+0 1914
+cfn=(2326)
+calls=1 0 
+0 1259
+cfn=(2324) fftw_codelet_hf2_20
+calls=1 0 
+0 1259
+cfn=(2322)
+calls=1 0 
+0 1243
+cfn=(2320)
+calls=1 0 
+0 1259
+cfn=(2318) fftw_codelet_hf2_16
+calls=1 0 
+0 1259
+cfn=(2316)
+calls=1 0 
+0 1243
+cfn=(2314)
+calls=1 0 
+0 1243
+cfn=(2312) fftw_codelet_hf_25
+calls=1 0 
+0 1243
+cfn=(2310)
+calls=1 0 
+0 1243
+cfn=(2308)
+calls=1 0 
+0 1243
+cfn=(2306) fftw_codelet_hf_32
+calls=1 0 
+0 1243
+cfn=(2304)
+calls=1 0 
+0 1243
+cfn=(2302)
+calls=1 0 
+0 1243
+cfn=(2300) fftw_codelet_hf_12
+calls=1 0 
+0 1243
+cfn=(2298)
+calls=1 0 
+0 1243
+cfn=(2296)
+calls=1 0 
+0 1227
+cfn=(2294) fftw_codelet_hf_8
+calls=1 0 
+0 1227
+cfn=(2292)
+calls=1 0 
+0 1227
+cfn=(2290)
+calls=1 0 
+0 1227
+cfn=(2288) fftw_codelet_hf_5
+calls=1 0 
+0 1227
+cfn=(2286)
+calls=1 0 
+0 1227
+cfn=(2284)
+calls=1 0 
+0 1227
+cfn=(2262)
+calls=1 0 
+0 2565
+cfn=(2260)
+calls=1 0 
+0 1890
+cfn=(2258)
+calls=1 0 
+0 1890
+cfn=(2256)
+calls=1 0 
+0 1914
+cfn=(2254)
+calls=1 0 
+0 2114
+cfn=(2252)
+calls=1 0 
+0 1608
+cfn=(2250)
+calls=1 0 
+0 1608
+cfn=(2248)
+calls=1 0 
+0 1607
+cfn=(2246)
+calls=1 0 
+0 24029
+cfn=(2244)
+calls=1 0 
+0 1926
+cfn=(2242)
+calls=1 0 
+0 1926
+cfn=(2240)
+calls=1 0 
+0 1926
+cfn=(2238)
+calls=1 0 
+0 1926
+cfn=(2236)
+calls=1 0 
+0 1902
+cfn=(2234)
+calls=1 0 
+0 2169
+cfn=(2232)
+calls=1 0 
+0 1860
+cfn=(2230)
+calls=1 0 
+0 1860
+cfn=(2228)
+calls=1 0 
+0 1862
+cfn=(2226)
+calls=1 0 
+0 1866
+cfn=(2224)
+calls=1 0 
+0 1866
+cfn=(2190) fftw_hc2hc_generic_register
+calls=1 0 
+0 1414
+cfn=(2188)
+calls=1 0 
+0 616
+cfn=(2186)
+calls=1 0 
+0 1997
+cfn=(2184)
+calls=1 0 
+0 1324
+cfn=(2182) fftw_rdft2_rank0_register
+calls=1 0 
+0 653
+cfn=(2180)
+calls=1 0 
+0 608
+cfn=(2178)
+calls=1 0 
+0 1336
+cfn=(2176)
+calls=1 0 
+0 1244
+cfn=(2174) fftw_dht_r2hc_register
+calls=1 0 
+0 629
+cfn=(2172)
+calls=1 0 
+0 600
+cfn=(2170)
+calls=1 0 
+0 629
+cfn=(2168)
+calls=1 0 
+0 2060
+cfn=(2166)
+calls=1 0 
+0 1292
+cfn=(2164)
+calls=1 0 
+0 1308
+cfn=(2162) fftw_rdft_nop_register
+calls=1 0 
+0 600
+cfn=(2160)
+calls=1 0 
+0 1320
+cfn=(2158)
+calls=1 0 
+0 2192
+cfn=(2156)
+calls=1 0 
+0 5877
+cfn=(2146) fftw_codelet_q1bv_8_avx
+calls=1 0 
+0 681
+cfn=(2144)
+calls=1 0 
+0 681
+cfn=(2142)
+calls=1 0 
+0 681
+cfn=(2140) fftw_codelet_q1bv_2_avx
+calls=1 0 
+0 681
+cfn=(2138)
+calls=1 0 
+0 681
+cfn=(2136)
+calls=1 0 
+0 681
+cfn=(2134) fftw_codelet_q1fv_4_avx
+calls=1 0 
+0 681
+cfn=(2132)
+calls=1 0 
+0 681
+cfn=(2130)
+calls=1 0 
+0 1397
+cfn=(2128) fftw_codelet_t2sv_16_avx
+calls=1 0 
+0 1397
+cfn=(2126)
+calls=1 0 
+0 1381
+cfn=(2124)
+calls=1 0 
+0 1381
+cfn=(2122) fftw_codelet_t1sv_32_avx
+calls=1 0 
+0 1397
+cfn=(2120)
+calls=1 0 
+0 1397
+cfn=(2118)
+calls=1 0 
+0 1381
+cfn=(2116) fftw_codelet_t1sv_4_avx
+calls=1 0 
+0 1381
+cfn=(2114)
+calls=1 0 
+0 1381
+cfn=(2112)
+calls=1 0 
+0 1397
+cfn=(2110) fftw_codelet_t3bv_20_avx
+calls=1 0 
+0 1397
+cfn=(2108)
+calls=1 0 
+0 1397
+cfn=(2106)
+calls=1 0 
+0 1381
+cfn=(2104) fftw_codelet_t3bv_32_avx
+calls=1 0 
+0 1397
+cfn=(2102)
+calls=1 0 
+0 1397
+cfn=(2100)
+calls=1 0 
+0 1381
+cfn=(2098) fftw_codelet_t3bv_4_avx
+calls=1 0 
+0 1381
+cfn=(2096)
+calls=1 0 
+0 1397
+cfn=(2094)
+calls=1 0 
+0 1397
+cfn=(2092) fftw_codelet_t2bv_10_avx
+calls=1 0 
+0 1397
+cfn=(2090)
+calls=1 0 
+0 1381
+cfn=(2088)
+calls=1 0 
+0 1397
+cfn=(2086) fftw_codelet_t2bv_32_avx
+calls=1 0 
+0 1397
+cfn=(2084)
+calls=1 0 
+0 1397
+cfn=(2082)
+calls=1 0 
+0 1381
+cfn=(2080) fftw_codelet_t2bv_4_avx
+calls=1 0 
+0 1381
+cfn=(2078)
+calls=1 0 
+0 1381
+cfn=(2076)
+calls=1 0 
+0 1397
+cfn=(2074) fftw_codelet_t1bv_20_avx
+calls=1 0 
+0 1397
+cfn=(2072)
+calls=1 0 
+0 1397
+cfn=(2070)
+calls=1 0 
+0 1397
+cfn=(2068) fftw_codelet_t1bv_16_avx
+calls=1 0 
+0 1397
+cfn=(2066)
+calls=1 0 
+0 1397
+cfn=(2064)
+calls=1 0 
+0 1397
+cfn=(2062) fftw_codelet_t1bv_10_avx
+calls=1 0 
+0 1397
+cfn=(2060)
+calls=1 0 
+0 1381
+cfn=(2058)
+calls=1 0 
+0 1381
+cfn=(2056) fftw_codelet_t1bv_7_avx
+calls=1 0 
+0 1381
+cfn=(2054)
+calls=1 0 
+0 1381
+cfn=(2052)
+calls=1 0 
+0 1381
+cfn=(2050) fftw_codelet_t1bv_4_avx
+calls=1 0 
+0 1381
+cfn=(2048)
+calls=1 0 
+0 1381
+cfn=(2046)
+calls=1 0 
+0 1381
+cfn=(2044) fftw_codelet_t1buv_10_avx
+calls=1 0 
+0 1413
+cfn=(2042)
+calls=1 0 
+0 1397
+cfn=(2040)
+calls=1 0 
+0 19764
+cfn=(2038) fftw_codelet_t1buv_7_avx
+calls=1 0 
+0 1421
+cfn=(2036)
+calls=1 0 
+0 1421
+cfn=(2034)
+calls=1 0 
+0 1421
+cfn=(2032) fftw_codelet_t1buv_4_avx
+calls=1 0 
+0 1421
+cfn=(2030)
+calls=1 0 
+0 1421
+cfn=(2028)
+calls=1 0 
+0 1421
+cfn=(2026) fftw_codelet_t3fv_25_avx
+calls=1 0 
+0 1421
+cfn=(2024)
+calls=1 0 
+0 1421
+cfn=(2022)
+calls=1 0 
+0 1421
+cfn=(2020) fftw_codelet_t3fv_5_avx
+calls=1 0 
+0 1549
+cfn=(2018)
+calls=1 0 
+0 1393
+cfn=(2016)
+calls=1 0 
+0 1393
+cfn=(2014) fftw_codelet_t3fv_8_avx
+calls=1 0 
+0 1379
+cfn=(2012)
+calls=1 0 
+0 1381
+cfn=(2010)
+calls=1 0 
+0 1397
+cfn=(2008) fftw_codelet_t2fv_20_avx
+calls=1 0 
+0 1397
+cfn=(2006)
+calls=1 0 
+0 1397
+cfn=(2004)
+calls=1 0 
+0 1381
+cfn=(2002) fftw_codelet_t2fv_64_avx
+calls=1 0 
+0 1397
+cfn=(2000)
+calls=1 0 
+0 1397
+cfn=(1998)
+calls=1 0 
+0 1397
+cfn=(1996) fftw_codelet_t2fv_8_avx
+calls=1 0 
+0 1381
+cfn=(1994)
+calls=1 0 
+0 1381
+cfn=(1992)
+calls=1 0 
+0 1381
+cfn=(1990) fftw_codelet_t1fv_25_avx
+calls=1 0 
+0 1397
+cfn=(1988)
+calls=1 0 
+0 1397
+cfn=(1986)
+calls=1 0 
+0 1397
+cfn=(1984) fftw_codelet_t1fv_32_avx
+calls=1 0 
+0 1397
+cfn=(1982)
+calls=1 0 
+0 1397
+cfn=(1980)
+calls=1 0 
+0 1397
+cfn=(1978) fftw_codelet_t1fv_12_avx
+calls=1 0 
+0 1397
+cfn=(1976)
+calls=1 0 
+0 1397
+cfn=(1974)
+calls=1 0 
+0 1381
+cfn=(1972) fftw_codelet_t1fv_8_avx
+calls=1 0 
+0 1381
+cfn=(1970)
+calls=1 0 
+0 1381
+cfn=(1968)
+calls=1 0 
+0 1381
+cfn=(1966) fftw_codelet_t1fv_5_avx
+calls=1 0 
+0 1381
+cfn=(1964)
+calls=1 0 
+0 1381
+cfn=(1962)
+calls=1 0 
+0 1381
+cfn=(1960) fftw_codelet_t1fv_2_avx
+calls=1 0 
+0 1381
+cfn=(1958)
+calls=1 0 
+0 1413
+cfn=(1956)
+calls=1 0 
+0 1397
+cfn=(1954) fftw_codelet_t1fuv_8_avx
+calls=1 0 
+0 1397
+cfn=(1952)
+calls=1 0 
+0 1397
+cfn=(1950)
+calls=1 0 
+0 1397
+cfn=(1948) fftw_codelet_t1fuv_5_avx
+calls=1 0 
+0 1397
+cfn=(1946)
+calls=1 0 
+0 1397
+cfn=(1944)
+calls=1 0 
+0 1397
+cfn=(1942) fftw_codelet_t1fuv_2_avx
+calls=1 0 
+0 1397
+cfn=(1940)
+calls=1 0 
+0 1329
+cfn=(1938)
+calls=1 0 
+0 1329
+cfn=(1936) fftw_codelet_n2sv_16_avx
+calls=1 0 
+0 1329
+cfn=(1934)
+calls=1 0 
+0 1313
+cfn=(1932)
+calls=1 0 
+0 1313
+cfn=(1930) fftw_codelet_n2bv_20_avx
+calls=1 0 
+0 1329
+cfn=(1928)
+calls=1 0 
+0 1329
+cfn=(1926)
+calls=1 0 
+0 1329
+cfn=(1924) fftw_codelet_n2bv_16_avx
+calls=1 0 
+0 1329
+cfn=(1922)
+calls=1 0 
+0 1329
+cfn=(1920)
+calls=1 0 
+0 1329
+cfn=(1918) fftw_codelet_n2bv_10_avx
+calls=1 0 
+0 1329
+cfn=(1916)
+calls=1 0 
+0 1313
+cfn=(1914)
+calls=1 0 
+0 1313
+cfn=(1912) fftw_codelet_n2bv_4_avx
+calls=1 0 
+0 1313
+cfn=(1910)
+calls=1 0 
+0 1313
+cfn=(1908)
+calls=1 0 
+0 1329
+cfn=(1906) fftw_codelet_n2fv_64_avx
+calls=1 0 
+0 1329
+cfn=(1904)
+calls=1 0 
+0 1329
+cfn=(1902)
+calls=1 0 
+0 1329
+cfn=(1900) fftw_codelet_n2fv_14_avx
+calls=1 0 
+0 1329
+cfn=(1898)
+calls=1 0 
+0 16095
+cfn=(1896)
+calls=1 0 
+0 1353
+cfn=(1894) fftw_codelet_n2fv_8_avx
+calls=1 0 
+0 1337
+cfn=(1892)
+calls=1 0 
+0 1492
+cfn=(1890)
+calls=1 0 
+0 1309
+cfn=(1888) fftw_codelet_n2fv_2_avx
+calls=1 0 
+0 1309
+cfn=(1886)
+calls=1 0 
+0 1325
+cfn=(1884)
+calls=1 0 
+0 1327
+cfn=(1882) fftw_codelet_n1bv_128_avx
+calls=1 0 
+0 1345
+cfn=(1880)
+calls=1 0 
+0 1329
+cfn=(1878)
+calls=1 0 
+0 1329
+cfn=(1876) fftw_codelet_n1bv_16_avx
+calls=1 0 
+0 1329
+cfn=(1874)
+calls=1 0 
+0 1329
+cfn=(1872)
+calls=1 0 
+0 1329
+cfn=(1870) fftw_codelet_n1bv_13_avx
+calls=1 0 
+0 1329
+cfn=(1868)
+calls=1 0 
+0 1329
+cfn=(1866)
+calls=1 0 
+0 1329
+cfn=(1864) fftw_codelet_n1bv_10_avx
+calls=1 0 
+0 1329
+cfn=(1862)
+calls=1 0 
+0 1313
+cfn=(1860)
+calls=1 0 
+0 1313
+cfn=(1858) fftw_codelet_n1bv_7_avx
+calls=1 0 
+0 1313
+cfn=(1856)
+calls=1 0 
+0 1313
+cfn=(1854)
+calls=1 0 
+0 1313
+cfn=(1852) fftw_codelet_n1bv_4_avx
+calls=1 0 
+0 1313
+cfn=(1850)
+calls=1 0 
+0 1313
+cfn=(1848)
+calls=1 0 
+0 1313
+cfn=(1846) fftw_codelet_n1fv_25_avx
+calls=1 0 
+0 1329
+cfn=(1844)
+calls=1 0 
+0 1329
+cfn=(1842)
+calls=1 0 
+0 1345
+cfn=(1840) fftw_codelet_n1fv_64_avx
+calls=1 0 
+0 1329
+cfn=(1838)
+calls=1 0 
+0 1329
+cfn=(1836)
+calls=1 0 
+0 1329
+cfn=(1834) fftw_codelet_n1fv_15_avx
+calls=1 0 
+0 1329
+cfn=(1832)
+calls=1 0 
+0 1329
+cfn=(1830)
+calls=1 0 
+0 1329
+cfn=(1828) fftw_codelet_n1fv_12_avx
+calls=1 0 
+0 1329
+cfn=(1826)
+calls=1 0 
+0 1329
+cfn=(1824)
+calls=1 0 
+0 1329
+cfn=(1822) fftw_codelet_n1fv_9_avx
+calls=1 0 
+0 1313
+cfn=(1820)
+calls=1 0 
+0 1313
+cfn=(1818)
+calls=1 0 
+0 1313
+cfn=(1816) fftw_codelet_n1fv_6_avx
+calls=1 0 
+0 1313
+cfn=(1814)
+calls=1 0 
+0 1313
+cfn=(1812)
+calls=1 0 
+0 1313
+cfn=(1810) fftw_codelet_n1fv_3_avx
+calls=1 0 
+0 1313
+cfn=(1800)
+calls=1 0 
+0 689
+cfn=(1798)
+calls=1 0 
+0 689
+cfn=(1796)
+calls=1 0 
+0 689
+cfn=(1794)
+calls=1 0 
+0 689
+cfn=(1792)
+calls=1 0 
+0 689
+cfn=(1790)
+calls=1 0 
+0 689
+cfn=(1788)
+calls=1 0 
+0 689
+cfn=(1786)
+calls=1 0 
+0 689
+cfn=(1784)
+calls=1 0 
+0 1413
+cfn=(1782)
+calls=1 0 
+0 1413
+cfn=(1780)
+calls=1 0 
+0 1397
+cfn=(1778)
+calls=1 0 
+0 1397
+cfn=(1776)
+calls=1 0 
+0 1413
+cfn=(1774)
+calls=1 0 
+0 1413
+cfn=(1772)
+calls=1 0 
+0 1397
+cfn=(1770)
+calls=1 0 
+0 13386
+cfn=(1768)
+calls=1 0 
+0 1421
+cfn=(1766)
+calls=1 0 
+0 1437
+cfn=(1764)
+calls=1 0 
+0 1437
+cfn=(1762)
+calls=1 0 
+0 1437
+cfn=(1760)
+calls=1 0 
+0 1421
+cfn=(1758)
+calls=1 0 
+0 1437
+cfn=(1756)
+calls=1 0 
+0 1437
+cfn=(1754)
+calls=1 0 
+0 1421
+cfn=(1752)
+calls=1 0 
+0 1555
+cfn=(1750)
+calls=1 0 
+0 1409
+cfn=(1748)
+calls=1 0 
+0 1409
+cfn=(1746)
+calls=1 0 
+0 1409
+cfn=(1744)
+calls=1 0 
+0 1397
+cfn=(1742)
+calls=1 0 
+0 1413
+cfn=(1740)
+calls=1 0 
+0 1413
+cfn=(1738)
+calls=1 0 
+0 1413
+cfn=(1736)
+calls=1 0 
+0 1397
+cfn=(1734)
+calls=1 0 
+0 1397
+cfn=(1732)
+calls=1 0 
+0 1397
+cfn=(1730)
+calls=1 0 
+0 1413
+cfn=(1728)
+calls=1 0 
+0 1413
+cfn=(1726)
+calls=1 0 
+0 1413
+cfn=(1724)
+calls=1 0 
+0 1413
+cfn=(1722)
+calls=1 0 
+0 1413
+cfn=(1720)
+calls=1 0 
+0 1413
+cfn=(1718)
+calls=1 0 
+0 1413
+cfn=(1716)
+calls=1 0 
+0 1413
+cfn=(1714)
+calls=1 0 
+0 1397
+cfn=(1712)
+calls=1 0 
+0 1397
+cfn=(1710)
+calls=1 0 
+0 1397
+cfn=(1708)
+calls=1 0 
+0 1397
+cfn=(1706)
+calls=1 0 
+0 1397
+cfn=(1704)
+calls=1 0 
+0 1397
+cfn=(1702)
+calls=1 0 
+0 1397
+cfn=(1700)
+calls=1 0 
+0 1397
+cfn=(1698)
+calls=1 0 
+0 1429
+cfn=(1696)
+calls=1 0 
+0 1413
+cfn=(1694)
+calls=1 0 
+0 1413
+cfn=(1692)
+calls=1 0 
+0 1413
+cfn=(1690)
+calls=1 0 
+0 1413
+cfn=(1688)
+calls=1 0 
+0 1413
+cfn=(1686)
+calls=1 0 
+0 1413
+cfn=(1684)
+calls=1 0 
+0 1413
+cfn=(1682)
+calls=1 0 
+0 1413
+cfn=(1680)
+calls=1 0 
+0 1617
+cfn=(1678)
+calls=1 0 
+0 11016
+cfn=(1676)
+calls=1 0 
+0 1437
+cfn=(1674)
+calls=1 0 
+0 1421
+cfn=(1672)
+calls=1 0 
+0 1437
+cfn=(1670)
+calls=1 0 
+0 1437
+cfn=(1668)
+calls=1 0 
+0 1421
+cfn=(1666)
+calls=1 0 
+0 1421
+cfn=(1664)
+calls=1 0 
+0 1556
+cfn=(1662)
+calls=1 0 
+0 1409
+cfn=(1660)
+calls=1 0 
+0 1409
+cfn=(1658)
+calls=1 0 
+0 1395
+cfn=(1656)
+calls=1 0 
+0 1413
+cfn=(1654)
+calls=1 0 
+0 1413
+cfn=(1652)
+calls=1 0 
+0 1413
+cfn=(1650)
+calls=1 0 
+0 1397
+cfn=(1648)
+calls=1 0 
+0 1397
+cfn=(1646)
+calls=1 0 
+0 1397
+cfn=(1644)
+calls=1 0 
+0 1413
+cfn=(1642)
+calls=1 0 
+0 1413
+cfn=(1640)
+calls=1 0 
+0 1413
+cfn=(1638)
+calls=1 0 
+0 1413
+cfn=(1636)
+calls=1 0 
+0 1413
+cfn=(1634)
+calls=1 0 
+0 1413
+cfn=(1632)
+calls=1 0 
+0 1413
+cfn=(1630)
+calls=1 0 
+0 1413
+cfn=(1628)
+calls=1 0 
+0 1397
+cfn=(1626)
+calls=1 0 
+0 1397
+cfn=(1624)
+calls=1 0 
+0 1397
+cfn=(1622)
+calls=1 0 
+0 1397
+cfn=(1620)
+calls=1 0 
+0 1397
+cfn=(1618)
+calls=1 0 
+0 1397
+cfn=(1616)
+calls=1 0 
+0 1397
+cfn=(1614)
+calls=1 0 
+0 1397
+cfn=(1612)
+calls=1 0 
+0 1429
+cfn=(1610)
+calls=1 0 
+0 1413
+cfn=(1608)
+calls=1 0 
+0 1413
+cfn=(1606)
+calls=1 0 
+0 9478
+cfn=(1604)
+calls=1 0 
+0 1556
+cfn=(1602)
+calls=1 0 
+0 1409
+cfn=(1600)
+calls=1 0 
+0 1409
+cfn=(1598)
+calls=1 0 
+0 1411
+cfn=(1596)
+calls=1 0 
+0 1413
+cfn=(1594)
+calls=1 0 
+0 1345
+cfn=(1592)
+calls=1 0 
+0 1345
+cfn=(1590)
+calls=1 0 
+0 1345
+cfn=(1588)
+calls=1 0 
+0 1329
+cfn=(1586)
+calls=1 0 
+0 1329
+cfn=(1584)
+calls=1 0 
+0 1345
+cfn=(1582)
+calls=1 0 
+0 1345
+cfn=(1580)
+calls=1 0 
+0 1345
+cfn=(1578)
+calls=1 0 
+0 1345
+cfn=(1576)
+calls=1 0 
+0 1345
+cfn=(1574)
+calls=1 0 
+0 1345
+cfn=(1572)
+calls=1 0 
+0 1345
+cfn=(1570)
+calls=1 0 
+0 1329
+cfn=(1568)
+calls=1 0 
+0 1329
+cfn=(1566)
+calls=1 0 
+0 1329
+cfn=(1564)
+calls=1 0 
+0 1329
+cfn=(1562)
+calls=1 0 
+0 1345
+cfn=(1560)
+calls=1 0 
+0 1345
+cfn=(1558)
+calls=1 0 
+0 1345
+cfn=(1556)
+calls=1 0 
+0 1345
+cfn=(1554)
+calls=1 0 
+0 1345
+cfn=(1552)
+calls=1 0 
+0 1345
+cfn=(1550)
+calls=1 0 
+0 1345
+cfn=(1548)
+calls=1 0 
+0 7870
+cfn=(1546)
+calls=1 0 
+0 1325
+cfn=(1544)
+calls=1 0 
+0 1325
+cfn=(1542)
+calls=1 0 
+0 1325
+cfn=(1540)
+calls=1 0 
+0 1341
+cfn=(1538)
+calls=1 0 
+0 1345
+cfn=(1536)
+calls=1 0 
+0 1361
+cfn=(1534)
+calls=1 0 
+0 1345
+cfn=(1532)
+calls=1 0 
+0 1345
+cfn=(1530)
+calls=1 0 
+0 1345
+cfn=(1528)
+calls=1 0 
+0 1345
+cfn=(1526)
+calls=1 0 
+0 1345
+cfn=(1524)
+calls=1 0 
+0 1345
+cfn=(1522)
+calls=1 0 
+0 1345
+cfn=(1520)
+calls=1 0 
+0 1345
+cfn=(1518)
+calls=1 0 
+0 1345
+cfn=(1516)
+calls=1 0 
+0 1329
+cfn=(1514)
+calls=1 0 
+0 1329
+cfn=(1512)
+calls=1 0 
+0 1329
+cfn=(1510)
+calls=1 0 
+0 1329
+cfn=(1508)
+calls=1 0 
+0 1329
+cfn=(1506)
+calls=1 0 
+0 1329
+cfn=(1504)
+calls=1 0 
+0 1329
+cfn=(1502)
+calls=1 0 
+0 1490
+cfn=(1500)
+calls=1 0 
+0 6608
+cfn=(1498)
+calls=1 0 
+0 1341
+cfn=(1496)
+calls=1 0 
+0 1357
+cfn=(1494)
+calls=1 0 
+0 1341
+cfn=(1492)
+calls=1 0 
+0 1345
+cfn=(1490)
+calls=1 0 
+0 1345
+cfn=(1488)
+calls=1 0 
+0 1345
+cfn=(1486)
+calls=1 0 
+0 1345
+cfn=(1484)
+calls=1 0 
+0 1345
+cfn=(1482)
+calls=1 0 
+0 1345
+cfn=(1480)
+calls=1 0 
+0 1345
+cfn=(1478)
+calls=1 0 
+0 1345
+cfn=(1476)
+calls=1 0 
+0 1329
+cfn=(1474)
+calls=1 0 
+0 1329
+cfn=(1472)
+calls=1 0 
+0 1329
+cfn=(1470)
+calls=1 0 
+0 1329
+cfn=(1468)
+calls=1 0 
+0 1329
+cfn=(1466)
+calls=1 0 
+0 1329
+cfn=(1464)
+calls=1 0 
+0 5853
+cfn=(1454)
+calls=1 0 
+0 645
+cfn=(1452)
+calls=1 0 
+0 645
+cfn=(1450)
+calls=1 0 
+0 723
+cfn=(1448)
+calls=1 0 
+0 631
+cfn=(1446)
+calls=1 0 
+0 631
+cfn=(1432)
+calls=1 0 
+0 2001
+cfn=(1430)
+calls=1 0 
+0 1297
+cfn=(1428)
+calls=1 0 
+0 1297
+cfn=(1426)
+calls=1 0 
+0 1301
+cfn=(1424)
+calls=1 0 
+0 1285
+cfn=(1422)
+calls=1 0 
+0 1301
+cfn=(1420)
+calls=1 0 
+0 1301
+cfn=(1418)
+calls=1 0 
+0 1301
+cfn=(1416)
+calls=1 0 
+0 1285
+cfn=(1414)
+calls=1 0 
+0 1285
+cfn=(1412)
+calls=1 0 
+0 1301
+cfn=(1410)
+calls=1 0 
+0 5089
+cfn=(1408)
+calls=1 0 
+0 1325
+cfn=(1406)
+calls=1 0 
+0 1393
+cfn=(1404)
+calls=1 0 
+0 1297
+cfn=(1402)
+calls=1 0 
+0 1297
+cfn=(1400)
+calls=1 0 
+0 1297
+cfn=(1398)
+calls=1 0 
+0 1301
+cfn=(1396)
+calls=1 0 
+0 1285
+cfn=(1394)
+calls=1 0 
+0 1285
+cfn=(1392)
+calls=1 0 
+0 1285
+cfn=(1390)
+calls=1 0 
+0 1285
+cfn=(1388)
+calls=1 0 
+0 1285
+cfn=(1386)
+calls=1 0 
+0 4398
+cfn=(1384)
+calls=1 0 
+0 1309
+cfn=(1362) fftw_codelet_t1_2
+calls=1 0 
+0 2639
+cfn=(1360)
+calls=1 0 
+0 1257
+cfn=(1358)
+calls=1 0 
+0 1257
+cfn=(1356) fftw_codelet_n1_64
+calls=1 0 
+0 1257
+cfn=(1354)
+calls=1 0 
+0 1257
+cfn=(1352)
+calls=1 0 
+0 1257
+cfn=(1350) fftw_codelet_n1_15
+calls=1 0 
+0 1257
+cfn=(1348)
+calls=1 0 
+0 1331
+cfn=(1346) fftw_codelet_n1_13
+calls=1 0 
+0 4258
+cfn=(1344)
+calls=1 0 
+0 1045
+cfn=(1342)
+calls=1 0 
+0 1045
+cfn=(1340) fftw_codelet_n1_10
+calls=1 0 
+0 1045
+cfn=(1338)
+calls=1 0 
+0 1029
+cfn=(1336)
+calls=1 0 
+0 1029
+cfn=(1334) fftw_codelet_n1_7
+calls=1 0 
+0 1029
+cfn=(1332)
+calls=1 0 
+0 3235
+cfn=(1330)
+calls=1 0 
+0 1029
+cfn=(1328)
+calls=1 0 
+0 1029
+cfn=(1326)
+calls=1 0 
+0 1029
+cfn=(1302) fftw_ct_genericbuf_register
+calls=1 0 
+0 35111
+cfn=(1286)
+calls=1 0 
+0 2735
+cfn=(1284)
+calls=1 0 
+0 619
+cfn=(1282)
+calls=1 0 
+0 793
+cfn=(1280)
+calls=1 0 
+0 1323
+cfn=(1278)
+calls=1 0 
+0 747
+cfn=(1276)
+calls=1 0 
+0 1771
+cfn=(1274)
+calls=1 0 
+0 2010
+cfn=(1272)
+calls=1 0 
+0 3112
+cfn=(1268)
+calls=1 0 
+0 1269
+0 2607
+
+fn=(1288)
+0 11
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 955
+0 5
+0 3
+cfn=(1234)
+calls=1 0 
+0 926
+0 1
+0 8
+
+fn=(1302)
+0 22
+cfn=(1294)
+calls=1 0 
+0 398
+0 1
+0 48
+cfn=(1294)
+calls=6 0 
+0 2620
+0 6
+0 168
+cfn=(1294)
+calls=28 0 
+0 12542
+0 28
+0 140
+cfn=(1234)
+calls=35 0 
+0 18747
+0 35
+0 356
+
+fn=(1334)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1025
+0 1
+
+fn=(1340)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1041
+0 1
+
+fn=(1346)
+0 3
+cfn=(1312)
+calls=1 0 
+0 4254
+0 1
+
+fn=(1350)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1253
+0 1
+
+fn=(1356)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1253
+0 1
+
+fn=(1362)
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 2631
+0 5
+
+fn=(1810)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1816)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1822)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1828)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1834)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1840)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1846)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1852)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1858)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1864)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1870)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1876)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1882)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1341
+0 1
+
+fn=(1888)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1305
+0 1
+
+fn=(1894)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1333
+0 1
+
+fn=(1900)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1906)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1912)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1309
+0 1
+
+fn=(1918)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1924)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1930)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1936)
+0 3
+cfn=(1312)
+calls=1 0 
+0 1325
+0 1
+
+fn=(1942)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1948)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1954)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1960)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(1966)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(1972)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(1978)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1984)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1990)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(1996)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2002)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2008)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2014)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1375
+0 1
+
+fn=(2020)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1545
+0 1
+
+fn=(2026)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(2032)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(2038)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1417
+0 1
+
+fn=(2044)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1409
+0 1
+
+fn=(2050)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2056)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2062)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2068)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2074)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2080)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2086)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2092)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2098)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2104)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2110)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2116)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1377
+0 1
+
+fn=(2122)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2128)
+0 3
+cfn=(1368)
+calls=1 0 
+0 1393
+0 1
+
+fn=(2134)
+0 3
+cfn=(1438)
+calls=1 0 
+0 677
+0 1
+
+fn=(2140)
+0 3
+cfn=(1438)
+calls=1 0 
+0 677
+0 1
+
+fn=(2146)
+0 3
+cfn=(1438)
+calls=1 0 
+0 677
+0 1
+
+fn=(2162)
+0 5
+cfn=(1228)
+calls=1 0 
+0 355
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 234
+0 1
+
+fn=(2174)
+0 5
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 234
+0 1
+
+fn=(2182)
+0 5
+cfn=(1228)
+calls=1 0 
+0 384
+0 1
+0 4
+cfn=(1234)
+calls=1 0 
+0 258
+0 1
+
+fn=(2190)
+0 6
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1119
+0 5
+0 3
+cfn=(1234)
+calls=1 0 
+0 274
+0 1
+0 6
+
+fn=(2198)
+0 3
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 4630
+0 5
+
+fn=(2204)
+0 648
+cfn=(2210)
+calls=71 0 
+0 27831
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1105
+0 76
+0 216
+cfn=(1234)
+calls=72 0 
+0 16096
+0 72
+0 216
+cfn=(2216)
+calls=71 0 
+0 27755
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1145
+0 76
+0 216
+cfn=(1234)
+calls=72 0 
+0 16096
+0 72
+0 216
+cfn=(2222)
+calls=71 0 
+0 27650
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1088
+0 76
+0 432
+cfn=(1234)
+calls=72 0 
+0 65256
+0 72
+
+fn=(2288)
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2294)
+0 3
+cfn=(2268)
+calls=1 0 
+0 1223
+0 1
+
+fn=(2300)
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2306)
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2312)
+0 3
+cfn=(2268)
+calls=1 0 
+0 1239
+0 1
+
+fn=(2318)
+0 3
+cfn=(2268)
+calls=1 0 
+0 1255
+0 1
+
+fn=(2324)
+0 3
+cfn=(2268)
+calls=1 0 
+0 1255
+0 1
+
+fn=(2330)
+0 3
+cfn=(2204)
+calls=1 0 
+0 1910
+0 1
+
+fn=(2336)
+0 3
+cfn=(2204)
+calls=1 0 
+0 1910
+0 1
+
+fn=(2342)
+0 3
+cfn=(2204)
+calls=1 0 
+0 1910
+0 1
+
+fn=(2348)
+0 3
+cfn=(2204)
+calls=1 0 
+0 1934
+0 1
+
+fn=(2354)
+0 3
+cfn=(2204)
+calls=1 0 
+0 1934
+0 1
+
+fn=(2382)
+0 4
+cfn=(2366)
+calls=1 0 
+0 1266
+0 1
+
+fn=(2400)
+0 4
+cfn=(2366)
+calls=1 0 
+0 1298
+0 1
+
+fn=(2418)
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2564)
+0 4
+cfn=(2366)
+calls=1 0 
+0 1282
+0 1
+
+fn=(2582)
+0 4
+cfn=(2366)
+calls=1 0 
+0 1314
+0 1
+
+fn=(2600)
+0 4
+cfn=(2366)
+calls=1 0 
+0 1330
+0 1
+
+fn=(2638)
+0 4
+cfn=(2366)
+calls=1 0 
+0 1426
+0 1
+
+fn=(2656)
+0 4
+cfn=(2366)
+calls=1 0 
+0 1426
+0 1
+
+fn=(2668)
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2686)
+0 4
+cfn=(2366)
+calls=1 0 
+0 1410
+0 1
+
+fn=(2758)
+0 66800
+cfn=(2764)
+calls=13359 0 
+0 2097363
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1315
+0 13364
+0 26720
+
+fn=(2886)
+0 31517
+cfn=(1046)
+calls=685 0 
+0 234727
+0 685
+0 2740
+cfn=(3490)
+calls=685 0 
+0 347335
+0 685
+0 32700
+cfn=(4016)
+calls=684 0 
+0 4712707
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 5823
+0 689
+0 2055
+cfn=(3115)
+calls=685 0 
+0 296739355
+0 685
+0 2740
+cfn=(1122)
+calls=685 0 
+0 167233
+0 685
+0 2838
+cfn=(3398)
+calls=367 0 
+0 181943
+0 367
+0 30493
+
+fn=(2968)
+0 140318
+cfn=(8120)
+calls=8 0 
+0 19813
+cfn=(4850)
+calls=1435 0 
+0 398782
+cfn=(4848)
+calls=3107 0 
+0 5642382
+cfn=(4536)
+calls=609 0 
+0 609
+cfn=(4568)
+calls=196 0 
+0 112767
+cfn=(4530)
+calls=231 0 
+0 470821
+cfn=(3578)
+calls=718 0 
+0 402556
+0 18912
+cfn=(1134)
+calls=6304 0 
+0 1028504
+0 6304
+0 51247
+
+fn=(2969)
+0 106662
+cfn=(4531)
+calls=19 0 
+0 19800
+cfn=(4530)
+calls=109 0 
+0 108470
+cfn=(4569)
+calls=1236 0 
+0 1613342
+cfn=(4848)
+calls=149 0 
+0 297691
+cfn=(4849)
+calls=3243 0 
+0 4789621
+cfn=(4568)
+calls=2238 0 
+0 3227515
+cfn=(5868)
+calls=1133 0 
+0 286649
+cfn=(4850)
+calls=5366 0 
+0 1470431
+cfn=(4536)
+calls=369 0 
+0 369
+cfn=(4534)
+calls=367 0 
+0 76471
+cfn=(3578)
+calls=3548 0 
+0 1519782
+0 53331
+cfn=(1134)
+calls=17777 0 
+0 2716853
+0 17777
+
+fn=(3116)
+0 16295044
+cfn=(2934)
+calls=5750 0 
+0 55817
+0 5750
+0 97750
+cfn=(4998)
+calls=52 0 
+0 416
+cfn=(4992)
+calls=52 0 
+0 416
+cfn=(3642)
+calls=434 0 
+0 8491
+cfn=(3638)
+calls=423 0 
+0 2538
+cfn=(3600)
+calls=965 0 
+0 43005
+cfn=(3596)
+calls=232 0 
+0 1392
+cfn=(3430)
+calls=520 0 
+0 19653
+cfn=(3426)
+calls=423 0 
+0 2538
+cfn=(3362)
+calls=2185 0 
+0 77207
+cfn=(3358)
+calls=232 0 
+0 1392
+cfn=(3332)
+calls=232 0 
+0 4455
+0 39426
+cfn=(3398)
+calls=3435 0 
+0 1658340
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1007
+0 3440
+0 845584
+cfn=(2934)
+calls=3353 0 
+0 33530
+0 3353
+0 23471
+cfn=(3324)
+calls=3352 0 
+0 20112
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 567
+0 3357
+0 10059
+cfn=(3324)
+calls=3353 0 
+0 20118
+0 3353
+0 60526
+cfn=(4998)
+calls=31 0 
+0 248
+cfn=(4992)
+calls=31 0 
+0 248
+cfn=(3642)
+calls=897 0 
+0 17940
+cfn=(3638)
+calls=282 0 
+0 1692
+cfn=(3600)
+calls=282 0 
+0 1692
+cfn=(3596)
+calls=151 0 
+0 906
+cfn=(3430)
+calls=151 0 
+0 906
+cfn=(3426)
+calls=282 0 
+0 1692
+cfn=(3362)
+calls=282 0 
+0 1692
+cfn=(3358)
+calls=151 0 
+0 906
+cfn=(3332)
+calls=151 0 
+0 906
+0 24219
+cfn=(3642)
+calls=897 0 
+0 17940
+0 8710
+cfn=(3398)
+calls=832 0 
+0 397544
+0 832
+0 6656
+cfn=(3066)
+calls=832 0 
+0 403586
+0 832
+0 24052
+cfn=(3066)
+calls=3436 0 
+0 1634162
+0 3436
+0 17072
+cfn=(3066)
+calls=4268 0 
+0 2112463
+0 4268
+0 25608
+cfn=(3066)
+calls=4268 0 
+0 2020976
+0 4268
+0 29876
+cfn=(2934)
+calls=4268 0 
+0 41705
+0 4268
+0 12804
+cfn=(3058)
+calls=4268 0 
+0 25608
+0 4268
+0 34144
+cfn=(3078)
+calls=4268 0 
+0 89628
+0 4268
+0 91547
+cfn=(3430)
+calls=94 0 
+0 2820
+cfn=(4998)
+calls=52 0 
+0 416
+cfn=(4992)
+calls=52 0 
+0 416
+cfn=(3362)
+calls=1062 0 
+0 49755
+cfn=(3638)
+calls=423 0 
+0 2538
+cfn=(3596)
+calls=232 0 
+0 1392
+cfn=(3426)
+calls=423 0 
+0 2538
+cfn=(3358)
+calls=232 0 
+0 1392
+cfn=(3332)
+calls=213 0 
+0 3972
+0 24594
+cfn=(3332)
+calls=21 0 
+0 336
+cfn=(3362)
+calls=1062 0 
+0 46728
+0 8671
+cfn=(3930)
+calls=218 0 
+0 7563
+0 218
+0 9955
+cfn=(3930)
+calls=1475 0 
+0 53118
+0 1475
+0 7411
+cfn=(3930)
+calls=826 0 
+0 15115
+0 826
+0 3379
+
+fn=(3480)
+0 100485
+cfn=(8098)
+calls=16 0 
+0 2306
+cfn=(4776)
+calls=6495 0 
+0 256843502
+cfn=(4554)
+calls=600 0 
+0 5414767
+cfn=(4502)
+calls=486 0 
+0 10297915
+cfn=(3482)
+calls=3568 0 
+0 3568
+0 55820
+
+fn=(3481)
+0 340236
+cfn=(4503)
+calls=38 0 
+0 2356
+cfn=(4502)
+calls=232 0 
+0 14384
+cfn=(4555)
+calls=2653 0 
+0 30383317
+cfn=(4776)
+calls=498 0 
+0 15667612
+cfn=(4777)
+calls=6768 0 
+0 133675982
+cfn=(5842)
+calls=2514 0 
+0 11350116
+cfn=(4554)
+calls=4697 0 
+0 103113862
+cfn=(4780)
+calls=11247 0 
+0 260426513
+cfn=(3482)
+calls=8385 0 
+0 8385
+cfn=(4504)
+calls=772 0 
+0 13896
+0 189015
+
+fn=(3790)
+0 18996
+cfn=(3792)
+calls=3166 0 
+0 75168
+0 27270
+
+fn=(4034) 0x0000000000029440
+0 142824
+cfn=(3324)
+calls=23804 0 
+0 142824
+0 23804
+0 71412
+cfn=(3324)
+calls=23804 0 
+0 142824
+0 23804
+0 190432
+
+fn=(4130)
+0 681876
+
+fn=(4210)
+0 142803
+cfn=(5648)
+calls=1371 0 
+0 17652
+0 11862
+cfn=(3324)
+calls=570 0 
+0 3420
+0 570
+0 5130
+cfn=(3324)
+calls=570 0 
+0 3420
+0 570
+0 2850
+cfn=(3324)
+calls=570 0 
+0 3420
+0 570
+0 1710
+cfn=(3200)
+calls=570 0 
+0 2280
+0 570
+0 9417
+cfn=(7478)
+calls=11 0 
+0 418
+cfn=(7472)
+calls=11 0 
+0 363
+cfn=(7464)
+calls=11 0 
+0 374
+0 15087
+
+fn=(4412)
+0 3817
+cfn=(4418)
+calls=346 0 
+0 115416
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 1088
+0 351
+0 1388
+cfn=(4418)
+calls=347 0 
+0 116755
+0 347
+0 4164
+cfn=(1070)
+calls=347 0 
+0 2073087
+0 347
+
+fn=(4418)
+0 47784
+cfn=(3302)
+calls=15928 0 
+0 7017692
+0 15928
+0 419162
+
+fn=(4816)
+0 1682208
+cfn=(4556)
+calls=792 0 
+0 27266728
+cfn=(4557)
+calls=12936 0 
+0 398549664
+cfn=(5845)
+calls=33392 0 
+0 234579448
+cfn=(4508)
+calls=5952 0 
+0 18868664
+cfn=(3872)
+calls=39192 0 
+0 110711400
+cfn=(3664)
+calls=25136 0 
+0 49367392
+cfn=(5844)
+calls=11352 0 
+0 191822912
+cfn=(3532)
+calls=58160 0 
+0 44779624
+0 6541920
+cfn=(7638)
+calls=8296 0 
+0 141982968
+cfn=(5284)
+calls=13800 0 
+0 5869600
+cfn=(7174)
+calls=19360 0 
+0 117436608
+cfn=(6216)
+calls=40080 0 
+0 146991520
+cfn=(6198)
+calls=29000 0 
+0 53628400
+cfn=(5528)
+calls=9376 0 
+0 8316512
+cfn=(4840)
+calls=4824 0 
+0 1095048
+cfn=(6600)
+calls=23400 0 
+0 28005080
+cfn=(5920)
+calls=33328 0 
+0 99273792
+cfn=(4930)
+calls=5448 0 
+0 4071648
+0 2616768
+
+fn=(4817)
+0 1287288
+cfn=(4508)
+calls=352 0 
+0 4726304
+cfn=(3872)
+calls=29880 0 
+0 78253560
+cfn=(3532)
+calls=50960 0 
+0 66504320
+cfn=(3664)
+calls=41800 0 
+0 61172400
+cfn=(5845)
+calls=20040 0 
+0 70033224
+0 5006120
+cfn=(7638)
+calls=3952 0 
+0 56402736
+cfn=(7174)
+calls=26280 0 
+0 115275960
+cfn=(6198)
+calls=53560 0 
+0 110621840
+cfn=(6600)
+calls=17400 0 
+0 19749000
+cfn=(5528)
+calls=21800 0 
+0 19336600
+cfn=(6216)
+calls=20040 0 
+0 33888320
+0 2002448
+
+fn=(4824)
+0 1379136
+
+fn=(4866)
+0 347808
+
+fn=(5098)
+0 454936
+
+fn=(5424)
+0 5244584
+
+fn=(5740)
+0 48913
+cfn=(3882)
+calls=64 0 
+0 1088
+cfn=(5872)
+calls=64 0 
+0 256
+cfn=(5824)
+calls=454 0 
+0 14982
+cfn=(5818)
+calls=64 0 
+0 256
+cfn=(5748)
+calls=639 0 
+0 23850
+0 8387
+cfn=(3046)
+calls=1133 0 
+0 506205
+0 1133
+0 6798
+cfn=(3066)
+calls=1133 0 
+0 405978
+0 1133
+0 4532
+cfn=(3066)
+calls=1133 0 
+0 413448
+0 1133
+0 16995
+cfn=(3058)
+calls=1133 0 
+0 6798
+0 1133
+0 9064
+cfn=(3078)
+calls=1133 0 
+0 23793
+0 1133
+0 10197
+
+fn=(5846)
+0 1214888
+cfn=(8210)
+calls=320 0 
+0 11466560
+cfn=(8166) 0x00000000001575c0
+calls=27192 0 
+0 105033240
+cfn=(8144)
+calls=26400 0 
+0 126408336
+cfn=(5878)
+calls=192 0 
+0 3177408
+cfn=(5860)
+calls=15736 0 
+0 28944848
+cfn=(5848)
+calls=1624 0 
+0 9529296
+0 142928
+
+fn=(5960)
+0 49061696
+
+fn=(5986)
+0 7621992
+
+fn=(6038)
+0 439616
+
+fn=(6718)
+0 2787032
+
+fn=(6786)
+0 5658576
+
+fn=(7552)
+0 9463232
+
+fn=(8166)
+0 105033240
+
+fn=(8834)
+0 2335520
+
+fn=(8900)
+0 1338080
+
+fn=(9250)
+0 1196416
+
+fn=(9266)
+0 2208784
+
+ob=(11) /usr/lib64/valgrind/vgpreload_core-amd64-linux.so
+fl=(11) ???
+fn=(850) 0x0000000000000640
+0 17
+
+ob=(12) /home/pleroy/DEV/processing/PoSAR-MC/backprojection/ccpp/backprojection/backprojection
+fl=(14) /home/pleroy/DEV/processing/PoSAR-MC/backprojection/ccpp/backprojection/backprojection.c
+fn=(944) backProjectionOmpGroundRange
+182 19
++1 1
++5 2
++1 2
++5 5
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+* 1332
+* 5
+* 2
++2 1
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+* 1350
+* 5
+* 2
++1 6
++1 2
++2 2
+cob=(3)
+cfi=(3)
+cfn=(894) puts
+calls=1 0 
+* 498
+* 1
+* 1
++1 6
+cob=(3)
+cfi=(3)
+cfn=(930) printf
+calls=1 0 
+* 1323
+* 1
+* 1
++1 8
+cob=(3)
+cfi=(3)
+cfn=(930)
+calls=1 0 
+* 6542
+* 1
+* 1
++1 5
+cob=(3)
+cfi=(3)
+cfn=(930)
+calls=1 0 
+* 904
+* 1
+* 1
++1 15
+cob=(3)
+cfi=(3)
+cfn=(930)
+calls=1 0 
+* 2849
+* 1
+* 1
++2 5
++1 4
++2 5
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+* 4286
+* 5
+* 2
++1 5
+cob=(10)
+cfi=(10)
+cfn=(982)
+calls=1 0 
+* 369
+* 1
+* 1
++1 26
++2 3
++1 19
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+* 4096114526
+* 5
+-1 3
+
+fn=(872) _GLOBAL__sub_I_00100_0_backprojection.c
+489 4
+cfi=(12) ???
+cfn=(870) __gcov_init
+calls=1 0 
+* 22
+* 2
+
+fl=(12)
+fn=(858) _start
+0 11
+cob=(3)
+cfi=(3)
+cfn=(860) (below main)
+calls=1 0 
+0 4096145431
+
+fn=(874) 0x0000000000401630
+0 16
+
+fn=(862) __libc_csu_init
+0 15
+cob=(2)
+cfi=(2)
+cfn=(864) 0x00000000004011f8
+calls=1 0 
+0 6
+0 8
+cfi=(13) /home/pleroy/DEV/processing/PoSAR-MC/backprojection/ccpp/backprojection/main.c
+cfn=(868) _GLOBAL__sub_I_00100_0_main.c
+calls=1 70 
+0 40
+0 8
+cfn=(874)
+calls=1 0 
+0 16
+cfi=(14)
+cfn=(872)
+calls=1 489 
+0 28
+0 17
+
+fn=(870)
+0 56
+
+fl=(13)
+fn=(868)
+70 4
+cfi=(12)
+cfn=(870)
+calls=1 -70 
+* 34
+* 2
+
+fn=(886) main
+18 4
++1 2
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 -19 
+* 3295
+* 5
++4 1
++2 2
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 -25 
+* 2228
+* 5
+* 1
++1 2
+cob=(3)
+cfi=(3)
+cfn=(412) malloc
+calls=1 -26 
+* 194
+* 1
+* 1
++1 2
+cob=(3)
+cfi=(3)
+cfn=(412)
+calls=1 -27 
+* 382
+* 1
+* 1
++1 5
+cob=(3)
+cfi=(3)
+cfn=(412)
+calls=1 -28 
+* 289
+* 1
+* 1
++1 2
+cob=(3)
+cfi=(3)
+cfn=(412)
+calls=1 -29 
+* 188
+* 1
+* 1
++1 5
+cob=(3)
+cfi=(3)
+cfn=(412)
+calls=1 -30 
+* 185
+* 1
+* 1
++3 12
++2 90
+-2 32
++6 7
++2 45
+-2 17
++6 12
++2 70
++2 750
+-2 170
+-2 33
++8 5
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 -53 
+* 2903
+* 5
+* 1
++2 20
+cfi=(14)
+cfn=(944)
+calls=1 182 
+* 4096134161
+
+ob=(7) /usr/lib64/libgcc_s-7-20170915.so.1
+fl=(7) ???
+fn=(274) __cpu_indicator_init
+0 47
+cfn=(276) 0x0000000000002ac0
+calls=1 0 
+0 106
+0 16
+
+fn=(276)
+0 106
+
+fn=(318) 0x0000000000003030
+0 17
+
+ob=(3)
+fl=(3)
+fn=(148) strcspn
+0 6
+
+fn=(348)
+0 180
+cfn=(350) strlen
+calls=20 0 
+0 428
+0 6860
+
+fn=(408) _fxstat
+0 18
+
+fn=(418) _dl_addr
+0 15
+cob=(5)
+cfi=(5)
+cfn=(420) pthread_mutex_lock
+calls=1 0 
+0 35
+0 2
+cob=(2)
+cfi=(2)
+cfn=(422) 0x0000000005d4bb88
+calls=1 0 
+0 87
+0 57715
+cob=(5)
+cfi=(5)
+cfn=(426) pthread_mutex_unlock
+calls=1 0 
+0 28
+0 13
+
+fn=(442) readdir
+0 986
+cfn=(444) __getdents
+calls=2 0 
+0 1386
+0 385
+
+fn=(910) _IO_default_xsputn
+0 151
+cfn=(898) _IO_file_overflow@@GLIBC_2.2.5
+calls=12 0 
+0 396
+0 109
+
+fn=(934) strchrnul
+0 284
+
+fn=(966) __mpn_mul
+0 70
+cfn=(968) __mpn_mul_1
+calls=2 0 
+0 64
+0 12
+
+fn=(968)
+0 716
+
+fn=(248) rindex
+0 142
+
+fn=(250) __ctype_init
+0 16
+
+fn=(172) memcpy@@GLIBC_2.14
+0 13
+
+fn=(436) __default_morecore
+0 86
+cfn=(438) sbrk
+calls=43 0 
+0 1896
+0 215
+
+fn=(444)
+0 39
+cfn=(350)
+calls=1 0 
+0 16
+0 128
+cfn=(350)
+calls=32 0 
+0 512
+0 165
+cfn=(446) memcpy@GLIBC_2.2.5
+calls=33 0 
+0 376
+0 150
+
+fn=(904) _IO_file_stat
+0 4
+cfn=(408)
+calls=1 0 
+0 9
+
+fn=(976) __mpn_divrem
+0 623
+
+fn=(2724)
+0 297770
+
+fn=(158) memmove
+0 26
+
+fn=(256) intel_check_word
+0 1289
+
+fn=(460) _int_free
+0 33351164
+cfn=(1304) malloc_consolidate.part.1
+calls=837 0 
+0 826477
+0 5560
+cfn=(462) systrim.isra.3.constprop.12
+calls=249 0 
+0 8121
+0 170138
+
+fn=(494) __memset_avx2_unaligned_erms
+0 17
+
+fn=(860)
+0 25
+cfn=(678) __cxa_atexit
+calls=1 0 
+0 66
+0 11
+cob=(12)
+cfi=(12)
+cfn=(862)
+calls=1 0 
+0 138
+0 8
+cfn=(880) _setjmp
+calls=1 0 
+0 29
+0 14
+cob=(12)
+cfi=(13)
+cfn=(886)
+calls=1 18 
+0 4096145140
+
+fn=(880)
+0 2
+cfn=(882) __sigsetjmp
+calls=1 0 
+0 27
+
+fn=(894)
+0 14
+cfn=(350)
+calls=2 0 
+0 50
+0 67
+cfn=(896) _IO_file_xsputn@@GLIBC_2.2.5
+calls=2 0 
+0 1317
+0 60
+cfn=(912) __overflow
+calls=2 0 
+0 324
+0 4
+
+fn=(898)
+0 1692
+cfn=(908) _IO_do_write@@GLIBC_2.2.5
+calls=7 0 
+0 634
+0 10
+cfn=(908)
+calls=2 0 
+0 210
+0 6
+cfn=(900) _IO_doallocbuf
+calls=1 0 
+0 313
+0 6
+
+fn=(958) __printf_fp
+0 24
+cfn=(960) __printf_fp_l
+calls=4 0 
+0 7377
+
+fn=(962) __mpn_extract_double
+0 80
+
+fn=(974) __mpn_cmp
+0 22
+
+fn=(232) __register_atfork
+0 52
+
+fn=(254) handle_intel
+0 102
+cfn=(256)
+calls=3 0 
+0 969
+0 21
+cfn=(256)
+calls=3 0 
+0 320
+0 39
+
+fn=(412)
+0 214
+cfn=(432) _int_malloc
+calls=9 0 
+0 1604
+0 198
+cfn=(414) malloc_hook_ini
+calls=1 0 
+0 59389
+
+fn=(882)
+0 19
+cfn=(884) __sigjmp_save
+calls=1 0 
+0 8
+
+fn=(900)
+0 23
+cfn=(902) _IO_file_doallocate
+calls=1 0 
+0 288
+0 2
+
+fn=(916) write
+0 16
+cfn=(918) __write_nocancel
+calls=8 0 
+0 40
+
+fn=(930)
+0 84
+cfn=(932) vfprintf
+calls=2 0 
+0 9321
+0 42
+cfn=(932)
+calls=3 0 
+0 3075
+0 25
+
+fn=(170) strcmp
+0 8
+
+fn=(226) getrlimit
+0 15
+
+fn=(432)
+0 24859089
+cfn=(1304)
+calls=26 0 
+0 659200
+0 2825800
+cfn=(1304)
+calls=5312 0 
+0 13087858
+0 2487764
+cfn=(434) sysmalloc
+calls=13 0 
+0 2201
+0 3691140
+
+fn=(452) ____strtoul_l_internal
+0 1870
+
+fn=(462)
+0 4515
+cfn=(436)
+calls=11 0 
+0 445
+0 88
+cfn=(436)
+calls=11 0 
+0 709
+0 66
+cfn=(436)
+calls=11 0 
+0 445
+0 1853
+
+fn=(896)
+0 453
+cfn=(938) __GI_mempcpy
+calls=12 0 
+0 161
+0 48
+cfn=(938)
+calls=6 0 
+0 96
+0 327
+cfn=(898)
+calls=7 0 
+0 1129
+0 116
+cfn=(910)
+calls=1 0 
+0 656
+0 666
+
+fn=(908)
+0 252
+cfn=(914) _IO_file_write@@GLIBC_2.2.5
+calls=8 0 
+0 352
+0 240
+
+fn=(938)
+0 317
+
+fn=(972) hack_digit
+0 142
+cfn=(976)
+calls=4 0 
+0 160
+0 64
+cfn=(968)
+calls=4 0 
+0 80
+0 78
+cfn=(968)
+calls=5 0 
+0 100
+0 41
+
+fn=(168) memset
+0 30
+
+fn=(414)
+0 24
+cfn=(432)
+calls=1 0 
+0 392
+0 23
+cfn=(416) ptmalloc_init.part.2
+calls=1 0 
+0 58947
+0 3
+
+fn=(434)
+0 1059
+cfn=(436)
+calls=9 0 
+0 573
+0 363
+cfn=(436)
+calls=1 0 
+0 25
+0 41
+cfn=(924) mmap
+calls=4 0 
+0 132
+0 8
+
+fn=(438)
+0 548
+cfn=(440) brk
+calls=39 0 
+0 468
+0 445
+cfn=(440)
+calls=20 0 
+0 240
+0 195
+
+fn=(440)
+0 708
+
+fn=(454) closedir
+0 5
+cob=(2)
+cfi=(2)
+cfn=(456) 0x0000000005d4bb98
+calls=1 0 
+0 297
+0 7
+
+fn=(506) popcount_cpucount
+0 13
+
+fn=(678)
+0 48
+cfn=(680) __new_exitfn
+calls=6 0 
+0 258
+0 84
+
+fn=(680)
+0 258
+
+fn=(914)
+0 112
+cfn=(916)
+calls=8 0 
+0 56
+0 184
+
+fn=(1002)
+0 7648956
+cfn=(432)
+calls=201288 0 
+0 47610807
+0 4519510
+cfn=(460)
+calls=73186 0 
+0 5850528
+0 12624226
+cfn=(460)
+calls=131210 0 
+0 10493243
+0 131236
+cfn=(1004) memalign_hook_ini
+calls=1 0 
+0 364
+0 603864
+
+fn=(1304)
+0 14573535
+
+fn=(4028)
+0 38112
+cfn=(4030) qsort_r
+calls=19056 0 
+0 6455305
+
+fn=(144) time
+0 55
+cfn=(146) _dl_vdso_vsym
+calls=1 0 
+0 17
+0 5
+
+fn=(162) strcpy
+0 9
+
+fn=(230) __libc_pthread_init
+0 8
+cfn=(232)
+calls=1 0 
+0 52
+0 385
+
+fn=(9658) munmap
+0 5
+
+fn=(156) gettimeofday
+0 165
+cfn=(146)
+calls=3 0 
+0 51
+0 15
+
+fn=(402) sysconf
+0 30
+cfn=(404) get_nprocs_conf
+calls=1 0 
+0 65092
+0 2
+
+fn=(404)
+0 13
+cfn=(406) opendir
+calls=1 0 
+0 59464
+0 7
+cfn=(442)
+calls=1 0 
+0 1410
+0 34
+cfn=(442)
+calls=17 0 
+0 680
+0 366
+cfn=(450) strtoul
+calls=18 0 
+0 1942
+0 154
+cfn=(442)
+calls=16 0 
+0 667
+0 35
+cfn=(454)
+calls=1 0 
+0 309
+0 11
+
+fn=(406)
+0 21
+cfn=(408)
+calls=1 0 
+0 9
+0 14
+cob=(2)
+cfi=(2)
+cfn=(410) 0x0000000005d4bb68
+calls=1 0 
+0 59402
+0 18
+
+fn=(504) __sched_cpucount
+0 6
+
+fn=(884)
+0 8
+
+fn=(940) _itoa_word
+0 160
+
+fn=(970) __mpn_rshift
+0 51
+
+fn=(1004)
+0 42
+cfn=(432)
+calls=1 0 
+0 249
+0 73
+
+fn=(146)
+0 102
+
+fn=(154) strspn
+0 6
+
+fn=(166) index
+0 5
+
+fn=(252) init_cacheinfo
+0 26
+cfn=(254)
+calls=1 0 
+0 444
+0 4
+cfn=(254)
+calls=1 0 
+0 490
+0 4
+cfn=(254)
+calls=1 0 
+0 517
+0 204
+
+fn=(416)
+0 28
+cob=(2)
+cfi=(2)
+cfn=(428) 0x0000000005d4bb80
+calls=1 0 
+0 9
+0 4
+cob=(2)
+cfi=(2)
+cfn=(428)
+calls=1 0 
+0 9
+0 4
+cob=(2)
+cfi=(2)
+cfn=(428)
+calls=1 0 
+0 9
+0 4
+cob=(2)
+cfi=(2)
+cfn=(428)
+calls=1 0 
+0 9
+0 4
+cob=(2)
+cfi=(2)
+cfn=(428)
+calls=1 0 
+0 9
+0 4
+cob=(2)
+cfi=(2)
+cfn=(428)
+calls=1 0 
+0 9
+0 4
+cob=(2)
+cfi=(2)
+cfn=(428)
+calls=1 0 
+0 9
+0 4
+cob=(2)
+cfi=(2)
+cfn=(428)
+calls=1 0 
+0 9
+0 918
+cfn=(418)
+calls=1 0 
+0 57895
+0 6
+
+fn=(458)
+0 6834753
+cfn=(460)
+calls=199888 0 
+0 18017689
+0 199909
+cfn=(9658)
+calls=1 0 
+0 5
+0 3
+
+fn=(902)
+0 22
+cfn=(904)
+calls=1 0 
+0 13
+0 12
+cob=(2)
+cfi=(2)
+cfn=(410)
+calls=1 0 
+0 194
+0 8
+cfn=(906) _IO_setb
+calls=1 0 
+0 18
+0 21
+
+fn=(906)
+0 18
+
+fn=(912)
+0 578
+cfn=(898)
+calls=34 0 
+0 1346
+
+fn=(918)
+0 40
+
+fn=(924)
+0 132
+
+fn=(960)
+0 268
+cfn=(962)
+calls=4 0 
+0 80
+0 151
+cfn=(446)
+calls=1 0 
+0 10
+0 147
+cfn=(966)
+calls=1 0 
+0 73
+0 9
+cfn=(446)
+calls=1 0 
+0 10
+0 34
+cfn=(970)
+calls=1 0 
+0 17
+0 8
+cfn=(970)
+calls=1 0 
+0 17
+0 204
+cfn=(972)
+calls=3 0 
+0 198
+0 6
+cfn=(972)
+calls=2 0 
+0 216
+0 492
+cfn=(976)
+calls=12 0 
+0 463
+0 382
+cfn=(968)
+calls=12 0 
+0 240
+0 166
+cfn=(968)
+calls=10 0 
+0 200
+0 84
+cfn=(972)
+calls=4 0 
+0 251
+0 253
+cfn=(964) __mpn_lshift
+calls=2 0 
+0 30
+0 40
+cfn=(974)
+calls=2 0 
+0 22
+0 110
+cfn=(964)
+calls=1 0 
+0 15
+0 157
+cfn=(966)
+calls=1 0 
+0 73
+0 63
+cfn=(350)
+calls=4 0 
+0 64
+0 432
+cfn=(938)
+calls=4 0 
+0 60
+0 59
+cfn=(964)
+calls=1 0 
+0 15
+0 409
+cfn=(912)
+calls=32 0 
+0 1600
+0 157
+cfn=(968)
+calls=1 0 
+0 32
+0 30
+cfn=(970)
+calls=1 0 
+0 17
+0 13
+
+fn=(964)
+0 60
+
+fn=(4030)
+0 1048080
+cfn=(4032) msort_with_tmp.part.0
+calls=19056 0 
+0 4740265
+0 38112
+cob=(2)
+cfi=(2)
+cfn=(456)
+calls=19056 0 
+0 457344
+0 171504
+
+fn=(244) _init
+0 73
+cfn=(146)
+calls=1 0 
+0 17
+0 9
+cfn=(146)
+calls=1 0 
+0 17
+0 7
+cfn=(246) __init_misc
+calls=1 0 
+0 166
+0 1
+cfn=(250)
+calls=1 0 
+0 16
+0 12
+
+fn=(142) strcasecmp
+0 5
+
+fn=(150) strncasecmp
+0 5
+
+fn=(152) strpbrk
+0 6
+
+fn=(350)
+0 1070
+
+fn=(446)
+0 464150
+
+fn=(450)
+0 72
+cfn=(452)
+calls=18 0 
+0 1870
+
+ob=(1)
+fl=(1)
+fn=(2) _dl_start
+0 253
+cfn=(4) _dl_setup_hash
+calls=1 0 
+0 23
+0 17
+cfn=(6) _dl_sysdep_start
+calls=1 0 
+0 2871442
+0 515
+
+fn=(28) calloc
+0 200
+cob=(2)
+cfi=(2)
+cfn=(30) 0x0000000004000c20
+calls=25 0 
+0 719
+
+fn=(58) fillin_rpath
+0 19
+cfn=(60) strsep
+calls=1 0 
+0 174
+0 7
+cfn=(56) index
+calls=1 0 
+0 23
+0 4
+cfn=(62) strdup
+calls=1 0 
+0 62
+0 3
+cfn=(14) strlen
+calls=1 0 
+0 16
+0 17
+cfn=(22) bcmp
+calls=1 0 
+0 38
+0 8
+cob=(2)
+cfi=(2)
+cfn=(64) 0x0000000004000c48
+calls=1 0 
+0 26
+0 3
+cfn=(60)
+calls=1 0 
+0 6
+0 27
+
+fn=(86) _dl_map_object
+0 2646
+cfn=(88) _dl_name_match_p
+calls=163 0 
+0 15852
+0 1576
+cfn=(42) strcmp
+calls=103 0 
+0 4404
+0 530
+cfn=(56)
+calls=9 0 
+0 207
+0 23
+cfn=(56)
+calls=1 0 
+0 47
+0 4
+cfn=(62)
+calls=1 0 
+0 88
+0 18
+cfn=(90) open_verify.constprop.7
+calls=1 0 
+0 188
+0 23
+cfn=(96) _dl_map_object_from_fd
+calls=1 0 
+0 1402
+0 112
+cfn=(96)
+calls=8 0 
+0 12570
+0 51
+cfn=(14)
+calls=8 0 
+0 128
+0 160
+cfn=(112) open_path
+calls=8 0 
+0 4361
+0 430
+
+fn=(94) read
+0 45
+
+fn=(112)
+0 376
+cfn=(52) mempcpy
+calls=8 0 
+0 96
+0 310
+cfn=(52)
+calls=18 0 
+0 242
+0 72
+cfn=(52)
+calls=18 0 
+0 216
+0 252
+cfn=(90)
+calls=18 0 
+0 1992
+0 166
+cob=(2)
+cfi=(2)
+cfn=(30)
+calls=8 0 
+0 152
+0 64
+cfn=(34) memcpy
+calls=8 0 
+0 80
+0 280
+cfn=(114) _xstat
+calls=3 0 
+0 36
+0 27
+
+fn=(138) _dl_lookup_symbol_x
+0 1038991
+cfn=(140) do_lookup_x
+calls=3022 0 
+0 1202770
+0 105472
+
+fn=(430) __tunable_set_val
+0 64
+
+fn=(24) _dl_new_object
+0 160
+cfn=(14)
+calls=10 0 
+0 178
+0 150
+cob=(2)
+cfi=(2)
+cfn=(26) 0x0000000004000c28
+calls=10 0 
+0 404
+0 150
+cfn=(34)
+calls=10 0 
+0 111
+0 532
+cfn=(14)
+calls=9 0 
+0 306
+0 245
+cfn=(52)
+calls=9 0 
+0 116
+0 627
+cob=(2)
+cfi=(2)
+cfn=(30)
+calls=9 0 
+0 171
+0 36
+
+fn=(48) _dl_init_paths
+0 14
+cfn=(50) _dl_important_hwcaps
+calls=1 0 
+0 355
+0 3
+cob=(2)
+cfi=(2)
+cfn=(30)
+calls=1 0 
+0 19
+0 16
+cob=(2)
+cfi=(2)
+cfn=(30)
+calls=1 0 
+0 19
+0 22
+cfn=(54) memset
+calls=1 0 
+0 12
+0 12
+cfn=(54)
+calls=1 0 
+0 12
+0 21
+cfn=(56)
+calls=1 0 
+0 23
+0 3
+cfn=(14)
+calls=1 0 
+0 16
+0 11
+cfn=(34)
+calls=1 0 
+0 10
+0 85
+cob=(2)
+cfi=(2)
+cfn=(30)
+calls=1 0 
+0 19
+0 12
+cfn=(58)
+calls=1 0 
+0 433
+0 21
+
+fn=(128) match_symbol
+0 5103
+cfn=(42)
+calls=55 0 
+0 2074
+0 550
+
+fn=(12) get_common_indeces.constprop.1
+0 66
+
+fn=(82) __sigsetjmp
+0 500
+
+fn=(110) openaux
+0 336
+cfn=(86)
+calls=24 0 
+0 42649
+0 72
+
+fn=(44) _dl_discover_osversion
+0 15
+cfn=(46) uname
+calls=1 0 
+0 5
+0 75
+
+fn=(68) _dl_debug_initialize
+0 97
+
+fn=(6)
+0 450
+cfn=(8) __tunables_init
+calls=1 0 
+0 12858
+0 2
+cfn=(10) brk
+calls=1 0 
+0 11
+0 30
+cfn=(14)
+calls=1 0 
+0 32
+0 3
+cfn=(16) sbrk
+calls=1 0 
+0 17
+0 11
+cfn=(18) dl_main
+calls=1 0 
+0 2857910
+0 14
+cfn=(12)
+calls=1 0 
+0 66
+0 38
+
+fn=(8)
+0 12858
+
+fn=(34)
+0 513
+
+fn=(36) _dl_add_to_namespace_list
+0 80
+cfn=(38) rtld_lock_default_lock_recursive
+calls=10 0 
+0 20
+0 394
+cfn=(40) rtld_lock_default_unlock_recursive
+calls=9 0 
+0 18
+0 12
+cfn=(40)
+calls=1 0 
+0 2
+0 2
+
+fn=(102) mprotect
+0 100
+
+fn=(32) malloc
+0 881
+cfn=(100) mmap
+calls=4 0 
+0 132
+0 293
+
+fn=(60)
+0 180
+
+fn=(104) close
+0 45
+
+fn=(212) _dl_init
+0 249
+cob=(2)
+cfi=(2)
+cfn=(846) 0x0000000004a29520
+calls=1 0 
+0 6
+cob=(2)
+cfi=(2)
+cfn=(834) 0x0000000004c4e888
+calls=1 0 
+0 6
+cob=(2)
+cfi=(2)
+cfn=(652) 0x00000000050b0c98
+calls=1 0 
+0 6
+cob=(2)
+cfi=(2)
+cfn=(642) 0x00000000053b6d98
+calls=1 0 
+0 6
+cob=(2)
+cfi=(2)
+cfn=(324) 0x00000000056cdca8
+calls=1 0 
+0 6
+cob=(2)
+cfi=(2)
+cfn=(270) 0x00000000058f87e0
+calls=1 0 
+0 6
+cob=(2)
+cfi=(2)
+cfn=(258) 0x00000000060fdd20
+calls=1 0 
+0 6
+cob=(3)
+cfi=(3)
+cfn=(244)
+calls=1 0 
+0 318
+0 152
+cob=(11)
+cfi=(11)
+cfn=(850)
+calls=1 0 
+0 17
+cob=(10)
+cfi=(10)
+cfn=(838)
+calls=1 0 
+0 17
+cob=(9) /usr/lib64/libstdc++.so.6.0.24
+cfi=(9) ???
+cfn=(656) 0x000000000008c990
+calls=1 0 
+0 17
+cob=(4) /usr/lib64/libm-2.25.so
+cfi=(4) ???
+cfn=(646) 0x0000000000006190
+calls=1 0 
+0 17
+cob=(8)
+cfi=(8)
+cfn=(328)
+calls=1 0 
+0 17
+cob=(7)
+cfi=(7)
+cfn=(274)
+calls=1 0 
+0 169
+cob=(6) /usr/lib64/libdl-2.25.so
+cfi=(6) ???
+cfn=(262) 0x0000000000000ec0
+calls=1 0 
+0 17
+cob=(3)
+cfi=(3)
+cfn=(252)
+calls=1 0 
+0 1689
+0 56
+cob=(9)
+cfi=(9)
+cfn=(808) 0x000000000008c800
+calls=1 0 
+0 49
+cob=(9)
+cfi=(9)
+cfn=(782) 0x000000000008c740
+calls=1 0 
+0 49
+cob=(9)
+cfi=(9)
+cfn=(764) 0x000000000008c6c0
+calls=1 0 
+0 33
+cob=(9)
+cfi=(9)
+cfn=(746) 0x000000000008c640
+calls=1 0 
+0 33
+cob=(9)
+cfi=(9)
+cfn=(742) 0x000000000008c600
+calls=1 0 
+0 144
+cob=(9)
+cfi=(9)
+cfn=(740) 0x000000000008c3e0
+calls=1 0 
+0 54
+cob=(9)
+cfi=(9)
+cfn=(718) 0x000000000008c2e0
+calls=1 0 
+0 71
+cob=(9)
+cfi=(9)
+cfn=(708) 0x000000000008c260
+calls=1 0 
+0 1835
+cob=(9)
+cfi=(9)
+cfn=(686) 0x000000000008c240
+calls=1 0 
+0 2421
+cob=(9)
+cfi=(9)
+cfn=(662) 0x000000000008c1c0
+calls=1 0 
+0 2655
+cob=(8)
+cfi=(8)
+cfn=(636)
+calls=1 0 
+0 34
+cob=(8)
+cfi=(8)
+cfn=(334)
+calls=1 0 
+0 88509
+cob=(7)
+cfi=(7)
+cfn=(318)
+calls=1 0 
+0 17
+cob=(6)
+cfi=(6)
+cfn=(268) init
+calls=1 0 
+0 3
+0 129
+cob=(2)
+cfi=(2)
+cfn=(214) 0x0000000005b125c8
+calls=1 0 
+0 733
+0 22
+cob=(5)
+cfi=(5)
+cfn=(242) elision_init
+calls=1 0 
+0 5
+0 5
+cob=(5)
+cfi=(5)
+cfn=(236) 0x0000000000005930
+calls=1 0 
+0 17
+0 9
+
+fn=(56)
+0 1064
+
+fn=(70) _dl_count_modids
+0 4
+
+fn=(10)
+0 11
+
+fn=(84) map_doit
+0 11
+cfn=(86)
+calls=1 0 
+0 2171
+0 3
+
+fn=(90)
+0 435
+cfn=(92) open
+calls=19 0 
+0 135
+0 147
+cfn=(94)
+calls=9 0 
+0 45
+0 1418
+
+fn=(98) _fxstat
+0 81
+
+fn=(106) access
+0 9
+
+fn=(134) _dl_allocate_tls_storage
+0 7
+cob=(2)
+cfi=(2)
+cfn=(30)
+calls=1 0 
+0 19
+0 311
+cob=(2)
+cfi=(2)
+cfn=(26)
+calls=1 0 
+0 28
+0 10
+
+fn=(208) _dl_unload_cache
+0 5
+
+fn=(222) _dl_get_tls_static_info
+0 5
+
+fn=(4)
+0 253
+
+fn=(14)
+0 726
+
+fn=(74) handle_ld_preload
+0 21
+cfn=(76) strcspn
+calls=1 0 
+0 223
+0 23
+cob=(2)
+cfi=(2)
+cfn=(78) 0x0000000004000c40
+calls=1 0 
+0 2245
+0 22
+cfn=(34)
+calls=1 0 
+0 18
+0 2
+
+fn=(96)
+0 162
+cfn=(68)
+calls=9 0 
+0 72
+0 45
+cfn=(98)
+calls=9 0 
+0 81
+0 873
+cfn=(24)
+calls=9 0 
+0 2956
+0 2323
+cfn=(116) _dl_next_tls_modid
+calls=3 0 
+0 18
+0 306
+cfn=(100)
+calls=9 0 
+0 315
+0 648
+cfn=(100)
+calls=9 0 
+0 279
+0 2973
+cfn=(104)
+calls=3 0 
+0 15
+0 12
+cfn=(104)
+calls=6 0 
+0 30
+0 108
+cfn=(4)
+calls=9 0 
+0 207
+0 144
+cfn=(36)
+calls=9 0 
+0 495
+0 117
+cfn=(102)
+calls=9 0 
+0 45
+0 202
+cfn=(54)
+calls=9 0 
+0 1237
+0 202
+cfn=(100)
+calls=3 0 
+0 93
+0 14
+
+fn=(46)
+0 5
+
+fn=(54)
+0 1480
+
+fn=(66) free
+0 17
+cfn=(54)
+calls=1 0 
+0 13
+0 3
+
+fn=(80) _dl_catch_error
+0 525
+cfn=(82)
+calls=25 0 
+0 500
+0 150
+cfn=(110)
+calls=24 0 
+0 43057
+cfn=(84)
+calls=1 0 
+0 2185
+0 300
+
+fn=(100)
+0 819
+
+fn=(108) _dl_map_object_deps
+0 459
+cfn=(56)
+calls=24 0 
+0 764
+0 216
+cob=(2)
+cfi=(2)
+cfn=(78)
+calls=24 0 
+0 44497
+0 2601
+cob=(2)
+cfi=(2)
+cfn=(30)
+calls=9 0 
+0 171
+0 90
+cfn=(34)
+calls=9 0 
+0 98
+0 45
+cfn=(34)
+calls=9 0 
+0 98
+0 121
+cob=(2)
+cfi=(2)
+cfn=(30)
+calls=1 0 
+0 19
+0 140
+cfn=(54)
+calls=1 0 
+0 12
+0 1140
+cfn=(34)
+calls=2 0 
+0 20
+0 80
+cfn=(54)
+calls=9 0 
+0 123
+0 299
+cfn=(34)
+calls=2 0 
+0 24
+0 146
+cfn=(118) __libc_scratch_buffer_set_array_size
+calls=9 0 
+0 162
+0 107
+cfn=(34)
+calls=1 0 
+0 26
+0 24
+
+fn=(160) _dl_add_to_slotinfo
+0 60
+
+fn=(206) _dl_sysdep_start_cleanup
+0 1
+
+fn=(40)
+0 264
+
+fn=(118)
+0 162
+
+fn=(120) _dl_receive_error
+0 9
+cfn=(122) version_check_doit
+calls=1 0 
+0 33115
+0 6
+
+fn=(344) _dl_runtime_resolve_sse_vex
+0 520
+cfn=(346) _dl_fixup
+calls=20 0 
+0 27912
+0 480
+cob=(10)
+cfi=(10)
+cfn=(1010)
+calls=1 0 
+0 4096113844
+cob=(10)
+cfi=(10)
+cfn=(982)
+calls=1 0 
+0 3580
+cob=(8)
+cfi=(8)
+cfn=(956)
+calls=1 0 
+0 8
+cob=(4)
+cfi=(4)
+cfn=(950) __sin_avx
+calls=1 0 
+0 109
+cob=(3)
+cfi=(3)
+cfn=(930)
+calls=1 0 
+0 929
+cob=(3)
+cfi=(3)
+cfn=(894)
+calls=1 0 
+0 1338
+cob=(9)
+cfi=(9)
+cfn=(692) std::future_category()
+calls=1 0 
+0 1644
+cob=(3)
+cfi=(3)
+cfn=(678)
+calls=1 0 
+0 60
+cob=(9)
+cfi=(9)
+cfn=(670) std::error_category::error_category()
+calls=1 0 
+0 4
+cob=(5)
+cfi=(5)
+cfn=(612)
+calls=1 0 
+0 18
+cob=(5)
+cfi=(5)
+cfn=(574) pthread_attr_setdetachstate
+calls=1 0 
+0 5
+cob=(5)
+cfi=(5)
+cfn=(562) pthread_attr_init@@GLIBC_2.2.5
+calls=1 0 
+0 19
+cob=(3)
+cfi=(3)
+cfn=(506)
+calls=1 0 
+0 13
+cob=(5)
+cfi=(5)
+cfn=(490) pthread_getaffinity_np@@GLIBC_2.3.4
+calls=1 0 
+0 38
+cob=(5)
+cfi=(5)
+cfn=(482) pthread_self
+calls=1 0 
+0 2
+cob=(3)
+cfi=(3)
+cfn=(412)
+calls=3 0 
+0 573
+cob=(3)
+cfi=(3)
+cfn=(402)
+calls=1 0 
+0 65124
+cob=(3)
+cfi=(3)
+cfn=(348)
+calls=1 0 
+0 368
+
+fn=(345) _dl_runtime_resolve_sse_vex'2
+0 3588
+cfn=(346)
+calls=138 0 
+0 83124
+0 3312
+cob=(10)
+cfi=(10)
+cfn=(8090)
+calls=1 0 
+0 9
+cob=(10)
+cfi=(10)
+cfn=(5800)
+calls=1 0 
+0 232
+cob=(10)
+cfi=(10)
+cfn=(5618)
+calls=1 0 
+0 42
+cob=(10)
+cfi=(10)
+cfn=(4814)
+calls=1 0 
+0 134
+cob=(10)
+cfi=(10)
+cfn=(4792)
+calls=1 0 
+0 388
+cob=(10)
+cfi=(10)
+cfn=(4786)
+calls=1 0 
+0 2941
+cob=(10)
+cfi=(10)
+cfn=(4646)
+calls=1 0 
+0 309
+cob=(10)
+cfi=(10)
+cfn=(4634)
+calls=1 0 
+0 1313
+cob=(10)
+cfi=(10)
+cfn=(4588)
+calls=1 0 
+0 1373
+cob=(10)
+cfi=(10)
+cfn=(4576)
+calls=1 0 
+0 77
+cob=(10)
+cfi=(10)
+cfn=(4522)
+calls=1 0 
+0 60
+cob=(10)
+cfi=(10)
+cfn=(4498)
+calls=1 0 
+0 24
+cob=(10)
+cfi=(10)
+cfn=(4454)
+calls=1 0 
+0 160479
+cob=(10)
+cfi=(10)
+cfn=(4446)
+calls=1 0 
+0 502
+cob=(10)
+cfi=(10)
+cfn=(4440)
+calls=1 0 
+0 25
+cob=(10)
+cfi=(10)
+cfn=(4434)
+calls=1 0 
+0 4252
+cob=(10)
+cfi=(10)
+cfn=(4428)
+calls=1 0 
+0 3
+cob=(10)
+cfi=(10)
+cfn=(4418)
+calls=1 0 
+0 423
+cob=(10)
+cfi=(10)
+cfn=(4368)
+calls=1 0 
+0 374
+cob=(10)
+cfi=(10)
+cfn=(4298)
+calls=1 0 
+0 21
+cob=(10)
+cfi=(10)
+cfn=(4286)
+calls=1 0 
+0 382
+cob=(10)
+cfi=(10)
+cfn=(4130)
+calls=1 0 
+0 13
+cob=(3)
+cfi=(3)
+cfn=(4028)
+calls=1 0 
+0 282
+cob=(10)
+cfi=(10)
+cfn=(4022)
+calls=1 0 
+0 4522
+cob=(10)
+cfi=(10)
+cfn=(4016)
+calls=1 0 
+0 5158
+cob=(10)
+cfi=(10)
+cfn=(3986)
+calls=1 0 
+0 473
+cob=(10)
+cfi=(10)
+cfn=(3972)
+calls=1 0 
+0 29
+cob=(10)
+cfi=(10)
+cfn=(3962)
+calls=1 0 
+0 29
+cob=(10)
+cfi=(10)
+cfn=(3936)
+calls=1 0 
+0 5
+cob=(10)
+cfi=(10)
+cfn=(3930)
+calls=1 0 
+0 721
+cob=(10)
+cfi=(10)
+cfn=(3682)
+calls=1 0 
+0 308
+cob=(10)
+cfi=(10)
+cfn=(3676)
+calls=1 0 
+0 945
+cob=(10)
+cfi=(10)
+cfn=(3584)
+calls=1 0 
+0 122
+cob=(10)
+cfi=(10)
+cfn=(3552)
+calls=1 0 
+0 43
+cob=(10)
+cfi=(10)
+cfn=(3498)
+calls=1 0 
+0 352
+cob=(10)
+cfi=(10)
+cfn=(3490)
+calls=1 0 
+0 453
+cob=(10)
+cfi=(10)
+cfn=(3480)
+calls=1 0 
+0 15
+cob=(10)
+cfi=(10)
+cfn=(3474)
+calls=1 0 
+0 17912
+cob=(10)
+cfi=(10)
+cfn=(3398)
+calls=1 0 
+0 414
+cob=(10)
+cfi=(10)
+cfn=(3324)
+calls=1 0 
+0 6
+cob=(10)
+cfi=(10)
+cfn=(3302)
+calls=1 0 
+0 384
+cob=(10)
+cfi=(10)
+cfn=(3294)
+calls=1 0 
+0 384
+cob=(10)
+cfi=(10)
+cfn=(3236)
+calls=1 0 
+0 91
+cob=(10)
+cfi=(10)
+cfn=(3206)
+calls=1 0 
+0 4
+cob=(10)
+cfi=(10)
+cfn=(3200)
+calls=1 0 
+0 4
+cob=(10)
+cfi=(10)
+cfn=(3194)
+calls=1 0 
+0 1185
+cob=(10)
+cfi=(10)
+cfn=(3188)
+calls=1 0 
+0 1843
+cob=(10)
+cfi=(10)
+cfn=(3178)
+calls=1 0 
+0 4
+cob=(10)
+cfi=(10)
+cfn=(3138)
+calls=1 0 
+0 48
+cob=(10)
+cfi=(10)
+cfn=(3114)
+calls=1 0 
+0 285604465
+cob=(10)
+cfi=(10)
+cfn=(3098)
+calls=1 0 
+0 385
+cob=(10)
+cfi=(10)
+cfn=(3084)
+calls=1 0 
+0 18
+cob=(10)
+cfi=(10)
+cfn=(3078)
+calls=1 0 
+0 602
+cob=(10)
+cfi=(10)
+cfn=(3066)
+calls=1 0 
+0 485
+cob=(10)
+cfi=(10)
+cfn=(3058)
+calls=1 0 
+0 6
+cob=(10)
+cfi=(10)
+cfn=(3052)
+calls=1 0 
+0 947
+cob=(10)
+cfi=(10)
+cfn=(3046)
+calls=1 0 
+0 1527
+cob=(10)
+cfi=(10)
+cfn=(3032)
+calls=1 0 
+0 10
+cob=(10)
+cfi=(10)
+cfn=(2968)
+calls=1 0 
+0 3
+cob=(10)
+cfi=(10)
+cfn=(2934)
+calls=1 0 
+0 7
+cob=(10)
+cfi=(10)
+cfn=(2924)
+calls=1 0 
+0 10
+cob=(10)
+cfi=(10)
+cfn=(2912)
+calls=1 0 
+0 27
+cob=(10)
+cfi=(10)
+cfn=(2840)
+calls=1 0 
+0 3548
+cob=(10)
+cfi=(10)
+cfn=(2830)
+calls=1 0 
+0 2899
+cob=(10)
+cfi=(10)
+cfn=(2808)
+calls=1 0 
+0 3
+cob=(10)
+cfi=(10)
+cfn=(2798)
+calls=1 0 
+0 309
+cob=(10)
+cfi=(10)
+cfn=(2788)
+calls=1 0 
+0 154
+cob=(10)
+cfi=(10)
+cfn=(2778)
+calls=1 0 
+0 165
+cob=(10)
+cfi=(10)
+cfn=(2770)
+calls=1 0 
+0 29
+cob=(10)
+cfi=(10)
+cfn=(2764)
+calls=1 0 
+0 746
+cob=(10)
+cfi=(10)
+cfn=(2758)
+calls=1 0 
+0 1327
+cob=(10)
+cfi=(10)
+cfn=(2750)
+calls=1 0 
+0 6
+cob=(10)
+cfi=(10)
+cfn=(2732)
+calls=1 0 
+0 488
+cob=(3)
+cfi=(3)
+cfn=(2724)
+calls=1 0 
+0 5
+cob=(10)
+cfi=(10)
+cfn=(2718)
+calls=1 0 
+0 2207
+cob=(10)
+cfi=(10)
+cfn=(2700)
+calls=1 0 
+0 4197
+cob=(10)
+cfi=(10)
+cfn=(2620)
+calls=1 0 
+0 399
+cob=(10)
+cfi=(10)
+cfn=(2614)
+calls=1 0 
+0 1321
+cob=(10)
+cfi=(10)
+cfn=(2378)
+calls=1 0 
+0 394
+cob=(10)
+cfi=(10)
+cfn=(2372)
+calls=1 0 
+0 1893
+cob=(10)
+cfi=(10)
+cfn=(2366)
+calls=1 0 
+0 2580
+cob=(10)
+cfi=(10)
+cfn=(2274)
+calls=1 0 
+0 1221
+cob=(10)
+cfi=(10)
+cfn=(2268)
+calls=1 0 
+0 1924
+cob=(10)
+cfi=(10)
+cfn=(2222)
+calls=1 0 
+0 399
+cob=(10)
+cfi=(10)
+cfn=(2216)
+calls=1 0 
+0 400
+cob=(10)
+cfi=(10)
+cfn=(2210)
+calls=1 0 
+0 400
+cob=(10)
+cfi=(10)
+cfn=(2204)
+calls=1 0 
+0 4013
+cob=(10)
+cfi=(10)
+cfn=(2196)
+calls=1 0 
+0 398
+cob=(10)
+cfi=(10)
+cfn=(2152)
+calls=1 0 
+0 403653
+cob=(10)
+cfi=(10)
+cfn=(1806)
+calls=1 0 
+0 30
+cob=(10)
+cfi=(10)
+cfn=(1460)
+calls=1 0 
+0 2
+cob=(10)
+cfi=(10)
+cfn=(1444)
+calls=1 0 
+0 624
+cob=(10)
+cfi=(10)
+cfn=(1438)
+calls=1 0 
+0 1320
+cob=(10)
+cfi=(10)
+cfn=(1374)
+calls=1 0 
+0 1302
+cob=(10)
+cfi=(10)
+cfn=(1368)
+calls=1 0 
+0 1982
+cob=(10)
+cfi=(10)
+cfn=(1324)
+calls=1 0 
+0 306
+cob=(10)
+cfi=(10)
+cfn=(1318)
+calls=1 0 
+0 306
+cob=(10)
+cfi=(10)
+cfn=(1312)
+calls=1 0 
+0 2403
+cob=(10)
+cfi=(10)
+cfn=(1294)
+calls=1 0 
+0 354
+cob=(10)
+cfi=(10)
+cfn=(1262)
+calls=1 0 
+0 219
+cob=(10)
+cfi=(10)
+cfn=(1244)
+calls=1 0 
+0 2
+cob=(10)
+cfi=(10)
+cfn=(1234)
+calls=1 0 
+0 1806
+cob=(10)
+cfi=(10)
+cfn=(1228)
+calls=1 0 
+0 396
+cob=(10)
+cfi=(10)
+cfn=(1220)
+calls=1 0 
+0 54218
+cob=(10)
+cfi=(10)
+cfn=(1214)
+calls=1 0 
+0 670064
+cob=(10)
+cfi=(10)
+cfn=(1208)
+calls=1 0 
+0 1079924
+cob=(10)
+cfi=(10)
+cfn=(1202)
+calls=1 0 
+0 3
+cob=(10)
+cfi=(10)
+cfn=(1184)
+calls=1 0 
+0 7
+cob=(10)
+cfi=(10)
+cfn=(1178)
+calls=1 0 
+0 639
+cob=(10)
+cfi=(10)
+cfn=(1172)
+calls=1 0 
+0 1239
+cob=(10)
+cfi=(10)
+cfn=(1162)
+calls=1 0 
+0 3765
+cob=(10)
+cfi=(10)
+cfn=(1156)
+calls=1 0 
+0 1084944
+cob=(10)
+cfi=(10)
+cfn=(1150)
+calls=1 0 
+0 4096096836
+cob=(3)
+cfi=(3)
+cfn=(458)
+calls=1 0 
+0 112
+cob=(10)
+cfi=(10)
+cfn=(1140)
+calls=1 0 
+0 2199
+cob=(10)
+cfi=(10)
+cfn=(1134)
+calls=1 0 
+0 2814
+cob=(10)
+cfi=(10)
+cfn=(1128)
+calls=1 0 
+0 3373
+cob=(10)
+cfi=(10)
+cfn=(1122)
+calls=1 0 
+0 4152
+cob=(10)
+cfi=(10)
+cfn=(1114)
+calls=1 0 
+0 16
+cob=(10)
+cfi=(10)
+cfn=(1108)
+calls=1 0 
+0 1067
+cob=(10)
+cfi=(10)
+cfn=(1088)
+calls=1 0 
+0 450
+cob=(10)
+cfi=(10)
+cfn=(1082)
+calls=1 0 
+0 360
+cob=(10)
+cfi=(10)
+cfn=(1076)
+calls=1 0 
+0 3890
+cob=(10)
+cfi=(10)
+cfn=(1070)
+calls=1 0 
+0 9325
+cob=(10)
+cfi=(10)
+cfn=(1064)
+calls=1 0 
+0 407
+cob=(10)
+cfi=(10)
+cfn=(1058)
+calls=1 0 
+0 358
+cob=(10)
+cfi=(10)
+cfn=(1052)
+calls=1 0 
+0 990
+cob=(10)
+cfi=(10)
+cfn=(1046)
+calls=1 0 
+0 1587
+cob=(10)
+cfi=(10)
+cfn=(1040)
+calls=1 0 
+0 6
+cob=(10)
+cfi=(10)
+cfn=(1034)
+calls=1 0 
+0 6
+cob=(10)
+cfi=(10)
+cfn=(1028)
+calls=1 0 
+0 22
+cob=(10)
+cfi=(10)
+cfn=(1022)
+calls=1 0 
+0 4096112609
+cob=(10)
+cfi=(10)
+cfn=(1016)
+calls=1 0 
+0 4096113244
+cob=(3)
+cfi=(3)
+cfn=(1002)
+calls=1 0 
+0 384
+cob=(10)
+cfi=(10)
+cfn=(996)
+calls=1 0 
+0 2381
+cob=(10)
+cfi=(10)
+cfn=(990)
+calls=1 0 
+0 3004
+cob=(9)
+cfi=(9)
+cfn=(704) __cxa_guard_release
+calls=1 0 
+0 15
+cob=(9)
+cfi=(9)
+cfn=(698) __cxa_guard_acquire
+calls=1 0 
+0 31
+
+fn=(18)
+0 34
+cfn=(20) _dl_next_ld_env_entry
+calls=1 0 
+0 158
+0 4
+cfn=(20)
+calls=2 0 
+0 198
+0 298
+cfn=(42)
+calls=1 0 
+0 42
+0 278
+cfn=(4)
+calls=1 0 
+0 23
+0 11
+cfn=(22)
+calls=1 0 
+0 31
+0 8
+cfn=(22)
+calls=1 0 
+0 36
+0 6
+cfn=(44)
+calls=1 0 
+0 95
+0 45
+cfn=(24)
+calls=1 0 
+0 230
+0 11
+cfn=(36)
+calls=1 0 
+0 33
+0 56
+cfn=(48)
+calls=1 0 
+0 1138
+0 3
+cfn=(68)
+calls=1 0 
+0 17
+0 58
+cfn=(70)
+calls=1 0 
+0 4
+0 12
+cfn=(72) _dl_debug_state
+calls=1 0 
+0 1
+0 17
+cfn=(74)
+calls=1 0 
+0 2554
+0 10
+cfn=(106)
+calls=1 0 
+0 9
+0 20
+cfn=(108)
+calls=1 0 
+0 51482
+0 151
+cfn=(120)
+calls=1 0 
+0 33130
+0 5
+cfn=(130) init_tls
+calls=1 0 
+0 661
+0 24
+cfn=(204) _dl_allocate_tls_init
+calls=1 0 
+0 306
+0 237
+cfn=(136) _dl_relocate_object
+calls=10 0 
+0 2759419
+0 34
+cfn=(160)
+calls=3 0 
+0 60
+0 71
+cfn=(136)
+calls=1 0 
+0 6830
+0 7
+cfn=(206)
+calls=1 0 
+0 1
+0 5
+cfn=(68)
+calls=1 0 
+0 8
+0 3
+cfn=(72)
+calls=1 0 
+0 1
+0 2
+cfn=(208)
+calls=1 0 
+0 5
+0 28
+
+fn=(88)
+0 11326
+cfn=(42)
+calls=1618 0 
+0 43718
+0 28968
+cfn=(42)
+calls=1649 0 
+0 45452
+0 3526
+
+fn=(92)
+0 135
+
+fn=(130)
+0 9
+cob=(2)
+cfi=(2)
+cfn=(26)
+calls=1 0 
+0 28
+0 101
+cfn=(132) _dl_determine_tlsoffset
+calls=1 0 
+0 130
+0 1
+cfn=(134)
+calls=1 0 
+0 375
+0 17
+
+fn=(204)
+0 146
+cfn=(52)
+calls=3 0 
+0 38
+0 12
+cfn=(54)
+calls=3 0 
+0 71
+0 39
+
+fn=(42)
+0 176130
+
+fn=(62)
+0 10
+cfn=(14)
+calls=2 0 
+0 50
+0 6
+cob=(2)
+cfi=(2)
+cfn=(30)
+calls=2 0 
+0 38
+0 18
+cfn=(34)
+calls=2 0 
+0 28
+
+fn=(124) _dl_check_all_versions
+0 78
+cfn=(126) _dl_check_map_versions
+calls=11 0 
+0 32943
+0 84
+
+fn=(52)
+0 768
+
+fn=(114)
+0 36
+
+fn=(0) 0x0000000000000dd0
+0 2
+cfn=(2)
+calls=1 0 
+0 2872250
+0 14
+cfn=(212)
+calls=1 0 
+0 99604
+0 3
+cob=(12)
+cfi=(12)
+cfn=(858)
+calls=1 0 
+0 4096145442
+
+fn=(16)
+0 17
+
+fn=(50)
+0 78
+cob=(2)
+cfi=(2)
+cfn=(30)
+calls=1 0 
+0 19
+0 183
+cfn=(52)
+calls=1 0 
+0 16
+0 4
+cfn=(52)
+calls=1 0 
+0 15
+0 4
+cfn=(52)
+calls=1 0 
+0 14
+0 4
+cfn=(52)
+calls=1 0 
+0 15
+0 3
+
+fn=(76)
+0 223
+
+fn=(342)
+0 240
+cfn=(344)
+calls=20 0 
+0 4096216588
+
+fn=(343)
+0 1656
+cfn=(345)
+calls=138 0 
+0 12577608199
+
+fn=(346)
+0 8216
+cfn=(138)
+calls=158 0 
+0 98773
+0 3953
+cob=(3)
+cfi=(3)
+cfn=(156)
+calls=1 0 
+0 77
+cob=(4)
+cfi=(4)
+cfn=(200) sin
+calls=1 0 
+0 8
+cob=(3)
+cfi=(3)
+cfn=(504)
+calls=1 0 
+0 6
+0 3
+
+fn=(72)
+0 2
+
+fn=(140)
+0 488401
+cfn=(88)
+calls=1271 0 
+0 100993
+0 421736
+cfn=(42)
+calls=175 0 
+0 8193
+0 66484
+cfn=(38)
+calls=122 0 
+0 244
+0 5890
+cfn=(42)
+calls=40 0 
+0 2692
+0 680
+cfn=(40)
+calls=40 0 
+0 80
+0 85
+cob=(2)
+cfi=(2)
+cfn=(26)
+calls=1 0 
+0 28
+0 1593
+cfn=(40)
+calls=82 0 
+0 164
+0 3472
+cfn=(202) _dl_higher_prime_number
+calls=2 0 
+0 149
+0 8
+cob=(2)
+cfi=(2)
+cfn=(26)
+calls=2 0 
+0 116
+0 2378
+cfn=(66)
+calls=2 0 
+0 8
+0 32
+
+ob=(3)
+fl=(3)
+fn=(566) getpagesize
+0 5
+
+fn=(932)
+0 180
+cfn=(934)
+calls=5 0 
+0 124
+0 75
+cob=(5)
+cfi=(5)
+cfn=(936) _pthread_cleanup_push_defer
+calls=5 0 
+0 60
+0 155
+cfn=(896)
+calls=5 0 
+0 567
+0 80
+cob=(5)
+cfi=(5)
+cfn=(942) _pthread_cleanup_pop_restore
+calls=5 0 
+0 45
+0 518
+cfn=(934)
+calls=8 0 
+0 160
+0 136
+cfn=(896)
+calls=8 0 
+0 1461
+0 207
+cfn=(940)
+calls=4 0 
+0 160
+0 368
+cfn=(958)
+calls=4 0 
+0 7401
+0 120
+cfn=(896)
+calls=4 0 
+0 307
+0 272
+
+fn=(4032)
+0 820901
+cfn=(446)
+calls=7921 0 
+0 79210
+0 247728
+cfn=(446)
+calls=19056 0 
+0 286160
+0 559934
+cob=(10)
+cfi=(10)
+cfn=(4042)
+calls=3192 0 
+0 260396
+cob=(10)
+cfi=(10)
+cfn=(4034)
+calls=19917 0 
+0 617427
+0 729221
+cfn=(4033) msort_with_tmp.part.0'2
+calls=4518 0 
+0 851086
+0 4582
+cfn=(4033)
+calls=32 0 
+0 6280
+0 277340
+
+fn=(4033)
+0 201240
+cfn=(446)
+calls=2938 0 
+0 29380
+0 59150
+cfn=(446)
+calls=4550 0 
+0 69004
+0 124176
+cob=(10)
+cfi=(10)
+cfn=(4042)
+calls=663 0 
+0 53719
+cob=(10)
+cfi=(10)
+cfn=(4034)
+calls=3887 0 
+0 120497
+0 168350
+
+ob=(1)
+fl=(1)
+fn=(140)
+0 19030
+cfn=(42)
+calls=2149 0 
+0 69555
+0 10759
+
+fn=(202)
+0 149
+
+fn=(20)
+0 356
+
+fn=(22)
+0 105
+
+fn=(116)
+0 18
+
+fn=(132)
+0 130
+
+fn=(136)
+0 260587
+cfn=(138)
+calls=2859 0 
+0 2244728
+0 59636
+cfn=(102)
+calls=11 0 
+0 55
+0 33438
+cob=(4)
+cfi=(4)
+cfn=(200)
+calls=1 0 
+0 8
+cob=(4)
+cfi=(4)
+cfn=(198) __atan2_finite
+calls=1 0 
+0 8
+cob=(4)
+cfi=(4)
+cfn=(196) __asin_finite
+calls=1 0 
+0 5
+cob=(4)
+cfi=(4)
+cfn=(194) floor
+calls=1 0 
+0 5
+cob=(4)
+cfi=(4)
+cfn=(192) floorf
+calls=1 0 
+0 5
+cob=(4)
+cfi=(4)
+cfn=(190) __acos_finite
+calls=1 0 
+0 5
+cob=(4)
+cfi=(4)
+cfn=(188) rintf
+calls=1 0 
+0 5
+cob=(4)
+cfi=(4)
+cfn=(186) __log_finite
+calls=1 0 
+0 8
+cob=(4)
+cfi=(4)
+cfn=(184) __pow_finite
+calls=1 0 
+0 5
+cob=(4)
+cfi=(4)
+cfn=(182) ceil
+calls=1 0 
+0 5
+cob=(4)
+cfi=(4)
+cfn=(180) ceilf
+calls=1 0 
+0 5
+cob=(4)
+cfi=(4)
+cfn=(178) rint
+calls=1 0 
+0 5
+cob=(4)
+cfi=(4)
+cfn=(176) cos
+calls=1 0 
+0 8
+cob=(4)
+cfi=(4)
+cfn=(174) __exp_finite
+calls=1 0 
+0 8
+cob=(3)
+cfi=(3)
+cfn=(158)
+calls=1 0 
+0 13
+cob=(3)
+cfi=(3)
+cfn=(156)
+calls=1 0 
+0 77
+cob=(3)
+cfi=(3)
+cfn=(154)
+calls=1 0 
+0 6
+cob=(3)
+cfi=(3)
+cfn=(152)
+calls=1 0 
+0 6
+cob=(3)
+cfi=(3)
+cfn=(150)
+calls=1 0 
+0 5
+cob=(3)
+cfi=(3)
+cfn=(148)
+calls=1 0 
+0 6
+cob=(3)
+cfi=(3)
+cfn=(144)
+calls=1 0 
+0 77
+cob=(3)
+cfi=(3)
+cfn=(142)
+calls=1 0 
+0 5
+0 28661
+cob=(3)
+cfi=(3)
+cfn=(158)
+calls=1 0 
+0 13
+cob=(3)
+cfi=(3)
+cfn=(172)
+calls=1 0 
+0 13
+cob=(3)
+cfi=(3)
+cfn=(170)
+calls=1 0 
+0 8
+cob=(3)
+cfi=(3)
+cfn=(168)
+calls=2 0 
+0 30
+cob=(3)
+cfi=(3)
+cfn=(156)
+calls=1 0 
+0 77
+cob=(3)
+cfi=(3)
+cfn=(166)
+calls=1 0 
+0 5
+cob=(3)
+cfi=(3)
+cfn=(164) mempcpy
+calls=1 0 
+0 13
+cob=(3)
+cfi=(3)
+cfn=(162)
+calls=1 0 
+0 9
+0 70492
+cfn=(138)
+calls=5 0 
+0 3732
+0 64472
+
+fn=(424) _dl_find_dso_for_object
+0 86
+
+fn=(38)
+0 264
+
+fn=(122)
+0 6
+cfn=(124)
+calls=1 0 
+0 33105
+0 4
+
+fn=(126)
+0 1550
+cfn=(88)
+calls=184 0 
+0 16145
+0 1329
+cfn=(128)
+calls=9 0 
+0 1086
+0 184
+cfn=(128)
+calls=46 0 
+0 6641
+0 1951
+cob=(2)
+cfi=(2)
+cfn=(26)
+calls=10 0 
+0 340
+0 3668
+
+ob=(3)
+fl=(3)
+fn=(4033)
+0 31850
+
+fn=(164)
+0 13
+
+fn=(246)
+0 8
+
+ob=(1)
+fl=(1)
+fn=(126)
+0 49
+
+ob=(3)
+fl=(3)
+fn=(246)
+0 4
+cfn=(248)
+calls=1 0 
+0 142
+0 12
+
+ob=(6)
+fl=(6)
+fn=(268)
+0 3
+
+fn=(262)
+0 17
+
+ob=(9)
+fl=(9)
+fn=(692)
+0 6
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 787
+0 5
+0 4
+cob=(1)
+cfi=(1)
+cfn=(343)
+calls=1 0 
+0 763
+0 5
+0 4
+cob=(3)
+cfi=(3)
+cfn=(678)
+calls=1 0 
+0 66
+0 1
+0 3
+
+fn=(704)
+0 15
+
+fn=(740)
+0 54
+
+fn=(670)
+0 8
+
+fn=(718)
+0 71
+
+fn=(782)
+0 49
+
+fn=(662)
+0 5
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 785
+0 5
+0 7
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 1766
+0 5
+0 3
+cfn=(670)
+calls=1 0 
+0 4
+0 1
+0 7
+cob=(3)
+cfi=(3)
+cfn=(678)
+calls=1 0 
+0 66
+0 1
+
+fn=(742)
+0 5
+cob=(3)
+cfi=(3)
+cfn=(678)
+calls=1 0 
+0 66
+0 1
+0 5
+cob=(3)
+cfi=(3)
+cfn=(678)
+calls=1 0 
+0 66
+0 1
+
+fn=(746)
+0 33
+
+fn=(698)
+0 31
+
+fn=(686)
+0 2
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 2410
+0 5
+0 4
+
+fn=(708)
+0 8
+cob=(1)
+cfi=(1)
+cfn=(342)
+calls=1 0 
+0 1814
+0 5
+0 8
+
+fn=(764)
+0 33
+
+fn=(656)
+0 17
+
+fn=(808)
+0 49
+
+ob=(4)
+fl=(4)
+fn=(198)
+0 8
+
+fn=(188)
+0 5
+
+fn=(196)
+0 5
+
+fn=(178)
+0 5
+
+fn=(180)
+0 5
+
+fn=(182)
+0 5
+
+fn=(174)
+0 8
+
+fn=(200)
+0 16
+
+fn=(646)
+0 17
+
+fn=(192)
+0 5
+
+fn=(194)
+0 5
+
+fn=(950)
+0 109
+
+fn=(186)
+0 8
+
+fn=(190)
+0 5
+
+fn=(176)
+0 8
+
+fn=(184)
+0 5
+
+ob=(5)
+fl=(5)
+fn=(936)
+0 60
+
+fn=(242)
+0 5
+
+fn=(574)
+0 5
+
+fn=(562)
+0 8
+cob=(2)
+cfi=(2)
+cfn=(564) 0x0000000005b12758
+calls=1 0 
+0 6
+0 5
+
+fn=(612)
+0 43
+
+fn=(420)
+0 35
+
+fn=(216) __pthread_initialize_minimal
+0 66
+cfn=(218) __libc_sigaction
+calls=1 0 
+0 52
+0 7
+cfn=(218)
+calls=1 0 
+0 52
+0 11
+cob=(2)
+cfi=(2)
+cfn=(220) 0x0000000005b127f8
+calls=1 0 
+0 6
+0 14
+cob=(2)
+cfi=(2)
+cfn=(224) 0x0000000005b12608
+calls=1 0 
+0 16
+0 49
+cob=(2)
+cfi=(2)
+cfn=(228) 0x0000000005b12778
+calls=1 0 
+0 446
+0 10
+
+fn=(490)
+0 17
+cob=(2)
+cfi=(2)
+cfn=(492) 0x0000000005b126a8
+calls=1 0 
+0 18
+0 3
+
+fn=(942)
+0 45
+
+fn=(482)
+0 2
+
+fn=(218)
+0 104
+
+fn=(426)
+0 14
+
+ob=(2)
+fl=(2)
+fn=(78)
+0 25
+cob=(1)
+cfi=(1)
+cfn=(80)
+calls=25 0 
+0 46717
+
+fn=(564)
+0 1
+cob=(3)
+cfi=(3)
+cfn=(566)
+calls=1 0 
+0 5
+
+fn=(228)
+0 1
+cob=(3)
+cfi=(3)
+cfn=(230)
+calls=1 0 
+0 445
+
+fn=(30)
+0 59
+cob=(1)
+cfi=(1)
+cfn=(32)
+calls=59 0 
+0 1306
+
+fn=(258)
+0 6
+
+fn=(428)
+0 8
+cob=(1)
+cfi=(1)
+cfn=(430)
+calls=8 0 
+0 64
+
+fn=(834)
+0 6
+
+fn=(324)
+0 6
+
+fn=(410)
+0 2
+cob=(3)
+cfi=(3)
+cfn=(412)
+calls=2 0 
+0 59594
+
+fn=(220)
+0 1
+cob=(1)
+cfi=(1)
+cfn=(222)
+calls=1 0 
+0 5
+
+fn=(4650)
+0 54464
+cob=(10)
+cfi=(10)
+cfn=(4652)
+calls=54464 0 
+0 35922624
+
+fn=(64)
+0 1
+cob=(1)
+cfi=(1)
+cfn=(66)
+calls=1 0 
+0 25
+
+fn=(642)
+0 6
+
+fn=(652)
+0 6
+
+fn=(864)
+0 6
+
+fn=(224)
+0 1
+cob=(3)
+cfi=(3)
+cfn=(226)
+calls=1 0 
+0 15
+
+fn=(492)
+0 1
+cob=(3)
+cfi=(3)
+cfn=(494)
+calls=1 0 
+0 17
+
+fn=(4638)
+0 54464
+cob=(10)
+cfi=(10)
+cfn=(4640)
+calls=54464 0 
+0 39564629
+
+fn=(422)
+0 1
+cob=(1)
+cfi=(1)
+cfn=(424)
+calls=1 0 
+0 86
+
+fn=(456)
+0 19057
+cob=(3)
+cfi=(3)
+cfn=(458)
+calls=19057 0 
+0 438584
+
+fn=(26)
+0 25
+cob=(1)
+cfi=(1)
+cfn=(28)
+calls=25 0 
+0 919
+
+fn=(270)
+0 6
+
+fn=(846)
+0 6
+
+fn=(214)
+0 2
+cob=(5)
+cfi=(5)
+cfn=(216)
+calls=1 0 
+0 729
+0 2
+
+ob=(5)
+fl=(5)
+fn=(426)
+0 14
+
+fn=(236)
+0 17
+
+totals: 4099117315

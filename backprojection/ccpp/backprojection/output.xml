@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage
+  SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-03.dtd'>
+<coverage branch-rate="1.0" line-rate="1.0" timestamp="1512730200"
+ version="gcovr 3.3">
+ <sources>
+  <source>.</source>
+ </sources>
+ <packages>
+  <package branch-rate="1.0" complexity="0.0" line-rate="1.0" name="">
+   <classes>
+    <class branch-rate="1.0" complexity="0.0" filename="main.c"
+     line-rate="1.0" name="main_c">
+     <methods/>
+     <lines>
+      <line branch="false" hits="4" number="14"/>
+      <line branch="false" hits="4" number="16"/>
+      <line branch="false" hits="4" number="26"/>
+      <line branch="false" hits="4" number="27"/>
+      <line branch="false" hits="4" number="28"/>
+      <line branch="false" hits="4" number="29"/>
+      <line branch="false" hits="4" number="30"/>
+      <line branch="false" hits="4" number="31"/>
+      <line branch="true" condition-coverage="100% (2/2)" hits="44"
+       number="34">
+       <conditions>
+        <condition coverage="100%" number="0" type="jump"/>
+       </conditions>
+      </line>
+      <line branch="false" hits="40" number="36"/>
+      <line branch="true" condition-coverage="100% (2/2)" hits="20"
+       number="40">
+       <conditions>
+        <condition coverage="100%" number="0" type="jump"/>
+       </conditions>
+      </line>
+      <line branch="false" hits="20" number="42"/>
+      <line branch="true" condition-coverage="100% (2/2)" hits="40"
+       number="46">
+       <conditions>
+        <condition coverage="100%" number="0" type="jump"/>
+       </conditions>
+      </line>
+      <line branch="true" condition-coverage="100% (2/2)" hits="200"
+       number="48">
+       <conditions>
+        <condition coverage="100%" number="0" type="jump"/>
+       </conditions>
+      </line>
+      <line branch="false" hits="200" number="50"/>
+      <line branch="false" hits="4" number="54"/>
+      <line branch="false" hits="4" number="61"/>
+      <line branch="false" hits="4" number="62"/>
+      <line branch="false" hits="4" number="63"/>
+      <line branch="false" hits="4" number="64"/>
+      <line branch="false" hits="4" number="65"/>
+      <line branch="false" hits="4" number="66"/>
+     </lines>
+    </class>
+   </classes>
+  </package>
+ </packages>
+</coverage>
+
